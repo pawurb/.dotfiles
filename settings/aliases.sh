@@ -18,7 +18,7 @@ alias ep='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.lo
 alias mss='mysql.server start' #MySql Start
 
 #Git
-alias gs='git status'
+alias g='git status'
 alias ga='git add'
 alias gd='git diff'
 alias gds='git diff --staged'
