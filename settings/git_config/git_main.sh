@@ -1,3 +1,5 @@
-source ./git_colors.sh
-source ./git_prompt.sh
-source ./git_completion.sh
+
+
+source $BASH_CONFIG_DIR/settings/git_config/git_colors.sh
+source $BASH_CONFIG_DIR/settings/git_config/git_prompt.sh
+source $BASH_CONFIG_DIR/settings/git_config/git_completion.sh

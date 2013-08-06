@@ -1,5 +1,0 @@
-#load config files
-
-source ./settings/aliases
-source ./settings/env
-source ./settings/config
