@@ -6,6 +6,7 @@ alias ecs='rails c --sandbox' #Execute Console Sandbox
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias rs='rspec'
+alias z='zeus'
 alias zs='zeus start'
 alias zr='rm .zeus.sock & zeus start'
 alias zec='zeus console'
