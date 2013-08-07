@@ -21,14 +21,14 @@ alias so='subl .' #Sublime Open
 #Git
 alias g='git status'
 alias gs='git status'
-
+alias gp='git push'
 alias ga='git add'
 alias gd='git diff'
 alias gds='git diff --staged'
-  # Commit staged and quote all args as message
-  function gm() {
-      git commit -m "$*"
-  }
+
+function gm() { #Git Message: commit staged and quote all args as message
+    git commit -m "$*"
+}
 
 
 #Shell
