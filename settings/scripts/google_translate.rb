@@ -9,7 +9,7 @@ class Translator
 
   def initialize(data = {})
     p ARGV
-    set_data data
+    set_request_data data
   end
 
   def call
@@ -28,7 +28,7 @@ class Translator
       }
     end
 
-    def set_data data
+    def set_request_data data
       @data = default_data
       @data = @data.merge data
       url = "http://translate.google.com/?tl=#{@data[:target_language]}&sl=#{@data[:source_language]}"
@@ -49,13 +49,10 @@ class Translator
 
 end
 
-
-
-
 user_options = {}
 user_options[:source_language] = ARGV[0]
 user_options[:target_language] = ARGV[1]
-# user_options[:text] = ARGV[2]
+user_options[:text] = ARGV[2]
 
 
 
