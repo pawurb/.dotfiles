@@ -16,12 +16,20 @@ alias eed2='QUEUES=* bundle exec rake environment resque:work' #Execute EkoBilet
 alias eed3='rake resque:scheduler' #Execute EkoBilet Development III
 alias ep='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Execute Postgres
 alias mss='mysql.server start' #MySql Start
+alias so='subl .' #Sublime Open
 
 #Git
 alias g='git status'
+alias gs='git status'
+
 alias ga='git add'
 alias gd='git diff'
 alias gds='git diff --staged'
+  # Commit staged and quote all args as message
+  function gm() {
+      git commit -m "$*"
+  }
+
 
 #Shell
 alias ..='cd ..'
