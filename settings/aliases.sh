@@ -7,9 +7,14 @@ alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias rs='rspec'
 alias zs='zeus start'
+alias zr='rm .zeus.sock & zeus start'
 alias zec='zeus console'
 alias zecs='zeus console --sandbox'
 alias rw='cd ~/Programming/owf_ekobilet'
+
+#temporary
+alias ta='zeus rspec spec/lib/api/ spec/lib/carnet/event/ spec/api/' #Test Api
+
 
 alias eed1='redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
 alias eed2='QUEUES=* bundle exec rake environment resque:work' #Execute EkoBilet Development II
@@ -41,6 +46,8 @@ alias ll='ls -al' #Long List
 alias h='history'
 alias c='clear'
 alias reload='source ~/.bashrc'
+alias matrix='$BASH_CONFIG_DIR/settings/scripts/matrix.sh'
   #overrides
   alias grep='grep --color=auto'
   alias mkdir='mkdir -pv'
+
