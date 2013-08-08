@@ -1,3 +1,4 @@
+#encoding utf-8
 #access google.translate from terminal
 require 'net/http'
 require 'uri'
@@ -8,13 +9,15 @@ require 'uri'
 class Translator
 
   def initialize(data = {})
-    p ARGV
     set_request_data data
   end
 
   def call
     response = send_request
-    p parse(response)
+    parsed = parse(response)
+    text = parsed[:text]
+    encoding = parsed[:encoding]
+    p text.force_encoding(encoding).encode('UTF-8')
   end
 
   private
@@ -43,20 +46,20 @@ class Translator
     end
 
     def parse response
-      result = response.body.scan /(TRANSLATED_TEXT=')(.*?)(')/
-      result.pop[1]
+      text = response.body.scan(/(TRANSLATED_TEXT=')(.*?)(')/)
+      encoding = response.body.scan(/(ENCODING = ')(.*?)(')/)
+      { text: text.pop[1], encoding: encoding.pop[1] }
     end
 
 end
 
-user_options = {}
-user_options[:source_language] = ARGV[0]
-user_options[:target_language] = ARGV[1]
-user_options[:text] = ARGV[2]
-
-
+user_options = Hash.new
+user_options[:source_language] = ARGV[0] if ARGV[0]
+user_options[:target_language] = ARGV[1] if ARGV[1]
+user_options[:text] = ARGV[2] if ARGV[2]
 
 Translator.new(user_options).call
+
 
 
 
