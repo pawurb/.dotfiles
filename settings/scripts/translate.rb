@@ -17,6 +17,7 @@ class Translator
     parsed = parse(response)
     text = parsed[:text]
     encoding = parsed[:encoding]
+    p encoding
     p text.force_encoding(encoding).encode('UTF-8')
   end
 
@@ -34,7 +35,7 @@ class Translator
     def set_request_data data
       @data = default_data
       @data = @data.merge data
-      url = "http://translate.google.com/?tl=#{@data[:target_language]}&sl=#{@data[:source_language]}"
+      url = "http://translate.google.com/?tl=#{@data[:target_language]}&sl=#{@data[:source_language]}&ie=UTF-8&oe=UTF-8"
       @uri = URI.parse url
     end
 
@@ -43,6 +44,8 @@ class Translator
       request = Net::HTTP::Post.new(@uri.request_uri)
       request.set_form_data(@data)
       response = http.request(request)
+      p response['content-type']
+      response
     end
 
     def parse response
