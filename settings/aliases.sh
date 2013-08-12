@@ -1,3 +1,7 @@
+#Confing
+
+export SCRIPTS=$BASH_CONFIG_DIR/settings/scripts
+
 #RoR
 alias bu='bundle'
 alias es='rails s' #Execute Server
@@ -50,6 +54,10 @@ alias c='clear'
 alias reload='source ~/.bashrc'
 alias matrix='$BASH_CONFIG_DIR/settings/scripts/matrix.sh'
 alias nyan='telnet miku.acm.uiuc.edu'
+alias tte='ruby $SCRIPTS/translate.rb pl en' # Translate to Polish
+alias ttp='ruby $SCRIPTS/translate.rb en pl' # Translate to English
+alias tts='ruby $SCRIPTS/translate.rb pl sk' # Translate to Słowacja
+
   #overrides
   alias grep='grep --color=auto'
   alias mkdir='mkdir -pv'
