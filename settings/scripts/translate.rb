@@ -17,7 +17,6 @@ class Translator
     parsed = parse(response)
     text = parsed[:text]
     encoding = parsed[:encoding]
-    p encoding
     p text.force_encoding(encoding).encode('UTF-8')
   end
 
@@ -44,7 +43,6 @@ class Translator
       request = Net::HTTP::Post.new(@uri.request_uri)
       request.set_form_data(@data)
       response = http.request(request)
-      p response['content-type']
       response
     end
 

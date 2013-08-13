@@ -1,6 +1,6 @@
 #Confing
 
-export SCRIPTS=$BASH_CONFIG_DIR/settings/scripts
+export BASH_SCRIPTS=$BASH_CONFIG_DIR/settings/scripts
 
 #RoR
 alias bu='bundle'
@@ -55,10 +55,10 @@ alias reload='source ~/.bashrc'
 alias matrix='$BASH_CONFIG_DIR/settings/scripts/matrix.sh'
 alias nyan='telnet miku.acm.uiuc.edu'
 
-alias tte='ruby $SCRIPTS/translate.rb pl en' # Translate to Polish
-alias ttp='ruby $SCRIPTS/translate.rb en pl' # Translate to English
-alias tts='ruby $SCRIPTS/translate.rb pl sk' # Translate to Słowacja
-alias translate='ruby $SCRIPTS/translate.rb' # Custom translate [source target text]
+alias tte='ruby $BASH_SCRIPTS/translate.rb pl en' # Translate to Polish
+alias ttp='ruby $BASH_SCRIPTS/translate.rb en pl' # Translate to English
+alias tts='ruby $BASH_SCRIPTS/translate.rb pl sk' # Translate to Słowacja
+alias translate='ruby $BASH_SCRIPTS/translate.rb' # Custom translate [source target text]
 
   #overrides
   alias grep='grep --color=auto'
