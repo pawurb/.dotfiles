@@ -6,3 +6,5 @@ export LSCOLORS=cxBxhxDxfxhxhxhxhxcxcx
 export PS1="/\W \[$txtylw\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
 export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \W\$ "
 
+#don't save history to file
+unset HISTFILE

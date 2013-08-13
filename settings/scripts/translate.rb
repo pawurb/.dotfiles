@@ -3,9 +3,6 @@
 require 'net/http'
 require 'uri'
 
-# result=$(curl -s -i --user-agent "" -d "sl=$source" -d "tl=$target" --data-urlencode "text=$1" http://translate.google.com)
-
-
 class Translator
 
   def initialize(data = {})
@@ -48,8 +45,8 @@ class Translator
 
     def parse response
       text = response.body.scan(/(TRANSLATED_TEXT=')(.*?)(')/)
-      encoding = response.body.scan(/(ENCODING = ')(.*?)(')/)
-      { text: text.pop[1], encoding: encoding.pop[1] }
+      encoding = response['content-type'].split('=')[1]
+      { text: text.pop[1], encoding: encoding }
     end
 
 end

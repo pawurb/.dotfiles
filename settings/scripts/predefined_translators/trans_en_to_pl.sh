@@ -1,0 +1,1 @@
+ruby $BASH_SCRIPTS/translate.rb en pl "$*"

@@ -5,6 +5,7 @@ export BASH_SCRIPTS=$BASH_CONFIG_DIR/settings/scripts
 #RoR
 alias bu='bundle'
 alias es='rails s' #Execute Server
+alias ei='irb' #Execute IRB
 alias ec='rails c' #Execute Console
 alias ecs='rails c --sandbox' #Execute Console Sandbox
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
@@ -34,6 +35,7 @@ alias g='git status'
 alias gs='git status'
 alias gp='git push'
 alias ga='git add'
+alias gaa='git add . -A' #Git Add All
 alias gd='git diff'
 alias gds='git diff --staged'
 
@@ -55,10 +57,11 @@ alias reload='source ~/.bashrc'
 alias matrix='$BASH_CONFIG_DIR/settings/scripts/matrix.sh'
 alias nyan='telnet miku.acm.uiuc.edu'
 
-alias tte='ruby $BASH_SCRIPTS/translate.rb pl en' # Translate to Polish
-alias ttp='ruby $BASH_SCRIPTS/translate.rb en pl' # Translate to English
-alias tts='ruby $BASH_SCRIPTS/translate.rb pl sk' # Translate to Słowacja
+alias tte='$BASH_SCRIPTS/predefined_translators/trans_pl_to_en.sh' # Translate to Polish
+alias ttp='$BASH_SCRIPTS/predefined_translators/trans_en_to_pl.sh' # Translate to English
+alias tts='$BASH_SCRIPTS/predefined_translators/trans_pl_to_sk.sh' # Translate to Słowacja
 alias translate='ruby $BASH_SCRIPTS/translate.rb' # Custom translate [source target text]
+alias tr='translate'
 
   #overrides
   alias grep='grep --color=auto'
