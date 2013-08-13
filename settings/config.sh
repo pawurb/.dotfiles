@@ -1,6 +1,6 @@
 #ls command colors customization
 export CLICOLOR=1
-export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+export LSCOLORS=cxBxhxDxfxhxhxhxhxcxcx
 
 #prompt customization
 export PS1="/\W \[$txtylw\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
