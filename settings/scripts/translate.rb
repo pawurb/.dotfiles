@@ -54,7 +54,7 @@ end
 user_options = Hash.new
 user_options[:source_language] = ARGV[0] if ARGV[0]
 user_options[:target_language] = ARGV[1] if ARGV[1]
-user_options[:text] = ARGV[2] if ARGV[2]
+user_options[:text] = ARGV.slice(2, ARGV.length - 1).join(' ') if ARGV[2]
 
 Translator.new(user_options).call
 

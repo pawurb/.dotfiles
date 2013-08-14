@@ -57,10 +57,12 @@ alias reload='source ~/.bashrc'
 alias matrix='$BASH_CONFIG_DIR/settings/scripts/matrix.sh'
 alias nyan='telnet miku.acm.uiuc.edu'
 
-alias tte='$BASH_SCRIPTS/predefined_translators/trans_pl_to_en.sh' # Translate to Polish
-alias ttp='$BASH_SCRIPTS/predefined_translators/trans_en_to_pl.sh' # Translate to English
-alias tts='$BASH_SCRIPTS/predefined_translators/trans_pl_to_sk.sh' # Translate to Słowacja
-alias translate='ruby $BASH_SCRIPTS/translate.rb' # Custom translate [source target text]
+alias tte='ruby $BASH_SCRIPTS/translate.rb auto en' # Translate to Polish
+alias ttp='ruby $BASH_SCRIPTS/translate.rb auto pl' # Translate to English
+alias tts='ruby $BASH_SCRIPTS/translate.rb auto sk' # Translate to Słowacja
+alias ttf='ruby $BASH_SCRIPTS/translate.rb auto fr' # Translate to Francuski
+
+alias translate='ruby $BASH_SCRIPTS/translate.rb' # Custom translate [source, target, text]
 alias tr='translate'
 
   #overrides
