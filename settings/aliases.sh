@@ -28,6 +28,7 @@ alias eed2='QUEUES=* bundle exec rake environment resque:work' #Execute EkoBilet
 alias eed3='rake resque:scheduler' #Execute EkoBilet Development III
 alias ep='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Execute Postgres
 alias mss='mysql.server start' #MySql Start
+alias subl='sublime'
 alias so='subl .' #Sublime Open
 
 #Git

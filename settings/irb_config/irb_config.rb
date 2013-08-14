@@ -32,8 +32,6 @@ alias h history
 
 Hirb.disable if defined? Hirb #I don't like Hirb
 
-
-
 class Object
   def interesting_methods
     case self.class
@@ -49,5 +47,4 @@ end
 
 
 #startup commands
-
 info
