@@ -13,14 +13,14 @@ alias be='bundle exec'
 alias rs='rspec'
 alias z='zeus'
 alias zs='zeus start'
-alias zr='rm .zeus.sock & zeus start'
-alias zrs='zeus rspec'
-alias zec='zeus console'
-alias zecs='zeus console --sandbox'
+alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
+alias zr='zeus rspec'
+alias zc='zeus console'
+alias zcs='zeus console --sandbox'
 alias rw='cd ~/Programming/owf_ekobilet'
 
 #temporary
-alias ta='zeus rspec spec/lib/api/ spec/lib/carnet/event/ spec/api/' #Test Api
+alias ta='zeus rspec spec/lib/carnet/event/availability_apec.rb spec/lib/api/ spec/lib/carnet/event/ spec/api/ ' #Test Api
 
 
 alias eed1='redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
@@ -28,7 +28,7 @@ alias eed2='QUEUES=* bundle exec rake environment resque:work' #Execute EkoBilet
 alias eed3='rake resque:scheduler' #Execute EkoBilet Development III
 alias ep='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Execute Postgres
 alias mss='mysql.server start' #MySql Start
-alias subl='sublime'
+#alias subl='sublime'
 alias so='subl .' #Sublime Open
 
 #Git
