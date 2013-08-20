@@ -23,7 +23,7 @@ alias rw='cd ~/Programming/owf_ekobilet'
 alias ta='zeus rspec spec/lib/carnet/event/availability_apec.rb spec/lib/api/ spec/lib/carnet/event/ spec/api/ ' #Test Api
 
 
-alias eed1='redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
+alias eed1='mysql.server start && redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
 alias eed2='QUEUES=* bundle exec rake environment resque:work' #Execute EkoBilet Development II
 alias eed3='rake resque:scheduler' #Execute EkoBilet Development III
 alias ep='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Execute Postgres
@@ -35,6 +35,9 @@ alias so='subl .' #Sublime Open
 alias g='git status'
 alias gs='git status'
 alias gp='git push'
+alias gpl='git pull'
+alias gst='git stash'
+alias gsp='git stash pop'
 alias ga='git add'
 alias gaa='git add . -A' #Git Add All
 alias gd='git diff'

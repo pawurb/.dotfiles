@@ -30,6 +30,7 @@ alias q exit
 alias c clear
 alias i info
 alias h history
+alias pp ap
 
 Hirb.disable if defined? Hirb #I don't like Hirb
 
