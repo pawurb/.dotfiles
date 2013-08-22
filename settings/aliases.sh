@@ -19,17 +19,22 @@ alias zc='zeus console'
 alias zcs='zeus console --sandbox'
 alias rw='cd ~/Programming/owf_ekobilet'
 
-#temporary
-alias ta='zeus rspec spec/lib/carnet/event/availability_apec.rb spec/lib/api/ spec/lib/carnet/event/ spec/api/ ' #Test Api
 
-
-alias eed1='mysql.server start && redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
-alias eed2='QUEUES=* bundle exec rake environment resque:work' #Execute EkoBilet Development II
-alias eed3='rake resque:scheduler' #Execute EkoBilet Development III
+#Rails
 alias ep='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Execute Postgres
 alias mss='mysql.server start' #MySql Start
-#alias subl='sublime'
 alias so='subl .' #Sublime Open
+
+  #Ekobilet
+  alias eed1='mysql.server start && redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
+  alias eed2='rvmsudo tunnels 192.168.123.104:443 192.168.123.104:80' ##II
+  alias eed3='QUEUES=* bundle exec rake environment resque:work' #III
+  alias eed4='rake resque:scheduler' #Execute EkoBilet Development IV
+  alias el='tail -f ~/Library/Logs/Pow/access.log' #Ekobilet Logs
+  alias elg='tail -f ~/Library/Logs/Pow/access.log | grep' #Ekobilet Logs Grep
+
+  #temporary
+  alias ta='zeus rspec spec/lib/carnet/event/availability_apec.rb spec/lib/api/ spec/lib/carnet/event/ spec/api/ ' #Test Api
 
 #Git
 alias g='git status'
@@ -37,6 +42,7 @@ alias gs='git status'
 alias gp='git push'
 alias gpl='git pull'
 alias gst='git stash'
+alias gstd='git stash && git stash drop'
 alias gsp='git stash pop'
 alias ga='git add'
 alias gaa='git add . -A' #Git Add All
