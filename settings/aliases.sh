@@ -30,9 +30,9 @@ alias so='subl .' #Sublime Open
   alias eed1='mysql.server start && redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
   alias eed2='rvmsudo tunnels 192.168.123.104:443 192.168.123.104:80' ##II
   alias eed3='QUEUES=* bundle exec rake environment resque:work' #III
-  alias eed4='rake resque:scheduler' #Execute EkoBilet Development IV
-  alias el='tail -f ~/Library/Logs/Pow/access.log' #Ekobilet Logs
-  alias elg='tail -f ~/Library/Logs/Pow/access.log | grep' #Ekobilet Logs Grep
+  alias eed4='rake resque:scheduler' #IV
+  alias el='tail -f ~/Programming/owf_ekobilet/log/development.log' #Ekobilet Logs
+  alias elg='tail -f ~/Programming/owf_ekobilet/log/development.log | grep' #Ekobilet Logs Grep
 
   #temporary
   alias ta='zeus rspec spec/lib/carnet/event/availability_apec.rb spec/lib/api/ spec/lib/carnet/event/ spec/api/ ' #Test Api
@@ -53,7 +53,6 @@ alias gds='git diff --staged'
 function gm() { #Git Message: commit staged and quote all args as message
     git commit -m "$*"
 }
-
 
 #Shell
 alias ..='cd ..'
