@@ -66,7 +66,6 @@ alias ll='ls -al' #Long List
 alias h='history'
 alias c='clear'
 alias reload='source ~/.bashrc'
-alias matrix='$BASH_CONFIG_DIR/settings/scripts/matrix.sh'
 alias nyan='telnet miku.acm.uiuc.edu'
 
 alias tte='ruby $BASH_SCRIPTS/translate.rb auto en' # Translate to Polish
