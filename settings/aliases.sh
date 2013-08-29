@@ -28,6 +28,7 @@ alias so='subl .' #Sublime Open
 
   #Ekobilet
   # killall redis-server # stop redis
+  alias rp="touch ~/Programming/owf_ekobilet/tmp/restart.txt" #Restart Pow
   alias eed1='mysql.server start && redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
   alias eed2='rvmsudo tunnels 192.168.123.104:443 192.168.123.104:80' ##II
   alias eed3='QUEUES=* bundle exec rake environment resque:work' #III
