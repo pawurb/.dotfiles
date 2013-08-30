@@ -68,13 +68,11 @@ alias c='clear'
 alias reload='source ~/.bashrc'
 alias nyan='telnet miku.acm.uiuc.edu'
 
-alias tte='ruby $BASH_SCRIPTS/translate.rb auto en' # Translate to Polish
-alias ttp='ruby $BASH_SCRIPTS/translate.rb auto pl' # Translate to English
-alias tts='ruby $BASH_SCRIPTS/translate.rb auto sk' # Translate to Słowacja
-alias ttf='ruby $BASH_SCRIPTS/translate.rb auto fr' # Translate to Francuski
-
-alias translate='ruby $BASH_SCRIPTS/translate.rb' # Custom translate [source, target, text]
-alias tr='translate'
+alias tte='termit auto en' # Translate to Polish
+alias ttp='termit auto pl' # Translate to English
+alias tts='termit auto sk' # Translate to Słowacja
+alias ttf='termit auto fr' # Translate to Francuski
+alias tr='termit'
 
   #overrides
   alias grep='grep --color=auto'
