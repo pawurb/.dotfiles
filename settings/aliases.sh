@@ -69,10 +69,10 @@ alias c='clear'
 alias reload='source ~/.bashrc'
 alias nyan='telnet miku.acm.uiuc.edu'
 
-alias tte='termit auto en' # Translate to Polish
-alias ttp='termit auto pl' # Translate to English
-alias tts='termit auto sk' # Translate to Słowacja
-alias ttf='termit auto fr' # Translate to Francuski
+alias tte='termit pl en' # Translate to Polish
+alias ttp='termit en pl' # Translate to English
+alias tts='termit en sk' # Translate to Słowacja
+alias ttf='termit en fr' # Translate to Francuski
 alias tr='termit'
 
   #overrides
