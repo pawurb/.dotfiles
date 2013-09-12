@@ -4,13 +4,11 @@
   "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
   "detect_indentation": false,
   "font_size": 14.0,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
+  "ignored_packages": [],
   "scroll_past_end": false,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": true
+  "word_wrap": true,
+  "auto_complete_commit_on_tab": true
 }
