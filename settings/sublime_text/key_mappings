@@ -21,5 +21,8 @@
         { "key": "setting.command_mode", "operand": true },
         { "key": "setting.is_widget", "operand": false }
     ]
-}
+},
+
+{ "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
+{ "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } }
 ]
