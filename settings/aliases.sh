@@ -69,6 +69,7 @@ alias h='history'
 alias c='clear'
 alias reload='source ~/.bashrc'
 alias nyan='telnet miku.acm.uiuc.edu'
+alias apt-get='sudo apt-get'
 
 alias tte='termit pl en' # Translate to Polish
 alias ttp='termit en pl' # Translate to English
