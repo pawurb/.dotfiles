@@ -5,7 +5,7 @@ Features:
 * ruby and rails console customization, useful methods, and aliases
 * git autocompletion and prompt customization
 * vim and sublime text settings
-* [Termit gem](https://github.com/pawurb/termit) integration
+* [Termit](https://github.com/pawurb/termit) gem integration
 
 Some of the sources:
 
