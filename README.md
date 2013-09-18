@@ -1,3 +1,5 @@
+### About
+
 My shell environment customized settings. Couple of aliases and scripts that only I find useful.
 
 Features:
@@ -13,3 +15,17 @@ Some of the sources:
 * https://github.com/plu/dotfiles/blob/master/git-completion.sh
 * http://rakeroutes.com/blog/customize-your-irb/
 * http://www.fizerkhan.com/blog/posts/What-I-learned-from-other-s-shell-scripts.html
+
+
+### Usage
+
+
+In **~/.bashrc**
+```bash
+source **/my_very_own_shell/main.sh
+```
+
+In **~/.irbrc**
+```ruby
+require ENV["BASH_CONFIG_DIR"] + "/settings/irb_config/irb_main.rb"
+```
