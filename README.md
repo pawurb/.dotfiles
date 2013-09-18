@@ -1,6 +1,6 @@
 ### About
 
-My shell environment customized settings. Couple of aliases and scripts that only I find useful.
+My development environment customized settings. Couple of aliases and scripts that only I find useful.
 
 Features:
 * bash functions and aliases
