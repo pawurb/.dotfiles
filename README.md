@@ -29,3 +29,8 @@ In **~/.irbrc**
 ```ruby
 require ENV["BASH_CONFIG_DIR"] + "/settings/irb_config/irb_main.rb"
 ```
+
+In **~/.vimrc**
+```bash
+source **/my_very_own_shell/settings/vim_config/.vimrc
+```
