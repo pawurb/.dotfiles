@@ -28,11 +28,11 @@ source $BASH_CONFIG_DIR/settings/vim_config/.vimrc
 
 Link **Sublime** settings:
 ```bash
-ln **/my_very_own_shell/settings/sublime_config/key_mappings
-/Users/username/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
+ln -s **/my_very_own_shell/settings/sublime_config/key_mappings
+**/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
 
-ln **/my_very_own_shell/settings/sublime_config/settings
-/Users/username/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
+ln -s **/my_very_own_shell/settings/sublime_config/settings
+**/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 ```
 
 ### Sources
