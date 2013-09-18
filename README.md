@@ -4,8 +4,8 @@ Features:
 * bash functions and aliases
 * ruby and rails console customization, useful methods, and aliases
 * git autocompletion and prompt customization
-* Google Translate command line integration
-* fun ascii animations
+* vim and sublime text settings
+* [Termit gem](https://github.com/pawurb/termit) integration
 
 Some of the sources:
 
@@ -13,7 +13,3 @@ Some of the sources:
 * https://github.com/plu/dotfiles/blob/master/git-completion.sh
 * http://rakeroutes.com/blog/customize-your-irb/
 * http://www.fizerkhan.com/blog/posts/What-I-learned-from-other-s-shell-scripts.html
-
-Future ideas:
-* hand made pomodoro timer application script
-* capture and play Google Translator speech synthesis
