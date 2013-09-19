@@ -1,19 +1,46 @@
-My shell environment customized settings. Couple of aliases and scripts that only I find useful.
+### About
+
+My development environment customized settings. Couple of aliases and scripts that only I find useful.
 
 Features:
 * bash functions and aliases
 * ruby and rails console customization, useful methods, and aliases
 * git autocompletion and prompt customization
-* Google Translate command line integration
-* fun ascii animations
+* vim and sublime text settings
+* [Termit](https://github.com/pawurb/termit) gem integration
 
-Some of the sources:
+### Usage
 
-* https://github.com/jimeh/git-aware-prompt
-* https://github.com/plu/dotfiles/blob/master/git-completion.sh
+In **~/.bashrc**
+```bash
+source **/my_very_own_shell/main.sh
+```
+
+In **~/.irbrc**
+```ruby
+require ENV["BASH_CONFIG_DIR"] + "/settings/irb_config/irb_main.rb"
+```
+
+In **~/.vimrc**
+```bash
+source $BASH_CONFIG_DIR/settings/vim_config/.vimrc
+```
+
+Link **Sublime** settings:
+```bash
+ln -s **/my_very_own_shell/settings/sublime_config/key_mappings
+**/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
+
+ln -s **/my_very_own_shell/settings/sublime_config/settings
+**/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
+```
+
+### Sources
+
+Some of them:
+
+* http://github.com/jimeh/git-aware-prompt
+* http://github.com/plu/dotfiles/blob/master/git-completion.sh
 * http://rakeroutes.com/blog/customize-your-irb/
 * http://www.fizerkhan.com/blog/posts/What-I-learned-from-other-s-shell-scripts.html
 
-Future ideas:
-* hand made pomodoro timer application script
-* capture and play Google Translator speech synthesis
