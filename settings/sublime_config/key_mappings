@@ -7,22 +7,8 @@
   ]
 },
 
-{ "keys": ["g", "t"], "command": "next_view",
-    "context":
-    [
-        { "key": "setting.command_mode", "operand": true },
-        { "key": "setting.is_widget", "operand": false }
-    ]
-},
-
-{ "keys": ["g", "T"], "command": "prev_view",
-    "context":
-    [
-        { "key": "setting.command_mode", "operand": true },
-        { "key": "setting.is_widget", "operand": false }
-    ]
-},
-
 { "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
 { "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } }
+// { "keys": ["-"], "command": "move_to", "args": {"to": "eol", "extend": false} }
+
 ]
