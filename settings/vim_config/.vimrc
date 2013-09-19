@@ -4,11 +4,18 @@ set number
 
 imap kj <Esc>
 noremap - $
+nnoremap ; :
 
 set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
+colorscheme mustang
 
