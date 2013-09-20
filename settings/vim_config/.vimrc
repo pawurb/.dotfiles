@@ -1,5 +1,6 @@
 syntax on
-
+set incsearch
+set ignorecase
 set number
 
 imap kj <Esc>
