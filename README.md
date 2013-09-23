@@ -13,25 +13,25 @@ Features:
 
 In **~/.bashrc**
 ```bash
-source **/my_very_own_shell/main.sh
+source **/dofiles/main.sh
 ```
 
 In **~/.irbrc**
 ```ruby
-require ENV["BASH_CONFIG_DIR"] + "/settings/irb_config/irb_main.rb"
+require ENV["BASH_CONFIG_DIR"] + "/settings/irb/main.rb"
 ```
 
 In **~/.vimrc**
 ```bash
-source $BASH_CONFIG_DIR/settings/vim_config/.vimrc
+source $BASH_CONFIG_DIR/settings/vim/config
 ```
 
 Link **Sublime** settings:
 ```bash
-ln -s **/my_very_own_shell/settings/sublime_config/key_mappings
+ln -s **/dofiles/settings/sublime/key_mappings
 **/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
 
-ln -s **/my_very_own_shell/settings/sublime_config/settings
+ln -s **/dofiles/settings/sublime/config
 **/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 ```
 
