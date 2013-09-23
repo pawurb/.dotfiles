@@ -1,7 +1,3 @@
-#Confing
-
-export BASH_SCRIPTS=$BASH_CONFIG_DIR/settings/scripts
-
 #RoR
 alias bu='bundle'
 alias es='rails s' #Execute Server
