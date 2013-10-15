@@ -61,6 +61,7 @@ alias pd='cd -' #Previous Directory
 alias dd='echo $PWD' #Display Directory
 alias la='ls -a' #List All
 alias ll='ls -al' #Long List
+alias df='cd ~/.dotfiles'
 alias h='history'
 alias c='clear'
 alias reload='source ~/.bashrc'
