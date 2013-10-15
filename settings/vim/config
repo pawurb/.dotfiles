@@ -11,6 +11,7 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+let g:loaded_matchparen= 0
 
 " Easy window navigation
 map <C-h> <C-w>h

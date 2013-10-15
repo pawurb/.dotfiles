@@ -13,7 +13,7 @@ Features:
 
 In **~/.bashrc**
 ```bash
-source **/dofiles/main.sh
+source ~/.dofiles/main.sh
 ```
 
 In **~/.irbrc**
@@ -28,10 +28,10 @@ source $BASH_CONFIG_DIR/settings/vim/config
 
 Link **Sublime** settings:
 ```bash
-ln -s **/dofiles/settings/sublime/key_mappings
+ln -s ~/.dofiles/settings/sublime/key_mappings
 **/Sublime\ Text\ 2/Packages/User/Default\ \(OSX\).sublime-keymap
 
-ln -s **/dofiles/settings/sublime/config
+ln -s ~/.dofiles/settings/sublime/config
 **/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 ```
 
