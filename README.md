@@ -18,12 +18,12 @@ source ~/.dofiles/main.sh
 
 In **~/.irbrc**
 ```ruby
-require ENV["BASH_CONFIG_DIR"] + "/settings/irb/main.rb"
+require "~/.dotfiles/settings/irb/main.rb"
 ```
 
 In **~/.vimrc**
 ```bash
-source $BASH_CONFIG_DIR/settings/vim/config
+source ~/.dotfiles/settings/vim/config
 ```
 
 In **~/.gitconfig**
