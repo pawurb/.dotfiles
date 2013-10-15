@@ -26,6 +26,12 @@ In **~/.vimrc**
 source $BASH_CONFIG_DIR/settings/vim/config
 ```
 
+In **~/.gitconfig**
+```bash
+[include]
+  path = ~/.dotfiles/settings/git/config
+```
+
 Link **Sublime** settings:
 ```bash
 ln -s ~/.dofiles/settings/sublime/key_mappings
