@@ -1,8 +1,10 @@
 syntax on
 set incsearch
 set ignorecase
+set smartcase
 set number
 
+" Key mappings
 imap kj <Esc>
 noremap - $
 nnoremap ; :
@@ -18,6 +20,9 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+" Enable use of the mouse for all modes
+set mouse=a
 
 colorscheme mustang
 
