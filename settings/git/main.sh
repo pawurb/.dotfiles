@@ -1,2 +1,2 @@
-source $BASH_CONFIG_DIR/settings/git/prompt.sh
-source $BASH_CONFIG_DIR/settings/git/completion.sh
+source $DOTFILES_DIR/settings/git/prompt.sh
+source $DOTFILES_DIR/settings/git/completion.sh
