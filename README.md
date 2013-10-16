@@ -40,13 +40,3 @@ ln -s ~/.dofiles/settings/sublime/key_mappings
 ln -s ~/.dofiles/settings/sublime/config
 **/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 ```
-
-### Sources
-
-Some of them:
-
-* http://github.com/jimeh/git-aware-prompt
-* http://github.com/plu/dotfiles/blob/master/git-completion.sh
-* http://rakeroutes.com/blog/customize-your-irb/
-* http://www.fizerkhan.com/blog/posts/What-I-learned-from-other-s-shell-scripts.html
-

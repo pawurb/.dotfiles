@@ -6,6 +6,8 @@ alias ec='rails c' #Execute Console
 alias ecs='rails c --sandbox' #Execute Console Sandbox
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
+alias dbm='bundle exec rake db:migrate'
+alias dbt='bundle exec rake db:test:prepare'
 alias rs='rspec'
 alias rss='rspec spec/'
 alias z='zeus'
@@ -23,7 +25,6 @@ alias mss='mysql.server start' #MySql Start
 alias so='subl .' #Sublime Open
 
   #Ekobilet
-  # killall redis-server # stop redis
   alias rp="touch ~/Programming/owf_ekobilet/tmp/restart.txt" #Restart Pow
   alias eed1='mysql.server start && redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
   alias eed2='rvmsudo tunnels 192.168.123.104:443 192.168.123.104:80' ##II
@@ -33,8 +34,6 @@ alias so='subl .' #Sublime Open
   alias el='tail -f ~/Programming/owf_ekobilet/log/development.log' #Ekobilet Logs
   alias elg='tail -f ~/Programming/owf_ekobilet/log/development.log | grep' #Ekobilet Logs Grep
 
-  #temporary
-  alias ta='zeus rspec spec/lib/carnet/event/availability_spec.rb spec/lib/api/ spec/lib/carnet/event/ spec/api/ ' #Test Api
 
 #Git
 alias g='git status'
