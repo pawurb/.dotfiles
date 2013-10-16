@@ -1,7 +1,7 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"autosave": false,
-	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"detect_indentation": false,
 	"font_size": 14.0,
 	"ignored_packages":
