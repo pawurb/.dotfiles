@@ -16,24 +16,12 @@ alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
 alias zr='zeus rspec'
 alias zc='zeus console'
 alias zcs='zeus console --sandbox'
-alias rw='cd ~/Programming/owf_ekobilet'
-
+alias rds='redis-server'
 
 #Rails
 alias ep='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Execute Postgres
 alias mss='mysql.server start' #MySql Start
 alias so='subl .' #Sublime Open
-
-  #Ekobilet
-  alias rp="touch ~/Programming/owf_ekobilet/tmp/restart.txt" #Restart Pow
-  alias eed1='mysql.server start && redis-server /usr/local/etc/redis.conf && rvmsudo tunnels' ##Execute EkoBilet Development I
-  alias eed2='rvmsudo tunnels 192.168.123.104:443 192.168.123.104:80' ##II
-  alias eed3='QUEUES=* bundle exec rake environment resque:work' #III
-  alias eed4='rake resque:scheduler' #IV
-  alias lab='ssh ekobilet@lab.ekobilet.pl' #EkoBilet staging
-  alias el='tail -f ~/Programming/owf_ekobilet/log/development.log' #Ekobilet Logs
-  alias elg='tail -f ~/Programming/owf_ekobilet/log/development.log | grep' #Ekobilet Logs Grep
-
 
 #Git
 alias g='git status'
@@ -64,7 +52,6 @@ alias df='cd ~/.dotfiles'
 alias h='history'
 alias c='clear'
 alias reload='source ~/.bashrc'
-alias nyan='telnet miku.acm.uiuc.edu'
 alias apt-get='sudo apt-get'
 
 alias tte='termit pl en' # Translate to Polish
