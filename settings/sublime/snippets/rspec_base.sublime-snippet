@@ -4,7 +4,7 @@ require 'spec_helper'
 
 describe ${1:Model} do
   describe "${2:functionality}" do
-    it "${3:should do sth}"
+    it "${3:should do sth}" do
       ${4}
     end
   end
