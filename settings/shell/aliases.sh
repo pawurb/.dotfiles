@@ -51,7 +51,7 @@ alias ll='ls -al' #Long List
 alias df='cd ~/.dotfiles'
 alias h='history'
 alias c='clear'
-alias reload='source ~/.bashrc'
+alias re='source ~/.zshrc'
 alias apt-get='sudo apt-get'
 
 alias tte='termit pl en' # Translate to Polish
