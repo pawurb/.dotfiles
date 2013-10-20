@@ -17,9 +17,6 @@ alias zr='zeus rspec'
 alias zc='zeus console'
 alias zcs='zeus console --sandbox'
 alias rds='redis-server'
-
-#Rails
-alias ep='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Execute Postgres
 alias mss='mysql.server start' #MySql Start
 alias so='subl .' #Sublime Open
 

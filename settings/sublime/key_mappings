@@ -6,8 +6,10 @@
     { "key": "setting.is_widget", "operand": false }
   ]
 },
-{ "keys": ["super+b"], "command": "toggle_side_bar" },
+{ "keys": ["ctrl+b"], "command": "toggle_side_bar" },
 
-{ "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
-{ "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } }
+{ "keys": ["ctrl+1"], "command": "focus_group", "args": { "group": 0 } },
+{ "keys": ["ctrl+2"], "command": "focus_group", "args": { "group": 1 } },
+{ "keys": ["ctrl+shift+]"], "command": "next_view_in_stack" },
+{ "keys": ["ctrl+shift+["], "command": "prev_view_in_stack" }
 ]

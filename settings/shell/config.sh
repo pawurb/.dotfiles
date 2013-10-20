@@ -2,7 +2,10 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Plugins
-plugins=(git)
+plugins=(gem)
+
+#turn off autocorrection
+unsetopt correct
 
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
