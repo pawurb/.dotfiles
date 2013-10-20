@@ -1,17 +1,19 @@
-#ls command colors customization
-export CLICOLOR=1
-export LSCOLORS=cxBxhxDxfxhxhxhxhxcxcx
+# Path to your oh-my-zsh configuration.
+ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="pawurb"
+COMPLETION_WAITING_DOTS="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-#prompt customization
-export PS1="/\W \[$txtylw\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
-export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \W\$ "
+# Plugins
+plugins=(git)
 
 #don't save history to file
 unset HISTFILE
 
-#do i need it ?
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+source $ZSH/oh-my-zsh.sh
 
-#for RVM to work
+export PATH=$PATH:/home/pablo/.rvm/gems/ruby-2.0.0-p247/bin:/home/pablo/.rvm/gems/ruby-2.0.0-p247@global/bin:/home/pablo/.rvm/rubies/ruby-2.0.0-p247/bin:/home/pablo/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/home/pablo/.rvm/bin
+
+#for RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
