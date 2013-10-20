@@ -3,7 +3,7 @@
 My development environment customized settings. Couple of aliases and scripts that only I find useful.
 
 Features:
-* bash functions and aliases
+* shell functions and aliases
 * ruby and rails console customization, useful methods, and aliases
 * git autocompletion and prompt customization
 * vim and sublime text settings
@@ -11,9 +11,9 @@ Features:
 
 ### Usage
 
-In **~/.bashrc**
+In **~/.zshrc**
 ```bash
-source ~/.dofiles/main.sh
+source ~/.dofiles/settings/shell/main.sh
 ```
 
 In **~/.irbrc**
