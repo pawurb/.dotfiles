@@ -8,8 +8,8 @@ alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias dbm='bundle exec rake db:migrate'
 alias dbt='bundle exec rake db:test:prepare'
-alias rs='rspec'
-alias rss='rspec spec/'
+alias rs='bundle exec rspec'
+alias rss='bundle exec rspec spec/'
 alias z='zeus'
 alias zs='zeus start'
 alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
@@ -50,6 +50,8 @@ alias h='history'
 alias c='clear'
 alias re='source ~/.zshrc'
 alias apt-get='sudo apt-get'
+alias ex='exit'
+alias v='vim'
 
 alias tte='termit pl en' # Translate to Polish
 alias ttp='termit en pl' # Translate to English

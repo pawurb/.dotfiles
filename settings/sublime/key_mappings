@@ -1,5 +1,5 @@
 [
-{ "keys": ["k", "j"], "command": "exit_insert_mode",
+{ "keys": ["d", "f"], "command": "exit_insert_mode",
   "context":
   [
     { "key": "setting.command_mode", "operand": false },
@@ -10,6 +10,6 @@
 
 { "keys": ["ctrl+1"], "command": "focus_group", "args": { "group": 0 } },
 { "keys": ["ctrl+2"], "command": "focus_group", "args": { "group": 1 } },
-{ "keys": ["ctrl+shift+]"], "command": "next_view_in_stack" },
-{ "keys": ["ctrl+shift+["], "command": "prev_view_in_stack" }
+{ "keys": ["alt+shift+]"], "command": "next_view_in_stack" },
+{ "keys": ["alt+shift+["], "command": "prev_view_in_stack" }
 ]

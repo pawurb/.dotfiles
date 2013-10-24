@@ -5,7 +5,7 @@ set smartcase
 set number
 
 " Key mappings
-imap kj <Esc>
+imap df <Esc>
 noremap - $
 nnoremap ; :
 
@@ -24,7 +24,8 @@ map <C-l> <C-w>l
 " Enable use of the mouse for all modes
 set mouse=a
 
-colorscheme railscasts
+set t_Co=256
+colorscheme desert
 
 " Removes trailing spaces
 function! TrimWhiteSpace()
