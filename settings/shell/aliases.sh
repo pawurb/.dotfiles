@@ -52,6 +52,8 @@ alias re='source ~/.zshrc'
 alias apt-get='sudo apt-get'
 alias ex='exit'
 alias v='vim'
+alias tw='cd ~/Programming/Ruby/termit' #termit work
+alias pw='cd ~/Programming' #programming work
 
 alias tte='termit pl en' # Translate to Polish
 alias ttp='termit en pl' # Translate to English

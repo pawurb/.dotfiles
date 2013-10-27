@@ -4,8 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 # Plugins
 plugins=(gem)
 
-#turn off autocorrection
-unsetopt correct
+DISABLE_CORRECTION="true"
 
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
