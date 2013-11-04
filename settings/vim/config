@@ -25,7 +25,7 @@ map <C-l> <C-w>l
 set mouse=a
 
 set t_Co=256
-colorscheme desert
+colorscheme ir_black
 
 " Removes trailing spaces
 function! TrimWhiteSpace()

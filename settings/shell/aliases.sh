@@ -19,6 +19,8 @@ alias zcs='zeus console --sandbox'
 alias rds='redis-server'
 alias mss='mysql.server start' #MySql Start
 alias so='subl .' #Sublime Open
+alias gr='grunt'
+grunt cl='clojure'
 
 #Git
 alias g='git status'
@@ -53,7 +55,9 @@ alias apt-get='sudo apt-get'
 alias ex='exit'
 alias v='vim'
 alias tw='cd ~/Programming/Ruby/termit' #termit work
+alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias pw='cd ~/Programming' #programming work
+alias record='gtk-recordmydesktop' #for making screencasts
 
 alias tte='termit pl en' # Translate to Polish
 alias ttp='termit en pl' # Translate to English
