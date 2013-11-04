@@ -7,6 +7,7 @@ set number
 " Key mappings
 imap df <Esc>
 noremap - $
+nnoremap ; :
 
 set smartindent
 set tabstop=2
