@@ -20,7 +20,7 @@ alias rds='redis-server'
 alias mss='mysql.server start' #MySql Start
 alias so='subl .' #Sublime Open
 alias gr='grunt'
-grunt cl='clojure'
+alias cl='clojure'
 
 #Git
 alias g='git status'
