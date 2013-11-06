@@ -20,3 +20,7 @@ export PATH=$PATH:/home/pablo/.rvm/gems/ruby-2.0.0-p247/bin:/home/pablo/.rvm/gem
 #for RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+#for Clojure-Script
+export CLOJURESCRIPT_HOME=/home/pablo/Programming/Clojure/clojurescript/bin
+export PATH=$PATH:$CLOJURESCRIPT_HOME
