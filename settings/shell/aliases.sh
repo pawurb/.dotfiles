@@ -7,7 +7,7 @@ alias ecs='rails c --sandbox' #Execute Console Sandbox
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias dbm='bundle exec rake db:migrate'
-alias dbt='bundle exec rake db:test:prepare'
+alias dbt='RAILS_ENV=test bundle exec rake db:migrate'
 alias rs='bundle exec rspec'
 alias rss='bundle exec rspec spec/'
 alias z='zeus'
@@ -54,7 +54,7 @@ alias re='source ~/.zshrc'
 alias apt-get='sudo apt-get'
 alias ex='exit'
 alias v='vim'
-alias tw='cd ~/Programming/Ruby/termit' #termit work
+alias mw='cd ~/Programming/Ruby/railsy/paragon_parser_v1' #Motteq work
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias pw='cd ~/Programming' #programming work
 alias record='gtk-recordmydesktop' #for making screencasts
