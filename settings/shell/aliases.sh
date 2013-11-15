@@ -7,7 +7,11 @@ alias ecs='rails c --sandbox' #Execute Console Sandbox
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias dbm='bundle exec rake db:migrate'
-alias dbt='RAILS_ENV=test bundle exec rake db:migrate'
+alias dbd='bundle exec rake db:drop'
+alias dbc='bundle exec rake db:create'
+alias tdbm='RAILS_ENV=test bundle exec rake db:migrate'
+alias tdbd='RAILS_ENV=test bundle exec rake db:drop'
+alias tdbc='RAILS_ENV=test bundle exec rake db:create'
 alias rs='bundle exec rspec'
 alias rss='bundle exec rspec spec/'
 alias z='zeus'
