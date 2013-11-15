@@ -25,6 +25,7 @@ alias mss='mysql.server start' #MySql Start
 alias so='subl .' #Sublime Open
 alias gr='grunt'
 alias cl='clojure'
+alias co='~/.dotfiles/settings/shell/scripts/compile_objc.sh'
 
 #Git
 alias g='git status'
