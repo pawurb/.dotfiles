@@ -8,6 +8,8 @@
 },
 { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
 
+{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"} },
+
 { "keys": ["ctrl+1"], "command": "focus_group", "args": { "group": 0 } },
 { "keys": ["ctrl+2"], "command": "focus_group", "args": { "group": 1 } },
 { "keys": ["alt+shift+]"], "command": "next_view_in_stack" },
