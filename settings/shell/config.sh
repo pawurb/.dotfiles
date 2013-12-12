@@ -27,3 +27,6 @@ export PATH=$PATH:$CLOJURESCRIPT_HOME/bin
 
 # set encoding
 export LANG=en_US.UTF-8
+
+# set priority homebrew path
+export PATH=/usr/local/bin:$PATH
