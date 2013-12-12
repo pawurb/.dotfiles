@@ -26,4 +26,4 @@ export CLOJURESCRIPT_HOME=/home/pablo/Programming/Clojure/clojurescript
 export PATH=$PATH:$CLOJURESCRIPT_HOME/bin
 
 # set encoding
-en_US.UTF-8
+export LANG=en_US.UTF-8
