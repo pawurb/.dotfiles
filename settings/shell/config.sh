@@ -24,3 +24,6 @@ export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 #for Clojure-Script
 export CLOJURESCRIPT_HOME=/home/pablo/Programming/Clojure/clojurescript
 export PATH=$PATH:$CLOJURESCRIPT_HOME/bin
+
+# set encoding
+en_US.UTF-8
