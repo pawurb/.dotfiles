@@ -12,6 +12,7 @@ alias dbc='bundle exec rake db:create'
 alias tdbm='RAILS_ENV=test bundle exec rake db:migrate'
 alias tdbd='RAILS_ENV=test bundle exec rake db:drop'
 alias tdbc='RAILS_ENV=test bundle exec rake db:create'
+alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db:seed' # Database from scratch
 alias rs='bundle exec rspec'
 alias rss='bundle exec rspec spec/'
 alias z='zeus'
