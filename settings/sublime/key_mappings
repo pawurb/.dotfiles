@@ -6,12 +6,12 @@
     { "key": "setting.is_widget", "operand": false }
   ]
 },
-{ "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+{ "keys": ["super+b"], "command": "toggle_side_bar" },
 
 { "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"} },
 
-{ "keys": ["ctrl+1"], "command": "focus_group", "args": { "group": 0 } },
-{ "keys": ["ctrl+2"], "command": "focus_group", "args": { "group": 1 } },
+{ "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
+{ "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } },
 { "keys": ["alt+shift+]"], "command": "next_view_in_stack" },
 { "keys": ["alt+shift+["], "command": "prev_view_in_stack" }
 ]
