@@ -27,6 +27,7 @@ alias msst='mysql.server stop' #MySql Stop
 alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log' # Postgres
 alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Postgres Start
 alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop' # Postgres Stop
+alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias so='subl .' #Sublime Open
 alias gr='grunt'
 alias cl='clojure'
