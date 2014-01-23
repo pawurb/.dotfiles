@@ -46,6 +46,7 @@ alias ga='git add'
 alias gaa='git add . -A' #Git Add All
 alias gd='git diff'
 alias gds='git diff --staged'
+alias gpsh='git push shelly master' # deploy to shelly
 
 function gm() { #Git Message: commit staged and quote all args as message
     git commit -m "$*"
