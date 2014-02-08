@@ -15,12 +15,6 @@ set shiftwidth=2
 set expandtab
 let g:loaded_matchparen= 0
 
-" Easy window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-
 " Enable use of the mouse for all modes
 set mouse=a
 
@@ -45,3 +39,11 @@ set nocompatible
 set fileencoding=utf-8
 set encoding=utf-8
 set noswapfile
+
+" Move lines up and down
+nnoremap <S-k> :m .-2<CR>==
+nnoremap <S-j> :m .+1<CR>==
+inoremap <S-j> <Esc>:m .+1<CR>==gi
+inoremap <S-k> <Esc>:m .-2<CR>==gi
+vnoremap <S-j> :m '>+1<CR>gv=gv
+vnoremap <S-k> :m '<-2<CR>gv=gv
