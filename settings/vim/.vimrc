@@ -43,7 +43,5 @@ set noswapfile
 " Move lines up and down
 nnoremap <S-k> :m .-2<CR>==
 nnoremap <S-j> :m .+1<CR>==
-inoremap <S-j> <Esc>:m .+1<CR>==gi
-inoremap <S-k> <Esc>:m .-2<CR>==gi
 vnoremap <S-j> :m '>+1<CR>gv=gv
 vnoremap <S-k> :m '<-2<CR>gv=gv

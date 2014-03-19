@@ -13,6 +13,7 @@ alias tdbm='RAILS_ENV=test bundle exec rake db:migrate'
 alias tdbd='RAILS_ENV=test bundle exec rake db:drop'
 alias tdbc='RAILS_ENV=test bundle exec rake db:create'
 alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db:seed' # Database from scratch
+alias gll='guard -P livereload' # Guard Live Reload
 alias rs='bundle exec rspec'
 alias rss='bundle exec rspec spec/'
 alias z='zeus'
@@ -30,6 +31,7 @@ alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.
 alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias so='subl .' #Sublime Open
 alias gr='grunt'
+alias grr='grunt release'
 alias cl='clojure'
 alias co='~/.dotfiles/settings/shell/scripts/compile_objc.sh'
 
@@ -69,6 +71,8 @@ alias v='vim'
 alias mw='cd ~/Programming/Ruby/railsy/paragon_parser_v1' #Motteq work
 alias iw='cd ~/Programming/iOS/' #iWork
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
+alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
+
 alias pw='cd ~/Programming' #programming work
 alias record='gtk-recordmydesktop' #for making screencasts
 
@@ -77,6 +81,9 @@ alias ttp='termit en pl' # Translate to English
 alias tts='termit en sk' # Translate to Słowacja
 alias ttf='termit en fr' # Translate to Francuski
 alias tr='termit'
+
+#arduino
+alias readArd='tail -f /dev/tty.usbmodem1411'
 
   #overrides
   alias grep='grep --color=auto'
