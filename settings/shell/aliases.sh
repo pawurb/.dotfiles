@@ -22,6 +22,7 @@ alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
 alias zr='zeus rspec'
 alias zc='zeus console'
 alias zcs='zeus console --sandbox'
+alias sc='shelly console'
 alias rds='redis-server'
 alias mss='mysql.server start' #MySql Start
 alias msst='mysql.server stop' #MySql Stop
@@ -49,6 +50,7 @@ alias gaa='git add . -A' #Git Add All
 alias gd='git diff'
 alias gds='git diff --staged'
 alias gpsh='git push shelly master' # deploy to shelly
+alias gpp='gpsh && git push' #deploy to shelly and push to GitHub
 
 function gm() { #Git Message: commit staged and quote all args as message
     git commit -m "$*"
