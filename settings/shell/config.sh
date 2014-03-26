@@ -28,8 +28,14 @@ export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export CLOJURESCRIPT_HOME=/home/pablo/Programming/Clojure/clojurescript
 export PATH=$PATH:$CLOJURESCRIPT_HOME/bin
 
+#add karma executable
+export PATH="$PATH:/usr/local/lib/node_modules/karma/bin"
+
 # set encoding
 export LANG=en_US.UTF-8
 
 # set priority homebrew path
 export PATH=/usr/local/bin:$PATH
+
+# for shelly stuff
+export EDITOR=vi

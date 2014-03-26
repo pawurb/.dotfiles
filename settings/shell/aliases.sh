@@ -74,6 +74,7 @@ alias mw='cd ~/Programming/Ruby/railsy/paragon_parser_v1' #Motteq work
 alias iw='cd ~/Programming/iOS/' #iWork
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
+alias aw='cd ~/Programming/JavaScript/Angular' #angular work
 
 alias pw='cd ~/Programming' #programming work
 alias record='gtk-recordmydesktop' #for making screencasts
