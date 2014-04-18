@@ -22,7 +22,8 @@ alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
 alias zr='zeus rspec'
 alias zc='zeus console'
 alias zcs='zeus console --sandbox'
-alias sc='shelly console'
+alias sc='shelly console --cloud siorb'
+alias scs='shelly console --cloud siorb-staging'
 alias rds='redis-server'
 alias mss='mysql.server start' #MySql Start
 alias msst='mysql.server stop' #MySql Stop
@@ -49,8 +50,8 @@ alias ga='git add'
 alias gaa='git add . -A' #Git Add All
 alias gd='git diff'
 alias gds='git diff --staged'
-alias gpsh='git push shelly master' # deploy to shelly
-alias gpp='gpsh && git push' #deploy to shelly and push to GitHub
+alias gpshp='git push shelly master' # deploy to shelly production
+alias gpshs='git push shelly-staging develop:master' # deploy to shelly staging
 
 function gm() { #Git Message: commit staged and quote all args as message
     git commit -m "$*"
@@ -71,10 +72,12 @@ alias apt-get='sudo apt-get'
 alias ex='exit'
 alias v='vim'
 alias mw='cd ~/Programming/Ruby/railsy/paragon_parser_v1' #Motteq work
+alias kzw='cd ~/Programming/Ruby/railsy/out_of_date/kot_zagalski' #Kot Zaglaski Work
 alias iw='cd ~/Programming/iOS/' #iWork
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
+alias 48w='cd ~/Programming/JavaScript/ng2048' #2048 work
 
 alias pw='cd ~/Programming' #programming work
 alias record='gtk-recordmydesktop' #for making screencasts
