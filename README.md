@@ -40,3 +40,10 @@ ln -s "~/.dofiles/settings/sublime/key_mappings"
 ln -s "~/.dofiles/settings/sublime/config"
 "**/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 ```
+
+Enable pressing key on Mac OS X:
+```bash
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
+
+
