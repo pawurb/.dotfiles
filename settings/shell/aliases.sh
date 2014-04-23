@@ -34,6 +34,7 @@ alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias so='subl .' #Sublime Open
 alias gr='grunt'
 alias grr='grunt release'
+alias glp='coffeegulp'
 alias cl='clojure'
 alias co='~/.dotfiles/settings/shell/scripts/compile_objc.sh'
 
