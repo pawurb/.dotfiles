@@ -79,6 +79,8 @@ alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
 alias 48w='cd ~/Programming/JavaScript/ng2048' #2048 work
+alias spw='cd Programming/smoopay-commons/src/main/resources/js/libs/sgb' #SmooPay Work
+
 
 alias pw='cd ~/Programming' #programming work
 alias record='gtk-recordmydesktop' #for making screencasts
@@ -96,3 +98,6 @@ alias readArd='tail -f /dev/tty.usbmodem1411'
   alias grep='grep --color=auto'
   alias mkdir='mkdir -pv'
 
+
+#smoopay stuff
+alias 'rsb'='java -XstartOnFirstThread -jar /Users/user/Programming/java-stuff/swt-app.jar' #Run Smoopay Browser
