@@ -6,6 +6,7 @@
     { "key": "setting.is_widget", "operand": false }
   ]
 },
+{ "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar" },
 { "keys": ["super+b"], "command": "toggle_side_bar" },
 
 { "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"} },
