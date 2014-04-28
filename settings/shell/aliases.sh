@@ -101,3 +101,4 @@ alias readArd='tail -f /dev/tty.usbmodem1411'
 
 #smoopay stuff
 alias 'rsb'='java -XstartOnFirstThread -jar /Users/user/Programming/java-stuff/swt-app.jar' #Run Smoopay Browser
+alias 'ichr'='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --allow-running-insecure-content #Insecure Chrome
