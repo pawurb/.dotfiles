@@ -1,6 +1,8 @@
 [user]
   name = pawurb
   email = p.urbanek89@gmail.com
+[credential]
+  helper = osxkeychain
 [alias]
   ch = checkout
 [push]
