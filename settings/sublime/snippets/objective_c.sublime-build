@@ -1,9 +1,0 @@
-{
-  "cmd": ["bash", "-c", "gcc $file  `gnustep-config --objc-flags` -lgnustep-base -o ~/tmp/sublime-objc-output"],
-  "variants": [
-    {
-      "name": "Run",
-      "cmd": ["bash", "-c", "gcc $file  `gnustep-config --objc-flags` -lgnustep-base -o ~/tmp/sublime-objc-output && cd && ./tmp/sublime-objc-output"]
-    }
-  ]
-}
