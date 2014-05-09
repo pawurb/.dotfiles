@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Plugins
-plugins=(gem)
+plugins=(gem zsh-syntax-highlighting)
 
 DISABLE_CORRECTION="true"
 
