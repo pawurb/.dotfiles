@@ -83,6 +83,7 @@ alias spw='cd Programming/smoopay-commons/src/main/resources/js/libs/sgb' #SmooP
 
 alias pw='cd ~/Programming' #programming work
 alias record='gtk-recordmydesktop' #for making screencasts
+alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
 
 alias tte='termit pl en' # Translate to Polish
 alias ttp='termit en pl' # Translate to English
