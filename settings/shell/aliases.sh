@@ -77,8 +77,7 @@ alias iw='cd ~/Programming/iOS/' #iWork
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
-alias 48w='cd ~/Programming/JavaScript/ng2048' #2048 work
-alias spw='cd Programming/smoopay-commons/src/main/resources/js/libs/sgb' #SmooPay Work
+alias ssw='cd ~/Programming/sezamy' #SeSame Work
 
 
 alias pw='cd ~/Programming' #programming work
