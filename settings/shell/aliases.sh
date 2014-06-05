@@ -33,9 +33,8 @@ alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.
 alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias so='subl .' #Sublime Open
 alias gr='grunt'
-alias grr='grunt release'
 alias glp='coffeegulp'
-alias cl='clojure'
+alias glpr='coffeegulp release'
 
 #Git
 alias g='git status'
@@ -68,20 +67,15 @@ alias df='cd ~/.dotfiles'
 alias h='history'
 alias c='clear'
 alias re='source ~/.zshrc'
-alias apt-get='sudo apt-get'
 alias ex='exit'
 alias v='vim'
-alias mw='cd ~/Programming/Ruby/railsy/paragon_parser_v1' #Motteq work
-alias kzw='cd ~/Programming/Ruby/railsy/out_of_date/kot_zagalski' #Kot Zaglaski Work
 alias iw='cd ~/Programming/iOS/' #iWork
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
 alias ssw='cd ~/Programming/sezamy' #SeSame Work
 
-
 alias pw='cd ~/Programming' #programming work
-alias record='gtk-recordmydesktop' #for making screencasts
 alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
 
 alias tte='termit pl en' # Translate to Polish
@@ -96,11 +90,5 @@ alias readArd='tail -f /dev/tty.usbmodem1411'
   #overrides
   alias grep='grep --color=auto'
   alias mkdir='mkdir -pv'
-
-
-#smoopay stuff
-alias 'rsb'='java -XstartOnFirstThread -jar /Users/user/Programming/java-stuff/swt-app.jar' #Run Smoopay Browser
-alias 'ichr'='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --allow-running-insecure-content #Insecure Chrome
-
 
 alias 'aliases'='cat /Users/user/.dotfiles/settings/shell/aliases.sh' #display aliases
