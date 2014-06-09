@@ -47,8 +47,8 @@ alias gstd='git stash drop'
 alias gsp='git stash pop'
 alias ga='git add'
 alias gaa='git add . -A' #Git Add All
-alias gd='git diff'
-alias gds='git diff --staged'
+alias gd='git diff --ignore-space-change'
+alias gds='git diff --staged --ignore-space-change'
 alias gpshp='git push shelly master' # deploy to shelly production
 alias gpshs='git push shelly-staging develop:master' # deploy to shelly staging
 
