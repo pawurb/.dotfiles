@@ -45,3 +45,9 @@ nnoremap <S-k> :m .-2<CR>==
 nnoremap <S-j> :m .+1<CR>==
 vnoremap <S-j> :m '>+1<CR>gv=gv
 vnoremap <S-k> :m '<-2<CR>gv=gv
+
+execute pathogen#infect()
+let mapleader = ","
+nmap <leader>ne :NERDTree<cr>
+let NERDTreeShowHidden=1
+
