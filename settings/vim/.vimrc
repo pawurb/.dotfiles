@@ -50,4 +50,13 @@ execute pathogen#infect()
 let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
 let NERDTreeShowHidden=1
+map <silent> <C-n> :NERDTreeToggle<CR>
+filetype plugin on
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 2
+let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn))$'
+let g:ctrlp_use_caching = 0
+
 
