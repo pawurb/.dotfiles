@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    termit (1.2.2)
+    termit (2.0.9)
 
 PLATFORMS
   ruby

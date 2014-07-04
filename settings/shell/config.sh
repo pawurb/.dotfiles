@@ -39,3 +39,7 @@ export PATH=/usr/local/bin:$PATH
 
 # for shelly stuff
 export EDITOR=vi
+
+# git language learning hook
+export TARGET_LANG=fr
+git(){[[ "$@" = commit\ -m* ]]&&termit en $TARGET_LANG ${${@:$#}//./} -t;command git $@}
