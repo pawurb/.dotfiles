@@ -95,4 +95,3 @@ alias readArd='tail -f /dev/tty.usbmodem1411'
 
 alias 'aliases'='cat /Users/user/.dotfiles/settings/shell/aliases.sh' #display aliases
 
-alias b='bolek'
