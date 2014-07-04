@@ -16,6 +16,7 @@ alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db
 alias gll='guard -P livereload' # Guard Live Reload
 alias rs='bundle exec rspec'
 alias rss='bundle exec rspec spec/'
+alias rbbg='ruby blackboxgatekeeper.rb' #Run Black Box Gatekeeper
 alias z='zeus'
 alias zs='zeus start'
 alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
