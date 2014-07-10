@@ -32,6 +32,7 @@ alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.lo
 alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Postgres Start
 alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop' # Postgres Stop
 alias pss='python -m SimpleHTTPServer' #Python Server Start
+alias rst='rvmsudo tunnels'
 alias so='subl .' #Sublime Open
 alias gr='grunt'
 alias glp='coffeegulp'
@@ -74,7 +75,7 @@ alias iw='cd ~/Programming/iOS/' #iWork
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
-alias ssw='cd ~/Programming/sezamy' #SeSame Work
+alias s++='cd ~/Programming/sezamy' #SeSame Work
 alias ssw='cd ~/Programming/iOS/obj_c/SuperSlurper' #Super Slurper work
 
 alias pw='cd ~/Programming' #programming work
