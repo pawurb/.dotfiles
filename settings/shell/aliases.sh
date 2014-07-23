@@ -81,11 +81,9 @@ alias ssw='cd ~/Programming/iOS/obj_c/SuperSlurper' #Super Slurper work
 alias pw='cd ~/Programming' #programming work
 alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
 
-alias tte='termit pl en' # Translate to Polish
-alias ttp='termit en pl' # Translate to English
-alias tts='termit en sk' # Translate to Słowacja
-alias ttf='termit en fr' # Translate to Francuski
-alias tr='termit'
+alias tte='normit pl en' # Translate to Polish
+alias ttp='normit en pl' # Translate to English
+alias ttf='normit en fr' # Translate to Francuski
 
 #arduino
 alias readArd='tail -f /dev/tty.usbmodem1411'
