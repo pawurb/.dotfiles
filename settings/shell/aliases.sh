@@ -77,6 +77,9 @@ alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
 alias s++='cd ~/Programming/sezamy' #SeSame Work
 alias ssw='cd ~/Programming/iOS/obj_c/SuperSlurper' #Super Slurper work
+alias tbd='cd ~/Programming/iOS/obj_c/TwoBlackDots' #Two Black Dots work
+alias nrm='cd ~/Programming/JavaScript/normit' #normit work
+
 
 alias pw='cd ~/Programming' #programming work
 alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
