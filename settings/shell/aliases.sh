@@ -33,8 +33,8 @@ alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.l
 alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop' # Postgres Stop
 alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias rst='rvmsudo tunnels'
+alias gr='grep'
 alias so='subl .' #Sublime Open
-alias gr='grunt'
 alias glp='coffeegulp'
 alias glpr='coffeegulp release'
 
