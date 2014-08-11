@@ -43,3 +43,9 @@ export EDITOR=vi
 # git language learning hook
 export TARGET_LANG=fr
 git(){[[ "$@" = commit\ -m* ]]&&normit en $TARGET_LANG ${${@:$#}//./} -t;command git $@}
+
+#Oracle config
+DYLD_LIBRARY_PATH=/opt/oracle/instantclient_11_2
+export DYLD_LIBRARY_PATH
+ORACLE_HOME=/opt/oracle/instantclient_11_2
+export ORACLE_HOME
