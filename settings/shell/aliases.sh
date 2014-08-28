@@ -72,6 +72,7 @@ alias re='source ~/.zshrc'
 alias ex='exit'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/' #iWork
+alias frp='~/Programming/iOS/obj_c/learning_frp' #Functional Reactive Programming
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
