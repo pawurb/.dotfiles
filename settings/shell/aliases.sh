@@ -74,6 +74,7 @@ alias v='vim'
 alias iw='cd ~/Programming/iOS/' #iWork
 alias frp='~/Programming/iOS/obj_c/learning_frp' #Functional Reactive Programming
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
+alias sww='cd ~/Programming/iOS/obj_c/SleepWell' # Sleep Well Work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
 alias s++='cd ~/Programming/sezamy' #SeSame Work
