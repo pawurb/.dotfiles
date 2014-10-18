@@ -41,7 +41,7 @@ export PATH=/usr/local/bin:$PATH
 export EDITOR=vi
 
 # git language learning hook
-export TARGET_LANG=fr
+export TARGET_LANG=tr
 git(){[[ "$@" = commit\ -m* ]]&&normit en $TARGET_LANG ${${@:$#}//./} -t;command git $@}
 
 #Oracle config
