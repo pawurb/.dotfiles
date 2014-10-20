@@ -97,5 +97,5 @@ alias readArd='tail -f /dev/tty.usbmodem1411'
   alias grep='grep --color=auto'
   alias mkdir='mkdir -pv'
 
-alias 'aliases'='cat /Users/user/.dotfiles/settings/shell/aliases.sh' #display aliases
+alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 
