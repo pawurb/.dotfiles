@@ -41,8 +41,8 @@ export PATH=/usr/local/bin:$PATH
 export EDITOR=vi
 
 # git language learning hook
-# export TARGET_LANG=tr
-# git(){[[ "$@" = commit\ -m* ]]&&normit en $TARGET_LANG ${${@:$#}//./} -t;command git $@}
+export TARGET_LANG=tr
+git(){[[ "$@" = commit\ -m* ]]&&normit en $TARGET_LANG ${${@:$#}//./} ;command git $@}
 
 #Oracle config
 DYLD_LIBRARY_PATH=/opt/oracle/instantclient_11_2
