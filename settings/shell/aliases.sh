@@ -17,10 +17,10 @@ alias gll='guard -P livereload' # Guard Live Reload
 alias rs='bundle exec rspec'
 alias rss='bundle exec rspec spec/'
 alias rbbg='ruby black_box_gatekeeper.rb' #Run Black Box Gatekeeper
-alias z='zeus'
 alias zs='zeus start'
 alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
 alias zr='zeus rspec spec'
+alias zrf='zeus rspec' #Zeus RSpec file
 alias zc='zeus console'
 alias zcs='zeus console --sandbox'
 alias sc='shelly console --cloud siorb'
@@ -32,6 +32,7 @@ alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.lo
 alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Postgres Start
 alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop' # Postgres Stop
 alias pss='python -m SimpleHTTPServer' #Python Server Start
+alias ees='elasticsearch' # Execute Elastic Search
 alias rst='rvmsudo tunnels'
 alias gr='grep --color'
 alias so='subl .' #Sublime Open
@@ -42,6 +43,7 @@ alias glpr='coffeegulp release'
 alias g='git status'
 alias gs='git status'
 alias gp='git push'
+alias gpsh='git push shelly master'
 alias gpl='git pull'
 alias gst='git stash'
 alias gstp='git stash pop'
@@ -54,10 +56,30 @@ alias gds='git diff --staged'
 alias gdl='git diff HEAD~1'
 alias gpshp='git push shelly master' # deploy to shelly production
 alias gpshs='git push shelly-staging develop:master' # deploy to shelly staging
+alias gpr='git remote update --prune' # Git Prune: update list of remote branches
+alias gbr='git branch -a' #Git Branches
+alias gms='git checkout master' # Git Masta
 
-function gm() { #Git Message: commit staged and quote all args as message
-    git commit -m "$*"
+function gm() { # Git Message: commit staged and quote all args as message
+  git commit -m "$*"
 }
+
+function gdrb() { # Git Delete Remote Branch
+  git push origin :$1
+}
+
+function gdlb() { # Git Delete Local Branch
+  git branch -d $1
+}
+
+function gclb() { # Git Create Branch
+  git checkout -b $1
+}
+
+function gplb { # Git Publish Local Branch
+  git push -u origin $1
+}
+
 
 #Shell
 alias ..='cd ..'
@@ -73,6 +95,7 @@ alias re='source ~/.zshrc'
 alias ex='exit'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/' #iWork
+alias vw='cd ~/Programming/Ruby/Vatrel' #Vatrel Work
 alias frp='~/Programming/iOS/obj_c/learning_frp' #Functional Reactive Programming
 alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
 alias sww='cd ~/Programming/iOS/obj_c/SleepWell' # Sleep Well Work
@@ -99,4 +122,5 @@ alias readArd='tail -f /dev/tty.usbmodem1411'
   alias mkdir='mkdir -pv'
 
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
+alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
 

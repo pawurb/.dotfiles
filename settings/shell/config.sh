@@ -44,8 +44,5 @@ export EDITOR=vi
 export TARGET_LANG=tr
 git(){[[ "$@" = commit\ -m* ]]&&normit en $TARGET_LANG ${${@:$#}//./} ;command git $@}
 
-#Oracle config
-DYLD_LIBRARY_PATH=/opt/oracle/instantclient_11_2
-export DYLD_LIBRARY_PATH
-ORACLE_HOME=/opt/oracle/instantclient_11_2
-export ORACLE_HOME
+#Java?
+export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
