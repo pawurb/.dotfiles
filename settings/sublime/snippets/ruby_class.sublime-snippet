@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+class ${1:ClassName}
+  def initialize(${2:param})
+    @${2:param} = ${2:param}
+  end
+end
+]]></content>
+  <tabTrigger>init</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>
