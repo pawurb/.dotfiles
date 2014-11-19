@@ -1,11 +1,11 @@
 <snippet>
   <content><![CDATA[
-require 'spec_helper'
+require '${1:rails_helper}'
 
-describe ${1:Model} do
-  describe "${2:functionality}" do
-    it "${3:should do sth}" do
-      ${4}
+describe ${2:Model} do
+  describe "${3:functionality}" do
+    it "${4:should do sth}" do
+      expect(${5:something}).to eq ${6:something}
     end
   end
 end
