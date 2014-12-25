@@ -23,7 +23,7 @@ alias zr='zeus rspec spec'
 alias zrf='zeus rspec' #Zeus RSpec file
 alias zc='zeus console'
 alias zcs='zeus console --sandbox'
-alias sc='shelly console --cloud siorb'
+alias sc='shelly console'
 alias scs='shelly console --cloud siorb-staging'
 alias rds='redis-server'
 alias mss='mysql.server start' #MySql Start
@@ -61,7 +61,7 @@ alias gbr='git branch -a' #Git Branches
 alias gms='git checkout master' # Git Masta
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
-function gm() { # Git Message: commit staged and quote all args as message
+function gmm() { # Git Message: commit staged and quote all args as message
   git commit -m "$*"
 }
 
