@@ -62,7 +62,7 @@ alias gbr='git branch -a' #Git Branches
 alias gms='git checkout master' # Git Masta
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
-function gmm() { # Git Message: commit staged and quote all args as message
+function gm() { # Git Message: commit staged and quote all args as message
   git commit -m "$*"
 }
 
