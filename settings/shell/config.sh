@@ -4,6 +4,9 @@ ZSH=$HOME/.oh-my-zsh
 # Plugins
 plugins=(gem zsh-syntax-highlighting)
 
+# Haskell
+export PATH="$HOME/Library/Haskell/bin:$PATH"
+
 DISABLE_CORRECTION="true"
 
 COMPLETION_WAITING_DOTS="true"

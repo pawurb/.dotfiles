@@ -6,6 +6,8 @@ alias ec='rails c' #Execute Console
 alias ecs='rails c --sandbox' #Execute Console Sandbox
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
+alias grr='grunt'
+alias grl='grunt release'
 alias dbm='bundle exec rake db:migrate'
 alias dbd='bundle exec rake db:drop'
 alias dbc='bundle exec rake db:create'
@@ -25,8 +27,10 @@ alias zrf='zeus rspec' #Zeus RSpec file
 alias zc='zeus console'
 alias zcs='zeus console --sandbox'
 alias sc='shelly console'
+alias scv='shelly console -c vatrel'
 alias scs='shelly console --cloud siorb-staging'
 alias rds='redis-server'
+alias sq='sidekiq'
 alias mss='mysql.server start' #MySql Start
 alias msst='mysql.server stop' #MySql Stop
 alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log' # Postgres
@@ -36,9 +40,10 @@ alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias ees='elasticsearch' # Execute Elastic Search
 alias rst='rvmsudo tunnels'
 alias gr='grep --color'
-alias so='subl .' #Sublime Open
+alias s='subl .' #Sublime Open
 alias glp='coffeegulp'
 alias glpr='coffeegulp release'
+alias frs='foreman start'
 
 #Git
 alias g='git status'
@@ -98,9 +103,12 @@ alias ex='exit'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/' #iWork
 alias vw='cd ~/Programming/Ruby/Vatrel' #Vatrel Work
+alias sw='cd ~/Programming/Ruby/safe-backend' #safe work
 alias frp='~/Programming/iOS/obj_c/learning_frp' #Functional Reactive Programming
-alias sw='cd ~/Programming/JavaScript/Siorb' #siorb work
-alias sww='cd ~/Programming/iOS/obj_c/SleepWell' # Sleep Well Work
+alias pww='cd ~/Programming/JavaScript/phaser-io' #phaser work work
+alias amw='~/Programming/iOS/cordova/ArmyOfMushrooms/js_src' #army mushrooms work
+
+alias fw='cd ~/Programming/JavaScript/phaser-io/flappyDot' #flappy work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
 alias aw='cd ~/Programming/JavaScript/Angular' #angular work
 alias s++='cd ~/Programming/sezamy' #SeSame Work
@@ -126,3 +134,6 @@ alias readArd='tail -f /dev/tty.usbmodem1411'
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
 
+function trr() { # Git Create Branch
+  termit en tr "$*" -t
+}
