@@ -10,9 +10,13 @@
 { "keys": ["super+b"], "command": "toggle_side_bar" },
 
 { "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"} },
+{ "keys": ["super+shift+o"], "command": "open_terminal" },
+{ "keys": ["super+shift+t"], "command": "reopen_last_file" },
 
 { "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
 { "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } },
 { "keys": ["alt+shift+]"], "command": "next_view_in_stack" },
-{ "keys": ["alt+shift+["], "command": "prev_view_in_stack" }
+{ "keys": ["alt+shift+["], "command": "prev_view_in_stack" },
+{ "keys": ["super+e"], "command": "refresh_folder_list" },
+{ "keys": ["super+."], "command": "copy_path" }
 ]
