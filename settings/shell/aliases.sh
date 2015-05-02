@@ -42,7 +42,7 @@ alias ees='elasticsearch' # Execute Elastic Search
 alias rst='rvmsudo tunnels'
 alias gr='grep --color'
 alias s='subl .' #Sublime Open
-alias glp='coffeegulp'
+alias glp='gulp'
 alias glpr='coffeegulp release'
 alias frs='foreman start'
 
@@ -124,6 +124,7 @@ alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
 alias tte='normit pl en' # Translate to Polish
 alias ttp='normit en pl' # Translate to English
 alias ttf='normit en fr' # Translate to Francuski
+alias safe='termit de en' # Translate german variables...
 
 #arduino
 alias readArd='tail -f /dev/tty.usbmodem1411'
@@ -138,3 +139,9 @@ alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs whe
 function trr() { # Git Create Branch
   termit en tr "$*" -t
 }
+
+# IONIC
+
+alias 'iob'='ionic build ios'
+alias 'ios'='ionic serve'
+
