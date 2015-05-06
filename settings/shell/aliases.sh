@@ -144,4 +144,6 @@ function trr() { # Git Create Branch
 
 alias 'iob'='ionic build ios'
 alias 'ios'='ionic serve'
+alias 'ioe'='ionic emulate ios --livereload --consolelogs --serverlogs'
+alias 'iod'='ionic run ios --livereload --consolelogs --serverlogs --device'
 
