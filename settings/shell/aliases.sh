@@ -48,7 +48,6 @@ alias frs='foreman start'
 
 #Git
 alias g='git status'
-alias gs='git status'
 alias gp='git push'
 alias gpsh='git push shelly master'
 alias gpl='git pull'
