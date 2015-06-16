@@ -47,7 +47,7 @@ export PATH=/usr/local/bin:$PATH
 export EDITOR=vi
 
 # git language learning hook
-export TARGET_LANG=tr
+export TARGET_LANG=fr
 git(){[[ "$@" = commit\ -m* ]]&&normit en $TARGET_LANG ${${@:$#}//./} ;command git $@}
 
 #Java?
