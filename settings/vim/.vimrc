@@ -5,7 +5,7 @@ set smartcase
 set number
 
 " Key mappings
-imap df <Esc>
+imap kj <Esc>
 noremap - $
 nnoremap ; :
 
