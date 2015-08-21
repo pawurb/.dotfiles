@@ -66,6 +66,7 @@ alias gpr='git remote update --prune' # Git Prune: update list of remote branche
 alias gbr='git branch -a' #Git Branches
 alias gms='git checkout master' # Git Masta
 alias gca='git commit --amend'
+alias grs='git reset --soft HEAD~1'
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 function gm() { # Git Message: commit staged and quote all args as message
