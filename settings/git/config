@@ -5,6 +5,7 @@
   helper = osxkeychain
 [alias]
   ch = checkout
+  re = rebase
 [push]
   default = tracking
 [color]
