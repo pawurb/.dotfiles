@@ -34,10 +34,10 @@ In **~/.gitconfig**
 
 Link **Sublime** settings:
 ```bash
-ln -s "~/.dofiles/settings/sublime/key_mappings"
+ln -s "~/.dotfiles/settings/sublime/key_mappings"
 "**/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
 
-ln -s "~/.dofiles/settings/sublime/config"
+ln -s "~/.dotfiles/settings/sublime/config"
 "**/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 ```
 

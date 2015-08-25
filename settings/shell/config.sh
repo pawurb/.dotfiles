@@ -48,7 +48,7 @@ export EDITOR=vi
 
 # git language learning hook
 export TARGET_LANG=fr
-git(){[[ "$@" = commit\ -m* ]]&&normit en $TARGET_LANG ${${@:$#}//./} ;command git $@}
+git(){[[ "$@" = commit\ -m* ]]&&termit en $TARGET_LANG ${${@:$#}//./} ;command git $@}
 
 #Java?
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home"
