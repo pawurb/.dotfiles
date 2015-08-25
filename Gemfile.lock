@@ -2,7 +2,9 @@ GEM
   remote: http://rubygems.org/
   specs:
     awesome_print (1.2.0)
-    termit (2.0.9)
+    delegate_it (1.1.1)
+    termit (2.11.0)
+      delegate_it
 
 PLATFORMS
   ruby

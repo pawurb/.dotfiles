@@ -122,9 +122,9 @@ alias nrm='cd ~/Programming/JavaScript/normit' #normit work
 alias pw='cd ~/Programming' #programming work
 alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
 
-alias tte='normit pl en' # Translate to Polish
-alias ttp='normit en pl' # Translate to English
-alias ttf='normit en fr' # Translate to Francuski
+alias tte='termit pl en' # Translate to Polish
+alias ttp='termit en pl' # Translate to English
+alias ttf='termit en fr' # Translate to Francuski
 alias safe='termit de en' # Translate german variables...
 
 #arduino
