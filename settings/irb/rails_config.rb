@@ -18,7 +18,6 @@ end
 
 alias ll loud_logger
 alias ql quiet_logger
-alias re reload!
 
 
 #turn on the logs by default
