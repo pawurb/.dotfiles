@@ -1,5 +1,5 @@
 [
-{ "keys": ["d", "f"], "command": "exit_insert_mode",
+{ "keys": ["k", "j"], "command": "exit_insert_mode",
   "context":
   [
     { "key": "setting.command_mode", "operand": false },
