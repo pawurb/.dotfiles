@@ -23,7 +23,7 @@ require "~/.dotfiles/settings/irb/main.rb"
 
 In **~/.vimrc**
 ```bash
-source ~/.dotfiles/settings/vim/config
+source ~/.dotfiles/settings/vim/.vimrc
 ```
 
 In **~/.gitconfig**
