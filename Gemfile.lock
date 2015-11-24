@@ -3,7 +3,7 @@ GEM
   specs:
     awesome_print (1.2.0)
     delegate_it (1.1.1)
-    termit (2.11.0)
+    termit (2.13.0)
       delegate_it
 
 PLATFORMS
@@ -12,3 +12,6 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   termit
+
+BUNDLED WITH
+   1.10.6

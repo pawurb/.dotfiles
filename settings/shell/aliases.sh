@@ -45,6 +45,7 @@ alias s='subl .' #Sublime Open
 alias glp='gulp'
 alias glpr='coffeegulp release'
 alias frs='foreman start'
+alias frd='foreman start --procfile=Procfile-dev'
 
 #Git
 alias g='git status'
@@ -152,3 +153,6 @@ alias 'ioe'='ionic emulate ios --livereload --consolelogs --serverlogs'
 alias 'iod'='ionic run ios --livereload --consolelogs --serverlogs --device'
 alias 'iii'='ionic build ios && ionic run ios'
 
+
+# ELIXIR
+alias 'er'='mix escript.build && ./elmit'
