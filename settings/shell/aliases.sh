@@ -108,10 +108,12 @@ alias ex='exit'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/' #iWork
 alias vw='cd ~/Programming/Ruby/Vatrel' #Vatrel Work
-alias sw='cd ~/Programming/Ruby/safe-backend' #safe work
+alias sw='cd ~/Programming/Ruby/slacker' #slacker work
 alias frp='~/Programming/iOS/obj_c/learning_frp' #Functional Reactive Programming
 alias pww='cd ~/Programming/JavaScript/phaser-io' #phaser work work
 alias amw='~/Programming/iOS/cordova/ArmyOfMushrooms/js_src' #army mushrooms work
+alias mm='cd ~/Programming/iOS/cordova/safe-app-ionic' #Mobile Marius
+alias bm='cd ~/Programming/Ruby/safe-backend' #Backend Marius
 
 alias fw='cd ~/Programming/JavaScript/phaser-io/flappyDot' #flappy work
 alias sbw='cd ~/Programming/Ruby/railsy/Siorbackend' #siorb backend work
