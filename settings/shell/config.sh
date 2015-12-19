@@ -46,9 +46,5 @@ export PATH=/usr/local/bin:$PATH
 # for shelly stuff
 export EDITOR=vi
 
-# git language learning hook
-export TARGET_LANG=fr
-git(){[[ "$@" = commit\ -m* ]]&&termit en $TARGET_LANG ${${@:$#}//./} ;command git $@}
-
 #Java?
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home"
