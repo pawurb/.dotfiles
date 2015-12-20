@@ -33,7 +33,8 @@ noremap <C-1> <C-w>h
 noremap <C-2> <C-w>l
 
 noremap <C-]> :bnext<CR>
-nnoremap <C-[> :bprev<CR>
+" noremap <C-[> :bprev<CR>
+
 
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_working_path_mode = 0
@@ -93,7 +94,4 @@ function! CopyFilePath()
 endfunction
 
 map <silent> <C-f> :call CopyFilePath()<CR>
-
-
-
 
