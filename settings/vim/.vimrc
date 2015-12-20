@@ -3,6 +3,39 @@ set incsearch
 set ignorecase
 set smartcase
 set number
+set nocompatible
+set clipboard=unnamed
+
+" Vundle
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'scrooloose/nerdTree'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'terryma/vim-multiple-cursors'
+
+call vundle#end()
+filetype plugin indent on
+
+
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_match_window_reversed = 0
+map <silent> <C-p> :CtrlP
+
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_exit_from_insert_mode = 0
+let g:multi_cursor_next_key='<C-d>'
+let g:multi_cursor_quit_key='<Esc>'
+
 
 " Key mappings
 imap kj <Esc>
@@ -12,14 +45,8 @@ nnoremap ; :
 set smartindent
 set tabstop=2
 set shiftwidth=2
-set expandtab
-let g:loaded_matchparen= 0
-
-" Enable use of the mouse for all modes
-set mouse=a
 
 set t_Co=256
-colorscheme ir_black
 
 " Removes trailing spaces
 function! TrimWhiteSpace()
@@ -34,8 +61,6 @@ autocmd BufWritePre     * :call TrimWhiteSpace()
 " recognize Gemfile
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 
-filetype on
-set nocompatible
 set fileencoding=utf-8
 set encoding=utf-8
 set noswapfile
@@ -46,17 +71,21 @@ nnoremap <S-j> :m .+1<CR>==
 vnoremap <S-j> :m '>+1<CR>gv=gv
 vnoremap <S-k> :m '<-2<CR>gv=gv
 
-execute pathogen#infect()
 let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
 let NERDTreeShowHidden=1
 map <silent> <C-n> :NERDTreeToggle<CR>
 filetype plugin on
 
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-let g:ctrlp_working_path_mode = 2
-let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn))$'
-let g:ctrlp_use_caching = 0
+colorscheme railscasts
+
+noremap <silent> <F4> :let @+=expand("%:p")<CR>
+function! CopyFilePath()
+	:let @+ = expand("%:p")
+endfunction
+
+map <silent> <C-f> :call CopyFilePath()<CR>
+
+
 
 

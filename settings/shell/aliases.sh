@@ -158,3 +158,9 @@ alias 'iii'='ionic build ios && ionic run ios'
 
 # ELIXIR
 alias 'er'='mix escript.build && ./elmit'
+
+alias 'vi'='/usr/local/Cellar/vim/7.4.936/bin/vim'
+alias 'vim'='/usr/local/Cellar/vim/7.4.936/bin/vim'
+alias 'v'='/usr/local/Cellar/vim/7.4.936/bin/vim'
+
+alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
