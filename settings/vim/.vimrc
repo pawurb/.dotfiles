@@ -49,7 +49,6 @@ let g:multi_cursor_quit_key='<Esc>'
 " Key mappings
 imap kj <Esc>
 noremap - $
-nnoremap ; :
 
 set smartindent
 set tabstop=2
