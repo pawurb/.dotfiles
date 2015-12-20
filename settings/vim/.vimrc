@@ -16,15 +16,24 @@ Plugin 'jpo/vim-railscasts-theme'
 Plugin 'scrooloose/nerdTree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-rails'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'ap/vim-buftabline'
 
 call vundle#end()
 filetype plugin indent on
+set hidden
 
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
-nmap <silent> <A-Up> :wincmd k<CR>
-nmap <silent> <A-Down> :wincmd j<CR>
-nmap <silent> <A-Left> :wincmd h<CR>
-nmap <silent> <A-Right> :wincmd l<CR>
+noremap <C-1> <C-w>h
+noremap <C-2> <C-w>l
+
+noremap <C-]> :bnext<CR>
+nnoremap <C-[> :bprev<CR>
 
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_working_path_mode = 0
