@@ -1,5 +1,7 @@
 file = File.open(File.expand_path('~/.zsh_history'))
-data = file.read.force_encoding('BINARY').encode("UTF-8", invalid: :replace, undef: :replace).split("\n").map do |line|
+data = file.read.force_encoding('BINARY').
+encode("UTF-8", invalid: :replace, undef: :replace).
+split("\n").map do |line|
   line.split(';').last
 end
 
@@ -9,5 +11,5 @@ data.each do |item|
   count[item] = count[item] + 1
 end
 
-p Hash[count.sort_by {|k, v| v }]
+puts Hash[count.sort_by {|_, v| v }]
 
