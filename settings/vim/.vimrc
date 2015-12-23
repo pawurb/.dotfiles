@@ -31,11 +31,10 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+map <C-c> :bd<CR>
 
-noremap <C-1> <C-w>h
-noremap <C-2> <C-w>l
 
-noremap <C-]> :bnext<CR>
+nnoremap <C-]> :bnext<CR>
 " noremap <C-[> :bprev<CR>
 
 
@@ -52,10 +51,10 @@ let g:multi_cursor_quit_key='<Esc>'
 
 " Key mappings
 imap kj <Esc>
-noremap - $
+nnoremap - $
+nnoremap ; :
 
 set smartindent
-set tabstop=2
 set shiftwidth=2
 
 set t_Co=256
@@ -76,6 +75,8 @@ autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 set fileencoding=utf-8
 set encoding=utf-8
 set noswapfile
+set expandtab
+set tabstop=2 softtabstop=2 shiftwidth=2
 
 " Move lines up and down
 nnoremap <S-k> :m .-2<CR>==
@@ -91,7 +92,7 @@ filetype plugin on
 
 colorscheme railscasts
 
-noremap <silent> <F4> :let @+=expand("%:p")<CR>
+nnoremap <silent> <F4> :let @+=expand("%:p")<CR>
 function! CopyFilePath()
 	:let @+ = expand("%:p")
 endfunction
