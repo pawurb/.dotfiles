@@ -137,8 +137,14 @@ alias 'v'='/usr/local/Cellar/vim/7.4.936/bin/vim'
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Slacker stuff
-alias 'sbw'='cd ~/Programming/Ruby/slacker' # Slacker Backend Work
-alias 'smw'='cd ~/Programming/iOS/cordova/slacker-client' # Slacker Mobile Work
+alias 'bs'='cd ~/Programming/Ruby/slacker' # Backend Slacker
+alias 'ms'='cd ~/Programming/iOS/cordova/slacker-client' # Mobile Slacker
 
+# SlackTomato stuff
+alias 'pom'='cd ~/Programming/Ruby/pomodoroslack'
+
+
+# Heroku stuff
+alias 'hc'='heroku run rails c'
 
 

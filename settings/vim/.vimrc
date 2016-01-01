@@ -21,7 +21,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'ap/vim-buftabline'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-commentary'
-Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
