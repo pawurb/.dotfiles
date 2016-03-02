@@ -26,6 +26,7 @@ alias scv='shelly console -c vatrel'
 alias scs='shelly console --cloud slacker'
 alias sss='shelly ssh -s app3 -c'
 alias rds='redis-server'
+alias el='elasticsearch'
 alias sq='sidekiq'
 alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log' # Postgres
 alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Postgres Start
@@ -147,4 +148,7 @@ alias 'pom'='cd ~/Programming/Ruby/pomodoroslack'
 # Heroku stuff
 alias 'hc'='heroku run rails c'
 
+
+#Docker stuff
+alias 'cleardocker'='docker rm $(docker ps -aq)'
 
