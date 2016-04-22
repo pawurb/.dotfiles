@@ -23,7 +23,6 @@ alias zc='zeus console'
 alias zcs='zeus console --sandbox'
 alias sc='shelly console -c'
 alias scv='shelly console -c vatrel'
-alias scs='shelly console --cloud slacker'
 alias sss='shelly ssh -s app3 -c'
 alias rds='redis-server'
 alias el='elasticsearch'
@@ -138,8 +137,8 @@ alias 'v'='/usr/local/Cellar/vim/7.4.936/bin/vim'
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Slacker stuff
-alias 'bs'='cd ~/Programming/Ruby/slacker' # Backend Slacker
-alias 'ms'='cd ~/Programming/iOS/cordova/slacker-client' # Mobile Slacker
+alias 'tb'='cd ~/Programming/Ruby/tracky-backend' # Tracky Backend
+alias 'tm'='cd ~/Programming/iOS/cordova/tracky-client' # Tracky Mobile
 
 # SlackTomato stuff
 alias 'pom'='cd ~/Programming/Ruby/pomodoroslack'
