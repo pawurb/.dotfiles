@@ -42,9 +42,8 @@ alias frd='foreman start --procfile=Procfile-dev'
 #Git
 alias g='git status'
 alias gp='git push'
-alias gpsh='git push shelly master'
-alias gpshs='git push tedfin-beta staging:master'
 alias gpshh='git push heroku master'
+alias gpstg='git push staging staging:master'
 alias gpl='git pull'
 alias gst='git stash'
 alias gstp='git stash pop'
@@ -97,7 +96,7 @@ alias c='clear'
 alias re='source ~/.zshrc'
 alias ex='exit'
 alias v='vim'
-alias iw='cd ~/Programming/iOS/' #iWork
+alias iw='cd ~/Programming/iOS/swift' #iWork
 alias vw='cd ~/Programming/Ruby/Vatrel' #Vatrel Work
 alias mm='cd ~/Programming/iOS/cordova/safe-app-ionic' #Mobile Marius
 alias bm='cd ~/Programming/Ruby/safe-backend' #Backend Marius
