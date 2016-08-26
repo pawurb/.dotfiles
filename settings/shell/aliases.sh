@@ -98,8 +98,6 @@ alias ex='exit'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/swift' #iWork
 alias vw='cd ~/Programming/Ruby/Vatrel' #Vatrel Work
-alias mm='cd ~/Programming/iOS/cordova/safe-app-ionic' #Mobile Marius
-alias bm='cd ~/Programming/Ruby/safe-backend' #Backend Marius
 
 alias pw='cd ~/Programming' #programming work
 alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
@@ -107,7 +105,6 @@ alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
 alias tte='termit pl en' # Translate to Polish
 alias ttp='termit en pl' # Translate to English
 alias ttf='termit en fr' # Translate to Francuski
-alias safe='termit de en' # Translate german variables...
 
 
 #overrides
@@ -149,4 +146,7 @@ alias 'hc'='heroku run rails c'
 
 #Docker stuff
 alias 'cleardocker'='docker rm $(docker ps -aq)'
+
+alias focus='sudo ~/block.sh'
+
 
