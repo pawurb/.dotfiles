@@ -13,7 +13,7 @@ Features:
 
 In **~/.zshrc**
 ```bash
-source ~/.dofiles/settings/shell/main.sh
+source ~/.dotfiles/settings/shell/main.sh
 ```
 
 In **~/.irbrc**
