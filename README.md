@@ -35,10 +35,10 @@ In **~/.gitconfig**
 Link **Sublime** settings:
 ```bash
 ln -s "~/.dotfiles/settings/sublime/key_mappings"
-"**/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
+"**/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
 
 ln -s "~/.dotfiles/settings/sublime/config"
-"**/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+"**/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 ```
 
 ### Notes:
