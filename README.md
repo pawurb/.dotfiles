@@ -45,5 +45,9 @@ Enable pressing key on Mac OS X:
 ```bash
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
+### Notes:
+
+https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
+
 
 
