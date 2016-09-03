@@ -46,11 +46,21 @@ ln -s "~/.dotfiles/settings/sublime/config"
 https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
 
 ```bash
+mkdir ~/bin
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
 
-Enable pressing key on Mac OS X:
+```bash
+echo "gem: --no-document" > .gemrc
+```
+
 ```bash
 defaults write -g ApplePressAndHoldEnabled -bool false
+```
+
+```bash
+brew tap caskroom/cask
+brew cask install gimp
+brew cask google-chrome
 ```
 
