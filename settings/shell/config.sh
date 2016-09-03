@@ -7,8 +7,7 @@ ZSH=$HOME/.oh-my-zsh
 # Plugins
 plugins=(gem zsh-syntax-highlighting)
 
-# Haskell
-export PATH="$HOME/Library/Haskell/bin:/usr/local/lib/node_modules:$PATH"
+export PATH=$PATH:~/bin
 
 DISABLE_CORRECTION="true"
 

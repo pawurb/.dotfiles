@@ -41,13 +41,16 @@ ln -s "~/.dotfiles/settings/sublime/config"
 "**/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 ```
 
-Enable pressing key on Mac OS X:
-```bash
-defaults write -g ApplePressAndHoldEnabled -bool false
-```
 ### Notes:
 
 https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
 
+```bash
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+```
 
+Enable pressing key on Mac OS X:
+```bash
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
 
