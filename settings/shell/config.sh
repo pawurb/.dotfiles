@@ -29,21 +29,14 @@ export PATH=$PATH:/home/pablo/.rvm/gems/ruby-2.0.0-p247/bin:/home/pablo/.rvm/gem
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-#for Clojure-Script
-export CLOJURESCRIPT_HOME=/home/pablo/Programming/Clojure/clojurescript
-export PATH=$PATH:$CLOJURESCRIPT_HOME/bin
-
 #add karma executable
 export PATH="$PATH:/usr/local/lib/node_modules/karma/bin"
 
 # set encoding
 export LANG=en_US.UTF-8
 
-# set priority homebrew path
-export PATH=/usr/local/bin:$PATH
-
 # for shelly stuff
 export EDITOR=vi
 
 #Java?
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home"
