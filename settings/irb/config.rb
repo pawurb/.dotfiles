@@ -42,8 +42,30 @@ class Object
   def modules
     self.class.included_modules
   end
+
+  def my_methods
+    self.methods - Object.methods
+  end
 end
 
+def allocate_count
+  GC.disable
+  before = ObjectSpace.count_objects
+  yield
+  after = ObjectSpace.count_objects
+  after.each { |k, v| after[k] = v - before[k] }
+  after[:T_HASH] -= 1
+  after[:FREE] += 1
+  GC.enable
+  after.reject { |k, v| v == 0 }
+end
+
+def all_allocations
+  ObjectSpace.each_object.map(&:class)
+  .each_with_object(Hash.new(0)) do |e, h|
+    h[e] += 1
+  end.sort_by { |k, v| v }
+end
 
 #startup commands
 info

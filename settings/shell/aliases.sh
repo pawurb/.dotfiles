@@ -38,6 +38,7 @@ alias s='subl .' #Sublime Open
 alias glp='gulp'
 alias frs='foreman start'
 alias frd='foreman start --procfile=Procfile-dev'
+alias rormem='bundle exec derailed bundle:mem'
 
 #Git
 alias g='git status'
@@ -147,6 +148,6 @@ alias 'hc'='heroku run rails c'
 #Docker stuff
 alias 'cleardocker'='docker rm $(docker ps -aq)'
 
-alias focus='sudo ~/block.sh'
+alias 'focus'='sudo ~/block.sh'
 
 
