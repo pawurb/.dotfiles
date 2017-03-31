@@ -1,25 +1,15 @@
-
 require 'rubygems'
+require 'pp'
 
-begin
-  require 'awesome_print'
-  #AwesomePrint.irb!
-rescue LoadError => err
-  warn "Couldn't load awesome_print: #{err}"
-end
-
-#clear console
 def clear
   system 'clear'
 end
 
-#display ruby version and gemset
 def info
   system "ruby -v"
   system "rvm gemset list |grep '=>'"
 end
 
-#display commands history
 def history
   puts Readline::HISTORY.to_a
 end
@@ -30,7 +20,6 @@ alias q exit
 alias c clear
 alias i info
 alias h history
-alias pp ap
 
 Hirb.disable if defined? Hirb #I don't like Hirb
 
@@ -46,18 +35,6 @@ class Object
   def my_methods
     self.methods - Object.methods
   end
-end
-
-def allocate_count
-  GC.disable
-  before = ObjectSpace.count_objects
-  yield
-  after = ObjectSpace.count_objects
-  after.each { |k, v| after[k] = v - before[k] }
-  after[:T_HASH] -= 1
-  after[:FREE] += 1
-  GC.enable
-  after.reject { |k, v| v == 0 }
 end
 
 def all_allocations

@@ -3,7 +3,6 @@ alias bu='bundle'
 alias es='rails s' #Execute Server
 alias ei='irb' #Execute IRB
 alias ec='rails c' #Execute Console
-alias ecs='rails c --sandbox' #Execute Console Sandbox
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias dbm='bundle exec rake db:migrate'
@@ -21,9 +20,6 @@ alias zr='zeus rspec spec'
 alias zrf='zeus rspec' #Zeus RSpec file
 alias zc='zeus console'
 alias zcs='zeus console --sandbox'
-alias sc='shelly console -c'
-alias scv='shelly console -c vatrel'
-alias sss='shelly ssh -s app3 -c'
 alias rds='redis-server'
 alias el='elasticsearch'
 alias sq='sidekiq'
@@ -55,7 +51,6 @@ alias gaa='git add . -A' #Git Add All
 alias gd='git diff'
 alias gds='git diff --staged'
 alias gdl='git diff HEAD~1'
-alias gpshp='git push shelly master' # deploy to shelly production
 alias gpr='git remote update --prune' # Git Prune: update list of remote branches
 alias gbr='git branch -a' #Git Branches
 alias gms='git checkout master' # Git Masta
@@ -115,39 +110,17 @@ alias mkdir='mkdir -pv'
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
 
-# IONIC
-
-alias 'iob'='ionic build ios'
-alias 'ioa'='ionic build android'
-alias 'ios'='ionic serve'
-alias 'ioe'='ionic emulate ios --livereload --consolelogs --serverlogs'
-alias 'iod'='ionic run ios --livereload --consolelogs --serverlogs --device'
-alias 'iii'='ionic build ios && ionic run ios'
-
 # ELIXIR
 alias 'er'='mix escript.build && ./elmit'
 
-alias 'vi'='/usr/local/Cellar/vim/7.4.2290/bin/vim'
-alias 'vim'='/usr/local/Cellar/vim/7.4.2290/bin/vim'
-alias 'v'='/usr/local/Cellar/vim/7.4.2290/bin/vim'
+alias 'vi'='/usr/local/Cellar/vim/8.0.0459/bin/vim'
+alias 'vim'='/usr/local/Cellar/vim/8.0.0459/bin/vim'
+alias 'v'='/usr/local/Cellar/vim/8.0.0459/bin/vim'
 
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
-
-# Slacker stuff
-alias 'tb'='cd ~/Programming/Ruby/tracky-backend' # Tracky Backend
-alias 'tm'='cd ~/Programming/iOS/cordova/tracky-client' # Tracky Mobile
-
-# SlackTomato stuff
-alias 'pom'='cd ~/Programming/Ruby/pomodoroslack'
-
 
 # Heroku stuff
 alias 'hc'='heroku run rails c'
 
-
 #Docker stuff
 alias 'cleardocker'='docker rm $(docker ps -aq)'
-
-alias 'focus'='sudo ~/block.sh'
-
-
