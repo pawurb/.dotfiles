@@ -44,5 +44,11 @@ def all_allocations
   end.sort_by { |k, v| v }
 end
 
+def dbg msg
+  p '!!!!!!!!!!!!!!!!!!'
+  p msg
+  p '!!!!!!!!!!!!!!!!!!'
+end
+
 #startup commands
 info

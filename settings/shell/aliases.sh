@@ -16,10 +16,10 @@ alias rs='bundle exec rspec'
 alias rss='bundle exec rspec spec/'
 alias zs='zeus start'
 alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
-alias zr='zeus rspec spec'
-alias zrf='zeus rspec' #Zeus RSpec file
+alias zrr='zeus rspec spec'
+alias zr='zeus rspec' #Zeus RSpec file
 alias zc='zeus console'
-alias zcs='zeus console --sandbox'
+alias zrake='zeus rake'
 alias rds='redis-server'
 alias el='elasticsearch'
 alias sq='sidekiq'
@@ -28,7 +28,6 @@ alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.l
 alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop' # Postgres Stop
 alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias ees='elasticsearch' # Execute Elastic Search
-alias rst='rvmsudo tunnels'
 alias gr='grep --color'
 alias s='subl .' #Sublime Open
 alias glp='gulp'
@@ -93,7 +92,6 @@ alias re='source ~/.zshrc'
 alias ex='exit'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/swift' #iWork
-alias vw='cd ~/Programming/Ruby/Vatrel' #Vatrel Work
 
 alias pw='cd ~/Programming' #programming work
 alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
@@ -102,16 +100,12 @@ alias tte='termit pl en' # Translate to Polish
 alias ttp='termit en pl' # Translate to English
 alias ttf='termit en fr' # Translate to Francuski
 
-
 #overrides
 alias grep='grep --color=auto'
 alias mkdir='mkdir -pv'
 
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
-
-# ELIXIR
-alias 'er'='mix escript.build && ./elmit'
 
 alias 'vi'='/usr/local/Cellar/vim/8.0.0459/bin/vim'
 alias 'vim'='/usr/local/Cellar/vim/8.0.0459/bin/vim'
@@ -122,5 +116,3 @@ alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 # Heroku stuff
 alias 'hc'='heroku run rails c'
 
-#Docker stuff
-alias 'cleardocker'='docker rm $(docker ps -aq)'
