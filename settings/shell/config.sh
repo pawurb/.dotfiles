@@ -10,7 +10,7 @@ DISABLE_CORRECTION="true"
 
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
-DISABLE_AUTO_UPDATE=true
+# DISABLE_AUTO_UPDATE=true
 
 #don't save history to file
 unset HISTFILE
@@ -34,10 +34,10 @@ export EDITOR=vi
 #Java?
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home"
 
-export NVM_DIR="/Users/pablo/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 # Load RVM into a shell session *as a function*
+
+# export NVM_DIR="/Users/pablo/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
