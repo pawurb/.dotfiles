@@ -61,6 +61,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
 ```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap caskroom/cask
 brew cask install gimp
 brew cask install google-chrome
