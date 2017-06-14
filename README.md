@@ -11,28 +11,14 @@ Features:
 
 ### Usage
 
-In **~/.zshrc**
 ```bash
-source ~/.dotfiles/settings/shell/main.sh
+echo "gem: --no-document" > .gemrc
+echo "source ~/.dotfiles/settings/shell/main.sh" > .zshrc
+echo "require '~/.dotfiles/settings/irb/main.rb'" > .irbrc
+echo "source ~/.dotfiles/settings/vim/.vimrc" > .vimrc
+echo "[include]\n path = ~/.dotfiles/settings/git/config" > .gitconfig
 ```
 
-In **~/.irbrc**
-```ruby
-require "~/.dotfiles/settings/irb/main.rb"
-```
-
-In **~/.vimrc**
-```bash
-source ~/.dotfiles/settings/vim/.vimrc
-```
-
-In **~/.gitconfig**
-```bash
-[include]
-  path = ~/.dotfiles/settings/git/config
-```
-
-Link **Sublime** settings:
 ```bash
 ln -s "~/.dotfiles/settings/sublime/key_mappings"
 "**/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
@@ -41,20 +27,12 @@ ln -s "~/.dotfiles/settings/sublime/config"
 "**/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 ```
 
-### Notes:
-
-https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
-https://github.com/avibrazil/RDM
-https://packagecontrol.io/installation
 
 ```bash
 mkdir ~/bin
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
 
-```bash
-echo "gem: --no-document" > .gemrc
-```
 
 ```bash
 defaults write -g ApplePressAndHoldEnabled -bool false
@@ -74,5 +52,10 @@ brew cask install sourcetree
 brew cask install firefox
 brew cask install avibrazil-rdm
 ```
+
+### Notes:
+
+* https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
+* https://packagecontrol.io/installation
 
 
