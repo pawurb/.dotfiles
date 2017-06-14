@@ -63,7 +63,10 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ```bash
 brew tap caskroom/cask
 brew cask install gimp
-brew cask google-chrome
+brew cask install google-chrome
+brew cask install alfred
+brew cask install flux
+brew cask install iterm2
 ```
 
 
