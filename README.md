@@ -68,6 +68,11 @@ brew cask install google-chrome
 brew cask install alfred
 brew cask install flux
 brew cask install iterm2
+brew cask install pusher
+brew cask install libreoffice
+brew cask install recordit
+brew cask install sourcetree
+brew cask install firefox
 ```
 
 
