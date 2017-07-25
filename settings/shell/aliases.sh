@@ -30,7 +30,6 @@ alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias ees='elasticsearch' # Execute Elastic Search
 alias gr='grep --color'
 alias s='subl .' #Sublime Open
-alias glp='gulp'
 alias frs='foreman start'
 alias frd='foreman start --procfile=Procfile-dev'
 alias rormem='bundle exec derailed bundle:mem'
@@ -58,7 +57,6 @@ alias grs='git reset --soft HEAD~1'
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gstat="git log --author="pawurb" --oneline --shortstat"
 
-
 function gm() { # Git Message: commit staged and quote all args as message
   git commit -m "$*"
 }
@@ -79,7 +77,6 @@ function gplb { # Git Publish Local Branch
   git push -u origin $1
 }
 
-
 #Shell
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
@@ -91,7 +88,6 @@ alias df='cd ~/.dotfiles'
 alias h='history'
 alias c='clear'
 alias re='source ~/.zshrc'
-alias ex='exit'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/swift' #iWork
 alias o='open'
@@ -113,12 +109,9 @@ alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs whe
 alias 'vi'='/usr/local/Cellar/vim/8.0.0636/bin/vim'
 alias 'vim'='/usr/local/Cellar/vim/8.0.0636/bin/vim'
 alias 'v'='/usr/local/Cellar/vim/8.0.0636/bin/vim'
-
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
 alias 'hc'='heroku run rails c'
 
 alias 'lac'='swiftlint autocorrect' # Lint Auto Correct
-
-

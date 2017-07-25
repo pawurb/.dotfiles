@@ -19,6 +19,5 @@ end
 alias ll loud_logger
 alias ql quiet_logger
 
-
 #turn on the logs by default
 IRB.conf[:IRB_RC] = Proc.new { loud_logger }
