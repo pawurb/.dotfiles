@@ -94,6 +94,7 @@ alias re='source ~/.zshrc'
 alias ex='exit'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/swift' #iWork
+alias o='open'
 
 alias pw='cd ~/Programming' #programming work
 alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
