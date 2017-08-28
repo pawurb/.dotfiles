@@ -91,6 +91,7 @@ alias re='source ~/.zshrc'
 alias v='vim'
 alias iw='cd ~/Programming/iOS/swift' #iWork
 alias o='open'
+alias pin='pod install'
 
 alias pw='cd ~/Programming' #programming work
 alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
@@ -113,5 +114,4 @@ alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
 alias 'hc'='heroku run rails c'
-
 alias 'lac'='swiftlint autocorrect' # Lint Auto Correct
