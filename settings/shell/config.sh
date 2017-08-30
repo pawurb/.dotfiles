@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Plugins
-plugins=(gem zsh-syntax-highlighting z)
+plugins=(gem z)
 
 export PATH=$PATH:~/bin
 
