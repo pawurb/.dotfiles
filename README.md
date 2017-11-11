@@ -21,10 +21,10 @@ echo "[include]\n path = ~/.dotfiles/settings/git/config" > .gitconfig
 
 ```bash
 ln -s "~/.dotfiles/settings/sublime/key_mappings"
-"**/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+"~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
 
 ln -s "~/.dotfiles/settings/sublime/config"
-"**/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+"~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 ```
 
 
@@ -40,12 +40,14 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install vim
 brew cask install gimp
 brew cask install google-chrome
 brew cask install alfred
 brew cask install flux
 brew cask install iterm2
 brew cask install pusher
+brew cask install dropbox
 brew cask install libreoffice
 brew cask install recordit
 brew cask install sourcetree
@@ -56,6 +58,5 @@ brew cask install avibrazil-rdm
 ### Notes:
 
 * https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
-* https://packagecontrol.io/installation
 
 
