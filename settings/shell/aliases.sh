@@ -113,5 +113,6 @@ alias 'v'='/usr/local/Cellar/vim/8.0.1350/bin/vim'
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
+alias 'he'='heroku'
 alias 'hc'='heroku run rails c'
 alias 'lac'='swiftlint autocorrect' # Lint Auto Correct
