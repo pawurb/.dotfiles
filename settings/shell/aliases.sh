@@ -116,3 +116,5 @@ alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 alias 'he'='heroku'
 alias 'hc'='heroku run rails c'
 alias 'lac'='swiftlint autocorrect' # Lint Auto Correct
+
+alias 'jekyll-sync'='browser-sync start --proxy "localhost:4000" --files "_site/**/*"'
