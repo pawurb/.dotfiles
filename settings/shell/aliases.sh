@@ -35,6 +35,7 @@ alias frd='foreman start --procfile=Procfile-dev'
 alias rormem='bundle exec derailed bundle:mem'
 
 #Git
+alias gg='git'
 alias g='git status'
 alias gp='git push'
 alias gpshh='git push heroku master'
