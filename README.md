@@ -42,6 +42,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install vim
 brew install postgresql
+brew install go
 brew services start postgresql
 brew install heroku/brew/heroku
 brew cask install gimp
