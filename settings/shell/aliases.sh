@@ -119,3 +119,5 @@ alias 'hc'='heroku run rails c'
 alias 'lac'='swiftlint autocorrect' # Lint Auto Correct
 
 alias 'jekyll-sync'='browser-sync start --proxy "localhost:4000" --files "_site/**/*"'
+
+alias 'nnvm'='[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"'

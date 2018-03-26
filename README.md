@@ -57,6 +57,7 @@ brew cask install recordit
 brew cask install sourcetree
 brew cask install firefox
 brew cask install avibrazil-rdm
+brew cask install vlc
 
 gem install bundler
 gem install zeus
