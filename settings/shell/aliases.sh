@@ -120,4 +120,7 @@ alias 'lac'='swiftlint autocorrect' # Lint Auto Correct
 
 alias 'jekyll-sync'='browser-sync start --proxy "localhost:4000" --files "_site/**/*"'
 
-alias 'nnvm'='[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"'
+alias 'nnvm'='export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"'
+alias 'dokku'='bash $HOME/.dokku/contrib/dokku_client.sh'
+alias 'gpdk'='git push dokku master'
+
