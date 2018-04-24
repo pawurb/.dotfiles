@@ -1,5 +1,9 @@
 require 'rubygems'
 require 'pp'
+require 'irb/ext/save-history'
+
+IRB.conf[:SAVE_HISTORY] = 10000
+IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
 
 def clear
   system 'clear'
