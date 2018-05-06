@@ -6,13 +6,11 @@ def dbg msg
   p '!!!!!!!!!!!!!!!'
 end
 
-def tdbg
-  dbg self
-  self
-end
-
 class Object
   alias_method :bb, :byebug
-  alias_method :ne, :next
-  alias_method :co, :next
+
+  def tdbg
+    dbg self
+    self
+  end
 end
