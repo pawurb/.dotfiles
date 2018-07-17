@@ -71,6 +71,10 @@ function gdlb() { # Git Delete Local Branch
   git branch -d $1
 }
 
+function gddlb() { # Git Delete Local Branch
+  git branch -D $1
+}
+
 function gclb() { # Git Create Branch
   git checkout -b $1
 }
@@ -124,4 +128,9 @@ alias 'jekyll-sync'='browser-sync start --proxy "localhost:4000" --files "_site/
 alias 'nnvm'='export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"'
 alias 'dokku'='bash $HOME/.dokku/contrib/dokku_client.sh'
 alias 'gpdk'='git push dokku master'
+alias 'jj'='jekyll serve --watch'
+alias 'rb'='rubocop'
+
+
+
 
