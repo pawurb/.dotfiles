@@ -132,6 +132,7 @@ alias 'dokku'='bash $HOME/.dokku/contrib/dokku_client.sh'
 alias 'gpdk'='git push dokku master'
 alias 'jj'='jekyll serve --watch'
 alias 'rb'='rubocop'
+alias 'yi'='yarn install'
 
 
 
