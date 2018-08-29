@@ -134,6 +134,8 @@ alias 'jj'='jekyll serve --watch'
 alias 'rb'='rubocop'
 alias 'yi'='yarn install'
 
+alias ping='prettyping --nolegend'
+alias cat='bat'
 
 
 
