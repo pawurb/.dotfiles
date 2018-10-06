@@ -140,6 +140,5 @@ alias cat='bat'
 alias br='bin/r_server'
 alias bw='bin/webpack-dev-server'
 
-
-
+alias drc='dokku run rails c'
 
