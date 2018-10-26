@@ -13,6 +13,7 @@ alias tdbd='RAILS_ENV=test bundle exec rake db:drop'
 alias tdbc='RAILS_ENV=test bundle exec rake db:create'
 alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db:seed' # Database from scratch
 alias rs='bin/rspec'
+alias ss='spring server'
 alias rss='bundle exec rspec'
 alias zs='zeus start'
 alias zz='rm .zeus.sock & zeus start' #Zrestart Zeus
