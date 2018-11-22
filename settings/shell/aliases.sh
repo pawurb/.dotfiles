@@ -134,6 +134,7 @@ alias 'gpdk'='git push dokku master'
 alias 'jj'='jekyll serve --watch'
 alias 'rb'='rubocop'
 alias 'yi'='yarn install'
+alias 'ni'='npm install'
 
 alias ping='prettyping --nolegend'
 alias cat='bat'
