@@ -145,3 +145,5 @@ alias bw='bin/webpack-dev-server'
 alias drc='dokku run rails c'
 alias gh='git checkout'
 
+alias syncdev='git checkout master && git pull && git checkout develop && git rebase master && git push --force'
+
