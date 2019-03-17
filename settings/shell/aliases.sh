@@ -13,7 +13,7 @@ alias tdbd='RAILS_ENV=test bundle exec rake db:drop'
 alias tdbc='RAILS_ENV=test bundle exec rake db:create'
 alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db:seed' # Database from scratch
 alias rs='bin/rspec'
-alias ss='spring stop && spring server'
+alias ss='bundle exec spring stop && bundle exec spring server'
 alias rss='bundle exec rspec'
 alias rds='redis-server'
 alias el='elasticsearch'
@@ -138,4 +138,8 @@ alias bw='bin/webpack-dev-server'
 
 alias drc='dokku run rails c'
 alias gh='git checkout'
+
+# tmux stuff
+
+alias tm='tmux new'
 
