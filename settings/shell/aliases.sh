@@ -110,9 +110,9 @@ alias mkdir='mkdir -pv'
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
 
-alias 'vi'='/usr/local/Cellar/vim/8.1.0550/bin/vim'
-alias 'vim'='/usr/local/Cellar/vim/8.1.0550/bin/vim'
-alias 'v'='/usr/local/Cellar/vim/8.1.0550/bin/vim'
+alias 'vi'='/usr/local/Cellar/vim/8.1.1000/bin/vim'
+alias 'vim'='/usr/local/Cellar/vim/8.1.1000/bin/vim'
+alias 'v'='/usr/local/Cellar/vim/8.1.1000/bin/vim'
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
