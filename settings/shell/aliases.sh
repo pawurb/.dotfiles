@@ -141,5 +141,7 @@ alias gh='git checkout'
 
 # tmux stuff
 
-alias tm='tmux new'
+alias t='tmux'
+alias tm='tmux attach-session -t root || tmux new-session -s root'
+
 
