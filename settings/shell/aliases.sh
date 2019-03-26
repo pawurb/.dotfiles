@@ -84,7 +84,6 @@ function gplb { # Git Publish Local Branch
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
 alias pd='cd -' #Previous Directory
-alias dd='echo $PWD' #Display Directory
 alias la='ls -a' #List All
 alias ll='ls -GAlh' #Long List
 alias df='cd ~/.dotfiles'
@@ -143,5 +142,8 @@ alias gh='git checkout'
 
 alias t='tmux'
 alias tm='tmux attach-session -t root || tmux new-session -s root'
+
+alias dd='docker'
+alias ddc='docker-compose'
 
 

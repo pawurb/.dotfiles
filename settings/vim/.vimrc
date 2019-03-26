@@ -36,7 +36,8 @@ map <C-c> :bd<CR>
 nnoremap <C-]> :bnext<CR>
 " noremap <C-[> :bprev<CR>
 
-
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_match_window_reversed = 0
@@ -113,7 +114,6 @@ function! WordCount()
 endfunction
 
 " always display status line
-set statusline=wc:%{WordCount()}
 set laststatus=2
 
 
