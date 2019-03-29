@@ -15,10 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'jpo/vim-railscasts-theme'
 Plugin 'scrooloose/nerdTree'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tpope/vim-rails'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'ap/vim-buftabline'
+"Plugin 'ap/vim-buftabline'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-commentary'
 
@@ -30,23 +27,17 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
-map <C-c> :bd<CR>
-
 
 nnoremap <C-]> :bnext<CR>
-" noremap <C-[> :bprev<CR>
+"noremap <C-[> :bprev<CR>
 
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,node_modules
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_working_path_mode = 0
-let g:ctrlp_match_window_reversed = 0
+let g:ctrlp_split_window = 1
+"let g:ctrlp_match_window_reversed = 0
 map <silent> <C-p> :CtrlP
-
-let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_exit_from_insert_mode = 0
-let g:multi_cursor_next_key='<C-d>'
-let g:multi_cursor_quit_key='<Esc>'
 
 
 " Key mappings
@@ -115,5 +106,6 @@ endfunction
 
 " always display status line
 set laststatus=2
+set t_RV=
 
 
