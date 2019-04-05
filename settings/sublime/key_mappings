@@ -7,6 +7,7 @@
   ]
 },
 { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
+{ "keys": ["super+j"], "command": "goto_definition" },
 { "keys": ["super+b"], "command": "toggle_side_bar" },
 
 { "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"} },
@@ -18,5 +19,17 @@
 { "keys": ["alt+shift+]"], "command": "next_view_in_stack" },
 { "keys": ["alt+shift+["], "command": "prev_view_in_stack" },
 { "keys": ["super+e"], "command": "refresh_folder_list" },
-{ "keys": ["super+."], "command": "copy_path" }
+{ "keys": ["super+."], "command": "copy_path" },
+{ "keys": ["alt+f"], "command": "toggle_distraction_free" },
+{ "keys": ["super+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
+{ "keys": ["super+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
+{ "keys": ["super+shift+3"], "command": "move_to_group", "args": { "group": 2 } },
+{ "keys": ["super+shift+4"], "command": "move_to_group", "args": { "group": 3 } },
+{ "keys": ["super+shift+5"], "command": "move_to_group", "args": { "group": 4 } },
+{ "keys": ["super+shift+6"], "command": "move_to_group", "args": { "group": 5 } },
+{ "keys": ["super+shift+7"], "command": "move_to_group", "args": { "group": 6 } },
+{ "keys": ["super+shift+8"], "command": "move_to_group", "args": { "group": 7 } },
+{ "keys": ["super+shift+9"], "command": "move_to_group", "args": { "group": 8 } },
+
 ]
+

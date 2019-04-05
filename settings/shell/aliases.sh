@@ -135,7 +135,7 @@ alias cat='bat'
 alias br='bin/r_server'
 alias bw='bin/webpack-dev-server'
 
-alias drc='dokku run rails c'
+alias drc='dokku --rm run rails c'
 alias gh='git checkout'
 
 # tmux stuff

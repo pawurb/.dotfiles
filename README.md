@@ -65,6 +65,13 @@ gem install cocoapods
 pod setup
 ```
 
+### Sublime Text config
+
+https://packagecontrol.io/packages/Open%20Search%20Result
+https://github.com/sporto/rails_go_to_spec
+https://packagecontrol.io/packages/PackageResourceViewer
+https://github.com/NeoVintageous/NeoVintageous/issues/342#issuecomment-472904598
+
 ### Notes:
 
 * https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
