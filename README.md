@@ -71,8 +71,6 @@ https://packagecontrol.io/packages/Open%20Search%20Result
 https://github.com/sporto/rails_go_to_spec
 https://packagecontrol.io/packages/PackageResourceViewer
 https://github.com/NeoVintageous/NeoVintageous/issues/342#issuecomment-472904598
-https://packagecontrol.io/packages/Better%20Close%20Window
-https://discussions.apple.com/thread/8251004
 
 ### Notes:
 

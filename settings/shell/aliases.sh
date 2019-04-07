@@ -1,8 +1,10 @@
 #RoR
+
 alias bu='bundle'
 alias es='rails s' #Execute Server
 alias ei='irb' #Execute IRB
 alias ec='rails c' #Execute Console
+
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias dbm='bundle exec rake db:migrate'
