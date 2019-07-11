@@ -148,4 +148,10 @@ alias tm='tmux attach-session -t root || tmux new-session -s root'
 alias dd='docker'
 alias ddc='docker-compose'
 
+alias mo='z motimate'
+alias pa='z pawel'
+alias ao='z abot'
+alias ddu='docker-compose up -d'
+alias dds='docker-compose stop'
+
 
