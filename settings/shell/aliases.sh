@@ -127,7 +127,7 @@ alias 'nnvm'='export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_
 alias 'dokku'='bash $HOME/.dokku/contrib/dokku_client.sh'
 alias 'gpdk'='git push dokku master'
 alias 'jj'='bundle exec jekyll serve --watch'
-alias 'rb'='rubocop'
+alias 'rb'='bundle exec rubocop'
 alias 'yi'='yarn install'
 alias 'ni'='npm install'
 
