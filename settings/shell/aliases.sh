@@ -133,7 +133,6 @@ alias 'yi'='yarn install'
 alias 'ni'='npm install'
 
 alias ping='prettyping --nolegend'
-alias cat='bat'
 
 alias br='bin/r_server'
 alias bw='bin/webpack-dev-server'
