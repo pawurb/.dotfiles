@@ -51,6 +51,7 @@ alias gpr='git remote update --prune' # Git Prune: update list of remote branche
 alias gbr='git branch -a'
 alias gms='git checkout master'
 alias gdv='git checkout develop'
+alias gcs='git checkout staging'
 alias gca='git commit --amend'
 alias grc='git rebase --continue'
 alias gcm='git commit'
