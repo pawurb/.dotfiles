@@ -6,6 +6,7 @@
 [alias]
   ch = checkout
   re = rebase
+  me = merge
 [push]
   default = tracking
 [color]
