@@ -6,15 +6,41 @@
   "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
   "detect_indentation": false,
   "ensure_newline_at_eof_on_save": true,
+  "show_definitions": false,
+  "file_exclude_patterns":
+  [
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj",
+    "*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    ".DS_Store",
+    "*.class",
+    "*.psd",
+    "*.db",
+    "*.sublime-workspace",
+    "*.cache",
+    ".byebug_history"
+  ],
   "folder_exclude_patterns":
   [
     "node_modules",
     "coverage",
-    ".git"
+    ".git",
+    "tmp"
   ],
-  "show_errors_inline": false,
   "font_face": "Hack Regular",
-  "font_size": 16.0,
+  "font_size": 15.0,
   "highlight_line": true,
   "hot_exit": false,
   "ignored_packages":
@@ -23,6 +49,7 @@
   "mini_diff": false,
   "remember_open_files": false,
   "scroll_past_end": false,
+  "show_errors_inline": false,
   "show_git_status": false,
   "show_minimap": false,
   "spell_check": false,
