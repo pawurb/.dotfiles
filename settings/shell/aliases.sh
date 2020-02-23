@@ -135,7 +135,7 @@ alias 'ni'='npm install'
 
 alias ping='prettyping --nolegend'
 
-alias br='bin/r_server'
+alias brr='bin/r_server'
 alias bw='bin/webpack-dev-server'
 
 alias drc='dokku --rm run rails c'
