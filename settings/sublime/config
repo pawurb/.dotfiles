@@ -6,7 +6,6 @@
   "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
   "detect_indentation": false,
   "ensure_newline_at_eof_on_save": true,
-  "show_definitions": false,
   "file_exclude_patterns":
   [
     "*.pyc",
@@ -39,8 +38,13 @@
     ".git",
     "tmp"
   ],
+  "binary_file_patterns": [
+    "node_modules/", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip",
+    "_site/",
+    "_production/"
+  ],
   "font_face": "Hack Regular",
-  "font_size": 15.0,
+  "font_size": 15,
   "highlight_line": true,
   "hot_exit": false,
   "ignored_packages":
@@ -49,6 +53,7 @@
   "mini_diff": false,
   "remember_open_files": false,
   "scroll_past_end": false,
+  "show_definitions": false,
   "show_errors_inline": false,
   "show_git_status": false,
   "show_minimap": false,
