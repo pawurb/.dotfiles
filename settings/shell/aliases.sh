@@ -139,6 +139,7 @@ alias brr='bin/r_server'
 alias bw='bin/webpack-dev-server'
 
 alias drc='dokku --rm run rails c'
+alias hrc='heroku run rails c'
 alias gh='git checkout'
 
 # tmux stuff
@@ -152,7 +153,17 @@ alias ddc='docker-compose'
 alias mo='z motimate'
 alias pa='z pawel'
 alias ao='z abot'
+alias ma='z mabot'
 alias ddu='docker-compose up -d'
 alias dds='docker-compose stop'
 
+function mv() {
+  if [ "$#" -ne 1 ] || [ ! -f "$1" ]; then
+    command mv "$@"
+    return
+  fi
 
+  newfilename="$1"
+  vared newfilename
+  command mv -v -- "$1" "$newfilename"
+}

@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Plugins
-plugins=(gem z)
+plugins=(z)
 
 export PATH=$PATH:~/bin
 
