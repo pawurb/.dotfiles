@@ -59,6 +59,7 @@ alias gch='git checkout'
 alias grs='git reset --soft HEAD~1'
 alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gstat="git log --author="pawurb" --oneline --shortstat"
+alias gy="git branch | grep '^\*' | cut -d' ' -f2 | tr -d '\n' | pbcopy"
 
 function gm() { # Git Message: commit staged and quote all args as message
   git commit -m "$*"
