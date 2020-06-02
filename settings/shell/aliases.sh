@@ -63,6 +63,7 @@ alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%
 alias gstat="git log --author="pawurb" --oneline --shortstat"
 alias gy="git branch | grep '^\*' | cut -d' ' -f2 | tr -d '\n' | pbcopy"
 alias gb="git checkout -"
+alias gmb="git merge -"
 
 function gm() { # Git Message: commit staged and quote all args as message
   git commit -m "$*"
@@ -86,6 +87,10 @@ function gclb() { # Git Create Branch
 
 function gplb { # Git Publish Local Branch
   git push -u origin $1
+}
+
+function gpcb { # Git Publish Current Branch
+  git push -u origin $(git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3)
 }
 
 #Shell
