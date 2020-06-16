@@ -165,6 +165,7 @@ alias ao='z abot'
 alias ma='z mabot'
 alias ddu='docker-compose up -d'
 alias dds='docker-compose stop'
+alias ap='ansible-playbook'
 
 function mv() {
   if [ "$#" -ne 1 ] || [ ! -f "$1" ]; then
