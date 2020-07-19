@@ -104,17 +104,10 @@ alias h='history'
 alias c='clear'
 alias re='source ~/.zshrc'
 alias v='vim'
-alias iw='cd ~/Programming/iOS/swift' #iWork
 alias o='open'
 alias pin='pod install'
 
 alias pw='cd ~/Programming' #programming work
-alias nyan='nc -v nyancat.dakko.us 23' #nyan cat
-
-alias tte='termit pl en' # Translate to Polish
-alias ttp='termit en pl' # Translate to English
-alias ttf='termit en fr' # Translate to Francuski
-
 #overrides
 alias grep='grep --color=auto'
 alias mkdir='mkdir -pv'
@@ -128,9 +121,8 @@ alias 'v'='/usr/local/Cellar/vim/8.2.1200/bin/vim'
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
-alias 'he'='heroku'
-alias 'hc'='heroku run rails c'
-alias 'lac'='swiftlint autocorrect' # Lint Auto Correct
+alias he='heroku'
+alias hrc='heroku run rails c'
 
 alias 'jekyll-sync'='browser-sync start --proxy "localhost:4000" --files "_site/**/*"'
 
@@ -148,7 +140,6 @@ alias brr='bin/r_server'
 alias bw='bin/webpack-dev-server'
 
 alias drc='dokku --rm run rails c'
-alias hrc='heroku run rails c'
 alias gh='git checkout'
 
 # tmux stuff
@@ -159,7 +150,6 @@ alias tm='tmux attach-session -t root || tmux new-session -s root'
 alias dd='docker'
 alias ddc='docker-compose'
 
-alias mo='z motimate'
 alias pa='z pawel'
 alias ao='z abot'
 alias ma='z mabot'
