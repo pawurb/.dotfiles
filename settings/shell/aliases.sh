@@ -144,7 +144,6 @@ alias gh='git checkout'
 
 # tmux stuff
 
-alias t='tmux'
 alias tm='tmux attach-session -t root || tmux new-session -s root'
 
 alias dd='docker'
