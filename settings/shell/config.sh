@@ -46,4 +46,5 @@ export PATH="/usr/local/opt/node@6/bin:$PATH"
 
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export HOMEBREW_NO_ANALYTICS=1
+export ERL_AFLAGS="-kernel shell_history enabled"
 

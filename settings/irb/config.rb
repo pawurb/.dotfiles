@@ -4,6 +4,8 @@ require 'irb/ext/save-history'
 
 IRB.conf[:SAVE_HISTORY] = 10000
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
+IRB.conf[:AUTO_INDENT] = false
+IRB.conf[:USE_MULTILINE] = false
 
 def clear
   system 'clear'

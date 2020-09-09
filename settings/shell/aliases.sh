@@ -64,6 +64,7 @@ alias gstat="git log --author="pawurb" --oneline --shortstat"
 alias gy="git branch | grep '^\*' | cut -d' ' -f2 | tr -d '\n' | pbcopy"
 alias gb="git checkout -"
 alias gmb="git merge -"
+alias pgd="curl https://wttr.in/Lodz"
 
 function gm() { # Git Message: commit staged and quote all args as message
   git commit -m "$*"
@@ -115,9 +116,9 @@ alias mkdir='mkdir -pv'
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
 
-alias 'vi'='/usr/local/Cellar/vim/8.2.1200/bin/vim'
-alias 'vim'='/usr/local/Cellar/vim/8.2.1200/bin/vim'
-alias 'v'='/usr/local/Cellar/vim/8.2.1200/bin/vim'
+alias 'vi'='/usr/local/Cellar/vim/8.2.1300/bin/vim'
+alias 'vim'='/usr/local/Cellar/vim/8.2.1300/bin/vim'
+alias 'v'='/usr/local/Cellar/vim/8.2.1300/bin/vim'
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
