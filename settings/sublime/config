@@ -40,8 +40,8 @@
   ],
   "binary_file_patterns": [
     "node_modules/", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip",
-    "_site/",
-    "_production/"
+    "_blog_development/",
+    "_blog_production/"
   ],
   "font_face": "Hack Regular",
   "font_size": 15,
