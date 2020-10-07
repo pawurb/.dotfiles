@@ -167,3 +167,5 @@ function mv() {
   vared newfilename
   command mv -v -- "$1" "$newfilename"
 }
+
+ alias python=/usr/local/bin/python3
