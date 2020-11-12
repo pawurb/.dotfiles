@@ -38,7 +38,7 @@ alias gp='git push'
 alias gpf='git push -f'
 alias grd='git rebase develop'
 alias gpshh='git push heroku master'
-alias gpstg='git push staging staging:master'
+alias gpstg='git push && git push staging staging:master'
 alias gpl='git pull'
 alias gst='git stash'
 alias gstp='git stash pop'
@@ -94,6 +94,11 @@ function gpcb { # Git Publish Current Branch
   git push -u origin $(git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3)
 }
 
+function kill_port {
+  lsof -ti tcp:$1 | xargs kill
+}
+
+
 #Shell
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
@@ -116,9 +121,7 @@ alias mkdir='mkdir -pv'
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
 
-alias 'vi'='/usr/local/Cellar/vim/8.2.1700/bin/vim'
-alias 'vim'='/usr/local/Cellar/vim/8.2.1700/bin/vim'
-alias 'v'='/usr/local/Cellar/vim/8.2.1700/bin/vim'
+alias 'vi'='vim'
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
