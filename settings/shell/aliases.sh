@@ -38,7 +38,7 @@ alias gp='git push'
 alias gpf='git push -f'
 alias grd='git rebase develop'
 alias gpshh='git push heroku master'
-alias gpstg='git push && git push staging staging:master'
+alias gpstg='git push -f && git push staging staging:master'
 alias gpl='git pull'
 alias gst='git stash'
 alias gstp='git stash pop'
@@ -95,7 +95,7 @@ function gpcb { # Git Publish Current Branch
 }
 
 function kill_port {
-  lsof -ti tcp:$1 | xargs kill
+  kill -9 $(lsof -t -i:$1)
 }
 
 
