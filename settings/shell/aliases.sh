@@ -5,6 +5,9 @@ alias es='rails s' #Execute Server
 alias ei='irb' #Execute IRB
 alias ec='rails c' #Execute Console
 
+# Elixir
+alias mt='mix test'
+
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias dbm='bundle exec rake db:migrate'
@@ -172,3 +175,8 @@ function mv() {
 }
 
  alias python=/usr/local/bin/python3
+
+# docker volume ls -q -f 'dangling=true' | xargs docker volume rm
+# docker rmi -f $(docker images -q -f dangling=true)
+
+alias hdv='cabal configure && cabal build && cabal v1-install'
