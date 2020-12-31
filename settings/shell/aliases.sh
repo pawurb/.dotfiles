@@ -180,3 +180,5 @@ function mv() {
 # docker rmi -f $(docker images -q -f dangling=true)
 
 alias hdv='cabal configure && cabal build && cabal v1-install'
+
+alias ph='z phong'

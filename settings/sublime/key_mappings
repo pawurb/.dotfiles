@@ -7,6 +7,7 @@
   ]
 },
 { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
+{ "keys": ["super+shift+h"], "command": "pretty_ruby_format" },
 { "keys": ["super+j"], "command": "goto_definition" },
 { "keys": ["super+b"], "command": "toggle_side_bar" },
 { "keys": ["super+shift+t"], "command": "reopen_last_file" },
@@ -15,7 +16,9 @@
 { "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } },
 { "keys": ["super+e"], "command": "refresh_folder_list" },
 { "keys": ["super+."], "command": "copy_path" },
+{ "keys": ["super+l"], "command": "copy_filepath_with_line_numbers" },
 { "keys": ["alt+f"], "command": "toggle_distraction_free" },
 { "keys": ["super+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
 { "keys": ["super+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
+    { "keys": ["alt+`"], "command": "terminus_open" }
 ]

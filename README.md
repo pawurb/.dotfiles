@@ -71,6 +71,7 @@ https://packagecontrol.io/packages/Open%20Search%20Result
 https://github.com/sporto/rails_go_to_spec
 https://packagecontrol.io/packages/PackageResourceViewer
 https://github.com/NeoVintageous/NeoVintageous/issues/342#issuecomment-472904598
+https://github.com/NickHatBoecker/CopyFilepathWithLineNumbers
 
 ### Notes:
 
