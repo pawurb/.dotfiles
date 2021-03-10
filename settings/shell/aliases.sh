@@ -7,6 +7,7 @@ alias ec='rails c' #Execute Console
 
 # Elixir
 alias mt='mix test'
+alias el='z elixir'
 
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
@@ -19,9 +20,9 @@ alias tdbc='RAILS_ENV=test bundle exec rake db:create'
 alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db:seed' # Database from scratch
 alias rs='bin/rspec'
 alias ss='bundle exec spring stop && bundle exec spring server'
+alias rec='bundle exec spring stop && rails c'
 alias rss='bundle exec rspec'
 alias rds='redis-server'
-alias el='elasticsearch'
 alias sq='sidekiq'
 alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log' # Postgres
 alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Postgres Start
