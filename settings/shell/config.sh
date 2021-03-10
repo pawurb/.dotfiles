@@ -5,6 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 plugins=(z)
 
 export PATH=$PATH:~/bin
+export PATH=/usr/local/bin:$PATH
 
 DISABLE_CORRECTION="true"
 
