@@ -160,8 +160,8 @@ alias ddc='docker-compose'
 alias pa='z pawel'
 alias ao='z abot'
 alias ma='z mabot'
-alias ddu='docker-compose up -d'
-alias dds='docker-compose stop'
+alias ddu='docker compose up -d'
+alias dds='docker compose stop'
 alias ap='ansible-playbook'
 
 function mv() {
