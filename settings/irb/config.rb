@@ -13,7 +13,6 @@ end
 
 def info
   system "ruby -v"
-  system "rvm gemset list |grep '=>'"
 end
 
 def history
