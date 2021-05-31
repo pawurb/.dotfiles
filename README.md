@@ -43,26 +43,20 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install vim
-brew install postgresql
-brew install go
-brew services start postgresql
 brew install heroku/brew/heroku
 brew cask install gimp
 brew cask install google-chrome
 brew cask install alfred
 brew cask install flux
 brew cask install iterm2
-brew cask install pusher
 brew cask install dropbox
 brew cask install libreoffice
 brew cask install recordit
-brew cask install sourcetree
 brew cask install firefox
 brew cask install avibrazil-rdm
 brew cask install vlc
 
 gem install bundler
-gem install zeus
 gem install cocoapods
 pod setup
 ```
