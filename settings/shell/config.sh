@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Plugins
-plugins=(z)
+plugins=(z zsh-vi-mode)
 
 . $HOME/.asdf/asdf.sh
 
@@ -10,6 +10,13 @@ export PATH=$PATH:~/bin
 export PATH=/usr/local/bin:$PATH
 
 DISABLE_CORRECTION="true"
+
+# zsh-vi-mode
+ZVM_VI_INSERT_ESCAPE_BINDKEY=kj
+ZVM_VI_HIGHLIGHT_FOREGROUND=#93a1a1
+ZVM_VI_HIGHLIGHT_BACKGROUND=#073642
+ZVM_VI_HIGHLIGHT_EXTRASTYLE=bold,underline   # bold and underline
+ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
 
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"

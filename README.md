@@ -17,6 +17,7 @@ echo "source ~/.dotfiles/settings/shell/main.sh" > .zshrc
 echo "require '~/.dotfiles/settings/irb/main.rb'" > .irbrc
 echo "source ~/.dotfiles/settings/vim/.vimrc" > .vimrc
 echo "[include]\n path = ~/.dotfiles/settings/git/config" > .gitconfig
+git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH/custom/plugins/zsh-vi-mode
 ```
 
 ```bash
