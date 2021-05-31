@@ -17,7 +17,6 @@ ZVM_VI_HIGHLIGHT_FOREGROUND=#93a1a1
 ZVM_VI_HIGHLIGHT_BACKGROUND=#073642
 ZVM_VI_HIGHLIGHT_EXTRASTYLE=bold,underline   # bold and underline
 ZVM_LINE_INIT_MODE=$ZVM_MODE_INSERT
-ZVM_INSERT_MODE_CURSOR=bbe # blinking beam
 
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
@@ -50,4 +49,7 @@ export PATH="/usr/local/opt/node@6/bin:$PATH"
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export HOMEBREW_NO_ANALYTICS=1
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
+
 
