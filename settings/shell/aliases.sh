@@ -134,7 +134,6 @@ alias hrc='heroku run rails c'
 
 alias 'jekyll-sync'='browser-sync start --proxy "localhost:4000" --files "_site/**/*"'
 
-alias 'nnvm'='export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"'
 alias 'dokku'='bash $HOME/.dokku/contrib/dokku_client.sh'
 alias 'gpdk'='git push dokku master'
 alias 'jj'='bundle exec jekyll serve --watch'
