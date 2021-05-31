@@ -79,5 +79,3 @@ https://github.com/NickHatBoecker/CopyFilepathWithLineNumbers
 
 * https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
 * https://www.howtoforge.com/tutorial/how-to-setup-automatic-security-updates-on-ubuntu-1604/
-
-
