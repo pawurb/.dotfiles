@@ -5,6 +5,7 @@ set smartcase
 set number
 set nocompatible
 set clipboard=unnamed
+noremap y "*y
 
 " Vundle
 filetype off
@@ -107,5 +108,4 @@ endfunction
 " always display status line
 set laststatus=2
 set t_RV=
-
 
