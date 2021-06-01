@@ -5,7 +5,6 @@ set smartcase
 set number
 set nocompatible
 set clipboard=unnamed
-noremap y "*y
 
 " Vundle
 filetype off
