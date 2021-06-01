@@ -6,6 +6,10 @@ set number
 set nocompatible
 set clipboard=unnamed
 
+let &t_SI.="\e[5 q" "SI = INSERT mode
+let &t_SR.="\e[4 q" "SR = REPLACE mode
+let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
+
 " Vundle
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
