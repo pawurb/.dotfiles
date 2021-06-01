@@ -31,13 +31,9 @@ setopt rmstarsilent
 
 source $ZSH/oh-my-zsh.sh
 
-#add karma executable
-export PATH="$PATH:/usr/local/lib/node_modules/karma/bin"
-
 # set encoding
 export LANG=en_US.UTF-8
 
-# for shelly stuff
 export EDITOR=vi
 
 #Java?
@@ -45,10 +41,8 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Ho
 
 eval "$(direnv hook zsh)"
 
-export PATH="/usr/local/opt/node@6/bin:$PATH"
-
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export HOMEBREW_NO_ANALYTICS=1
 export ERL_AFLAGS="-kernel shell_history enabled"
 
-zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh' "bindkey '^[fzf' fzf-history-widget")
+zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh' "bindkey '^[fzf' fzf-history-widget" "bindkey '^[[A' up-line-or-search" "bindkey '^[[B' down-line-or-search")
