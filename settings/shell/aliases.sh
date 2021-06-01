@@ -179,6 +179,8 @@ function mv() {
 # docker volume ls -q -f 'dangling=true' | xargs docker volume rm
 # docker rmi -f $(docker images -q -f dangling=true)
 
-alias hdv='cabal configure && cabal build && cabal v1-install'
-
 alias ph='z phong'
+
+# ETH
+
+alias tt='truffle'
