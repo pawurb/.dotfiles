@@ -45,4 +45,9 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export HOMEBREW_NO_ANALYTICS=1
 export ERL_AFLAGS="-kernel shell_history enabled"
 
-zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh' "bindkey '^[fzf' fzf-history-widget" "bindkey '^[[A' up-line-or-search" "bindkey '^[[B' down-line-or-search")
+zvm_after_init_commands+=(
+  "[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh"
+  "bindkey '^[fzf' fzf-history-widget"
+  "bindkey '^[[A' up-line-or-search"
+  "bindkey '^[[B' down-line-or-search"
+)
