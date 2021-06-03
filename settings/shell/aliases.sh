@@ -185,4 +185,6 @@ alias ph='z phong'
 # ETH
 
 alias tt='truffle'
-alias ttt='truffle test'
+alias ttt='truffle compile && truffle test --compile-none'
+alias ttn='truffle test --compile-none'
+alias ttc='truffle compile'

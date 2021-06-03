@@ -63,6 +63,10 @@ gem install cocoapods
 pod setup
 ```
 
+## Snippets directory
+
+`~/Library/Application Support/Sublime Text 3/Packages/User`
+
 ### Sublime Text config
 
 https://packagecontrol.io/packages/Open%20Search%20Result

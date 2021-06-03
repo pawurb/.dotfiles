@@ -2,6 +2,6 @@
   <content><![CDATA[
 console.log(${1:Message});
 ]]></content>
-  <tabTrigger>log</tabTrigger>
+  <tabTrigger>logg</tabTrigger>
   <scope>source.js</scope>
 </snippet>
