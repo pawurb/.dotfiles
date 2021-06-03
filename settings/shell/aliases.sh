@@ -160,6 +160,7 @@ alias pa='z pawel'
 alias ao='z abot'
 alias ma='z mabot'
 alias ddu='docker compose up -d'
+alias dduf='docker compose up' # docker compose up foreground
 alias dds='docker compose stop'
 alias ap='ansible-playbook'
 
@@ -184,3 +185,4 @@ alias ph='z phong'
 # ETH
 
 alias tt='truffle'
+alias ttt='truffle test'
