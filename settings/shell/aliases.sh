@@ -185,6 +185,6 @@ alias ph='z phong'
 # ETH
 
 alias tt='truffle'
-alias ttt='truffle compile && truffle test --compile-none'
-alias ttn='truffle test --compile-none'
+alias ttt='mocha --timeout 10000 --exit --recursive'
+alias tttt='truffle compile && mocha --timeout 10000 --exit --recursive'
 alias ttc='truffle compile'
