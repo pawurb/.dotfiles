@@ -179,7 +179,11 @@ function mv() {
   command mv -v -- "$1" "$newfilename"
 }
 
- alias python=/usr/local/bin/python3
+function kill_pg() {
+  kill -9 $(lsof -t -i:5432)
+}
+
+alias python=/usr/local/bin/python3
 
 # docker volume ls -q -f 'dangling=true' | xargs docker volume rm
 # docker rmi -f $(docker images -q -f dangling=true)
