@@ -47,20 +47,17 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 brew install vim
 brew install heroku/brew/heroku
 brew cask install gimp
-brew cask install google-chrome
+brew cask install brave-browser
 brew cask install alfred
 brew cask install flux
 brew cask install iterm2
 brew cask install dropbox
 brew cask install libreoffice
-brew cask install recordit
 brew cask install firefox
 brew cask install avibrazil-rdm
 brew cask install vlc
 
 gem install bundler
-gem install cocoapods
-pod setup
 ```
 
 ## Snippets directory
