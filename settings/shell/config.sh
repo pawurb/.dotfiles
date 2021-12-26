@@ -8,6 +8,7 @@ plugins=(z zsh-vi-mode)
 
 export PATH=$PATH:~/bin
 export PATH=/usr/local/bin:$PATH
+export PATH=$PATH:/usr/local/sbin
 
 DISABLE_CORRECTION="true"
 

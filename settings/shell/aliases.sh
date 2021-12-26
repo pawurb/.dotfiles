@@ -193,12 +193,12 @@ alias ph='z phong'
 # ETH
 
 alias tt='truffle'
+alias hh='npx hardhat'
 alias ttt='mocha --timeout 10000 --exit --recursive'
 alias tttt='truffle compile && mocha --timeout 10000 --exit --recursive'
 alias ttc='truffle compile'
 
 alias sl='screen -list'
 alias sr='screen -r'
-alias hh='npx hardhat'
 alias nrt='npm run test'
 alias tre='tenderly export'
