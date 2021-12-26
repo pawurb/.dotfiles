@@ -7,7 +7,6 @@ Features:
 * ruby and rails console customization, useful methods, and aliases
 * git autocompletion and prompt customization
 * vim and sublime text settings
-* [Termit](https://github.com/pawurb/termit) gem integration
 
 ### Usage
 
@@ -43,19 +42,18 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install vim
 brew install heroku/brew/heroku
-brew cask install gimp
-brew cask install brave-browser
-brew cask install alfred
-brew cask install flux
-brew cask install iterm2
-brew cask install dropbox
-brew cask install libreoffice
-brew cask install firefox
-brew cask install avibrazil-rdm
-brew cask install vlc
+brew install --cask gimp
+brew install --cask brave-browser
+brew install --cask alfred
+brew install --cask flux
+brew install --cask iterm2
+brew install --cask dropbox
+brew install --cask libreoffice
+brew install --cask firefox
+brew install --cask vlc
 
 gem install bundler
 ```
