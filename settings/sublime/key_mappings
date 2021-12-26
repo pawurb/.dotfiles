@@ -20,5 +20,5 @@
 { "keys": ["alt+f"], "command": "toggle_distraction_free" },
 { "keys": ["super+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
 { "keys": ["super+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
-    { "keys": ["alt+`"], "command": "terminus_open" }
+{ "keys": ["alt+`"], "command": "terminus_open" }
 ]

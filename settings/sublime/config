@@ -1,6 +1,31 @@
 {
   "auto_complete_commit_on_tab": true,
   "autosave": false,
+  "binary_file_patterns":
+  [
+    "node_modules/",
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.ttf",
+    "*.tga",
+    "*.dds",
+    "*.ico",
+    "*.eot",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip",
+    "*.beam",
+    "_blog_development/",
+    "_blog_production/",
+    "_blog_ipfs/",
+    "varlogs/",
+    "_build/",
+    "build/",
+    "deps/"
+  ],
   "block_caret": false,
   "bold_folder_labels": true,
   "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
@@ -38,11 +63,6 @@
     ".git",
     "tmp"
   ],
-  "binary_file_patterns": [
-    "node_modules/", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip",
-    "_blog_development/",
-    "_blog_production/"
-  ],
   "font_face": "Hack Regular",
   "font_size": 15,
   "highlight_line": true,
@@ -63,5 +83,5 @@
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "vintage_start_in_command_mode": true,
-  "word_wrap": true
+  "word_wrap": true,
 }
