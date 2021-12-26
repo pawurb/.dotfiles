@@ -20,7 +20,7 @@ echo "[include]\n path = ~/.dotfiles/settings/git/config" > .gitconfig
 git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH/custom/plugins/zsh-vi-mode
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
 ```
 
 ```bash
