@@ -47,8 +47,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone git@github.com:dokku/dokku.git ~/.dokku
+brew install vim
 brew install heroku/brew/heroku
 brew install postgresql
 brew install libsodium
