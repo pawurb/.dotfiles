@@ -11,6 +11,7 @@ Features:
 ### Usage
 
 ```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "gem: --no-document" > .gemrc
 echo "source ~/.dotfiles/settings/shell/main.sh" > .zshrc
 echo "require '~/.dotfiles/settings/irb/main.rb'" > .irbrc
@@ -20,6 +21,9 @@ git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH/custom/plugins/zsh-vi-m
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
+asdf plugin-add nodejs
+asdf plugin-add yarn
 ```
 
 ```bash
@@ -44,7 +48,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 brew install heroku/brew/heroku
+brew install postgresql
 brew install --cask gimp
 brew install --cask brave-browser
 brew install --cask alfred
@@ -54,8 +60,14 @@ brew install --cask dropbox
 brew install --cask libreoffice
 brew install --cask firefox
 brew install --cask vlc
+brew install --cask sublime-text
+brew install --cask docker
+```
 
-gem install bundler
+In vim:
+
+```bash
+:PluginInstall
 ```
 
 ## Snippets directory
