@@ -51,6 +51,10 @@ brew install vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 brew install heroku/brew/heroku
 brew install postgresql
+brew install libsodium
+brew install ansible
+brew install awscli
+brew install --cask session-manager-plugin
 brew install --cask gimp
 brew install --cask brave-browser
 brew install --cask alfred
