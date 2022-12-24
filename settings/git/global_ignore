@@ -4,3 +4,6 @@ bower_components/
 npm-debug.log
 /Pods
 dump.rdb
+docker-compose.yml
+.env.development.database
+.tool-versions

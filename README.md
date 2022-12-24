@@ -24,6 +24,7 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
 asdf plugin-add nodejs
 asdf plugin-add yarn
+asdf plugin-add solidity
 ```
 
 ```bash

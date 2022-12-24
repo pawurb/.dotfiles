@@ -29,6 +29,11 @@ alias h history
 Hirb.disable if defined? Hirb #I don't like Hirb
 
 class Object
+  def tdbg
+    dbg self
+    self
+  end
+
   def inheritance_chain
     self.class.ancestors - self.class.included_modules
   end
@@ -53,6 +58,22 @@ def dbg msg
   p '!!!!!!!!!!!!!!!!!!'
   p msg
   p '!!!!!!!!!!!!!!!!!!'
+end
+
+def dbg_to_file(text, filename = "tmp/dbg.txt")
+  File.open(filename, "w") { |f| f.write text }
+end
+
+def ppp(json)
+  puts JSON.pretty_generate(json)
+end
+
+def measure_time(&block)
+  starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  block.call
+  ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  elapsed = ending - starting
+  puts elapsed
 end
 
 #startup commands

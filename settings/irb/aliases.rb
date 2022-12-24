@@ -14,3 +14,15 @@ class Object
     self
   end
 end
+
+def ppp(json)
+  puts JSON.pretty_generate(json)
+end
+
+def measure_time(&block)
+  starting = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  block.call
+  ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  elapsed = ending - starting
+  puts elapsed
+end

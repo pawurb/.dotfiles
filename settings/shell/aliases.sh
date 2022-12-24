@@ -18,7 +18,7 @@ alias tdbm='RAILS_ENV=test bundle exec rake db:migrate'
 alias tdbd='RAILS_ENV=test bundle exec rake db:drop'
 alias tdbc='RAILS_ENV=test bundle exec rake db:create'
 alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db:seed' # Database from scratch
-alias rs='bin/rspec'
+alias rs='bundle exec rspec'
 alias ss='bundle exec spring stop && bundle exec spring server'
 alias rec='bundle exec spring stop && rails c'
 alias rss='bundle exec rspec'
