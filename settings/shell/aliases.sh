@@ -11,6 +11,8 @@ alias el='z elixir'
 
 alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
+alias brc='bundle exec rails console'
+alias brs='bundle exec rails server'
 alias dbm='bundle exec rake db:migrate'
 alias dbd='bundle exec rake db:drop'
 alias dbc='bundle exec rake db:create'
