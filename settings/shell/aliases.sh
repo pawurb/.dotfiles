@@ -58,6 +58,7 @@ alias gdl='git diff HEAD~1 --word-diff'
 alias gpr='git remote update --prune' # Git Prune: update list of remote branches
 alias gbr='git branch -a'
 alias gms='git checkout master'
+alias gmm='git checkout my_setup'
 alias gdv='git checkout develop'
 alias gcs='git checkout staging'
 alias gca='git commit --amend'

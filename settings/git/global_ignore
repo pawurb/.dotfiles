@@ -7,3 +7,4 @@ dump.rdb
 docker-compose.yml
 .env.development.database
 .tool-versions
+.envrc
