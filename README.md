@@ -20,7 +20,7 @@ echo "[include]\n path = ~/.dotfiles/settings/git/config" > .gitconfig
 git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH/custom/plugins/zsh-vi-mode
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.9.0
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.1
 asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
 asdf plugin-add nodejs
 asdf plugin-add yarn
@@ -56,17 +56,21 @@ brew install postgresql
 brew install libsodium
 brew install ansible
 brew install awscli
+brew install direnv
+brew install gnupg
+brew install gnu-tar
+brew install pyenv
 brew install --cask session-manager-plugin
 brew install --cask gimp
 brew install --cask brave-browser
 brew install --cask alfred
-brew install --cask flux
 brew install --cask iterm2
 brew install --cask dropbox
 brew install --cask libreoffice
 brew install --cask firefox
 brew install --cask vlc
 brew install --cask sublime-text
+brew install --cask disk-inventory-x
 brew install --cask docker
 ```
 
