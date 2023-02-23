@@ -94,7 +94,7 @@ https://github.com/NickHatBoecker/CopyFilepathWithLineNumbers
 
 ### Notes:
 
-* https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
+* https://apple.stackexchange.com/questions/154292/iterm-going-one-word-backwards-and-forwards
 * https://www.howtoforge.com/tutorial/how-to-setup-automatic-security-updates-on-ubuntu-1604/
 * https://superuser.com/questions/349439/how-to-bind-command-key-in-zsh
 * https://www.icheft.tech/2020/08/12/Delete-a-word-and-a-line-in-iTerm2/
