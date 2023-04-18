@@ -25,6 +25,8 @@ asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
 asdf plugin-add nodejs
 asdf plugin-add yarn
 asdf plugin-add solidity
+asdf plugin-add elixir
+asdf plugin-add erlang
 ```
 
 ```bash

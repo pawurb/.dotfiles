@@ -15,6 +15,10 @@ def info
   system "ruby -v"
 end
 
+def re
+  reload!
+end
+
 def history
   puts Readline::HISTORY.to_a
 end

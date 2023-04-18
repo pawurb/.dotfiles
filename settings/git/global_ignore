@@ -8,3 +8,4 @@ docker-compose.yml
 .env.development.database
 .tool-versions
 .envrc
+.python-version
