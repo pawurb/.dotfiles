@@ -57,7 +57,15 @@ alias gds='git diff --staged --word-diff'
 alias gdl='git diff HEAD~1 --word-diff'
 alias gpr='git remote update --prune' # Git Prune: update list of remote branches
 alias gbr='git branch -a'
-alias gms='git checkout master'
+
+function gms() {
+  if [ `git rev-parse --verify main 2>/dev/null` ]
+    git checkout main
+  then
+    git checkout master
+  fi
+}
+
 alias gmm='git checkout my_setup'
 alias gdv='git checkout develop'
 alias gcs='git checkout staging'
@@ -144,8 +152,6 @@ alias 'rb'='bundle exec rubocop'
 alias 'yi'='yarn install'
 alias 'ni'='npm install'
 alias 'nr'='npm run'
-
-alias ping='prettyping --nolegend'
 
 alias brr='bin/r_server'
 alias bw='bin/webpack-dev-server'
