@@ -62,6 +62,7 @@ brew install direnv
 brew install gnupg
 brew install gnu-tar
 brew install pyenv
+brew install pinentry-mac
 brew install --cask session-manager-plugin
 brew install --cask gimp
 brew install --cask brave-browser

@@ -47,6 +47,7 @@ eval "$(direnv hook zsh)"
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export HOMEBREW_NO_ANALYTICS=1
 export ERL_AFLAGS="-kernel shell_history enabled"
+export GPG_TTY=$(tty)
 
 zvm_after_init_commands+=(
   "[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh"

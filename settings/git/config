@@ -1,6 +1,6 @@
 [user]
   name = pawurb
-  email = p.urbanek89@gmail.com
+  email = contact@pawelurbanek.com
 [credential]
   helper = osxkeychain
 [alias]
@@ -28,3 +28,5 @@
   excludesfile = ~/.dotfiles/settings/git/global_ignore
   editor = vim
   filemode = false
+[commit]
+  gpgsign = true
