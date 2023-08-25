@@ -202,9 +202,10 @@ alias ph='z phong'
 
 alias tt='truffle'
 alias hh='npx hardhat'
-alias ttt='mocha --timeout 10000 --exit --recursive'
-alias tttt='truffle compile && mocha --timeout 10000 --exit --recursive'
-alias ttc='truffle compile'
+alias hhc='npx hardhat compile'
+alias hhc='npx hardhat clean'
+alias hht='npx hardhat test'
+alias hhn='npx hardhat node'
 
 alias sl='screen -list'
 alias sr='screen -r'
