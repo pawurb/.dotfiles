@@ -60,8 +60,9 @@ alias gbr='git branch -a'
 
 function gms() {
   if [ `git rev-parse --verify main 2>/dev/null` ]
-    git checkout main
   then
+    git checkout main
+  else
     git checkout master
   fi
 }
