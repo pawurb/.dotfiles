@@ -25,4 +25,5 @@ def measure_time(&block)
   ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
   elapsed = ending - starting
   puts elapsed
+  elapsed
 end
