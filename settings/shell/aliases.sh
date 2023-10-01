@@ -170,7 +170,7 @@ alias ddc='docker-compose'
 alias pa='z pawel'
 alias ao='z abot'
 alias ma='z mabot'
-alias arb='z my-simple-arbi'
+alias arb='z new-simple-arbi'
 alias fla='z flashloan'
 alias pla='z playground'
 alias ddu='docker compose up -d'
@@ -200,13 +200,16 @@ alias ph='z phong'
 
 # ETH
 
-alias tt='truffle'
 alias hh='npx hardhat'
 alias hhc='npx hardhat compile'
 alias hhcc='npx hardhat clean'
 alias hht='npx hardhat test'
 alias hhtg='REPORT_GAS=true npx hardhat test'
 alias hhn='npx hardhat node'
+
+alias fb='forge build'
+alias ft='forge test -vvv'
+alias ftv='forge test -vvvvv'
 
 alias sl='screen -list'
 alias sr='screen -r'
