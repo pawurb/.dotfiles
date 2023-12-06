@@ -208,7 +208,7 @@ alias hhtg='REPORT_GAS=true npx hardhat test'
 alias hhn='npx hardhat node'
 
 alias fb='forge build'
-alias ft='forge test -vvv'
+alias ft='forge test -vvv --ffi'
 alias ftv='forge test -vvvvv'
 
 alias sl='screen -list'
