@@ -32,8 +32,8 @@ alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.
 alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias ees='elasticsearch' # Execute Elastic Search
 alias gr='grep --color'
-alias s='subl .' #Sublime Open
-alias co='code'
+alias s='code .' #VS Code Open
+alias cc='code'
 alias frs='foreman start'
 alias frd='foreman start --procfile=Procfile-dev'
 alias rormem='bundle exec derailed bundle:mem'

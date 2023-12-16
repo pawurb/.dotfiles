@@ -58,6 +58,14 @@
     },
     {
         "key": "cmd+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "cmd+,",
+        "command": "workbench.action.toggleStatusbarVisibility"
     }
 ]
