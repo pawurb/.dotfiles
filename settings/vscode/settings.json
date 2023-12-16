@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+    "vim.normalModeKeyBindingsNonRecursive": [],
+    "solidity.telemetry": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.autohide": true,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["k", "j"],
+            "after": ["<esc>"]
+        }
+    ],
+    "editor.fontSize": 13,
+    "files.autoSave": "off",
+    "files.autoSaveDelay": 2000,
+    "window.zoomLevel": 1,
+    "workbench.statusBar.visible": false
+}

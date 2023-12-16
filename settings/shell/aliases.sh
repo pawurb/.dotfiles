@@ -33,6 +33,7 @@ alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias ees='elasticsearch' # Execute Elastic Search
 alias gr='grep --color'
 alias s='subl .' #Sublime Open
+alias co='code'
 alias frs='foreman start'
 alias frd='foreman start --procfile=Procfile-dev'
 alias rormem='bundle exec derailed bundle:mem'
@@ -208,8 +209,10 @@ alias hhtg='REPORT_GAS=true npx hardhat test'
 alias hhn='npx hardhat node'
 
 alias fb='forge build'
-alias ft='forge test -vvv --ffi'
-alias ftv='forge test -vvvvv'
+alias ft="forge test -vvv --no-match-path 'test_forge/sims/*'"
+alias ftv="forge test -vvvvv --no-match-path 'test_forge/sims/*'"
+alias fta="forge test -vvv"
+alias ftav="forge test -vvv"
 
 alias sl='screen -list'
 alias sr='screen -r'
