@@ -1,10 +1,10 @@
 {
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "RailsCasts Theme",
     "vim.normalModeKeyBindingsNonRecursive": [],
     "solidity.telemetry": false,
     "editor.minimap.enabled": false,
     "editor.minimap.autohide": true,
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": "onlySelectedExtensions",
     "extensions.autoCheckUpdates": false,
     "vim.insertModeKeyBindings": [
         {
@@ -15,6 +15,15 @@
     "editor.fontSize": 13,
     "files.autoSave": "off",
     "files.autoSaveDelay": 2000,
-    "window.zoomLevel": 1,
-    "workbench.statusBar.visible": false
+    "git.enabled": false,
+    "editor.wordWrap": "on",
+    "typescript.validate.enable": false,
+    "json.validate.enable": false,
+    "javascript.validate.enable": false,
+    "search.useIgnoreFiles": false,
+    "vim.ignorecase": true,
+    "vim.useSystemClipboard": true,
+    "editor.fontFamily": "Hack Regular, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden"
 }
