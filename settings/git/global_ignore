@@ -6,6 +6,10 @@ npm-debug.log
 dump.rdb
 docker-compose.yml
 .env.development.database
+.env
+.env.development
+.env.test
+.env.production
 .tool-versions
 .envrc
 .python-version
