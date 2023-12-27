@@ -7,6 +7,7 @@ plugins=(z zsh-vi-mode)
 . $HOME/.asdf/asdf.sh
 
 eval "$(pyenv init --path)"
+source "$HOME/.cargo/env"
 
 export PATH=$PATH:~/bin
 export PATH=/usr/local/bin:$PATH

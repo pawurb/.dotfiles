@@ -218,3 +218,9 @@ alias sl='screen -list'
 alias sr='screen -r'
 alias nrt='npm run test'
 alias tre='tenderly export'
+
+# rust
+
+alias cr='cargo run'
+alias cb='cargo build'
+alias ct='cargo test -- --nocapture'
