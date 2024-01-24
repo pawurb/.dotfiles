@@ -13,3 +13,4 @@ docker-compose.yml
 .tool-versions
 .envrc
 .python-version
+.vscode/
