@@ -4,12 +4,19 @@
     "solidity.telemetry": false,
     "editor.minimap.enabled": false,
     "editor.minimap.autohide": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
     "extensions.autoUpdate": "onlySelectedExtensions",
     "extensions.autoCheckUpdates": false,
     "vim.insertModeKeyBindings": [
         {
-            "before": ["k", "j"],
-            "after": ["<esc>"]
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<esc>"
+            ]
         }
     ],
     "editor.fontSize": 13,
@@ -22,8 +29,33 @@
     "javascript.validate.enable": false,
     "search.useIgnoreFiles": false,
     "vim.ignorecase": true,
-    "vim.useSystemClipboard": true,
+    "vim.useSystemClipboard": false,
     "editor.fontFamily": "Hack Regular, Menlo, Monaco, 'Courier New', monospace",
+    "extensions.ignoreRecommendations": true,
+    "editor.occurrencesHighlight": "off",
+    "editor.formatOnSave": true,
+    "rust-analyzer.lens.enable": false,
+    "rust-analyzer.rustfmt.extraArgs": [
+        "+nightly"
+    ],
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "rust-analyzer.check.overrideCommand": [
+        "cargo",
+        "+nightly",
+        "clippy",
+        "--all",
+        "--all-features",
+        "--message-format=json"
+    ],
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "workbench.activityBar.location": "hidden",
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.location": "hidden"
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+      "**/target": true,
+    }
 }
