@@ -12,5 +12,6 @@ docker-compose.yml
 .env.production
 .tool-versions
 .envrc
+.env-remote
 .python-version
 .vscode/

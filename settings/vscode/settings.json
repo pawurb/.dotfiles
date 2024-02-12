@@ -51,11 +51,14 @@
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
     "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": false,
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
-        "**/*.code-search": true
-      "**/target": true,
-    }
+        "**/*.code-search": true,
+        "**/target": true
+    },
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#eee"
+    },
+    "workbench.statusBar.visible": false,
 }
