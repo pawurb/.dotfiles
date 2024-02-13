@@ -61,4 +61,6 @@
         "tab.activeBorder": "#eee"
     },
     "workbench.statusBar.visible": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.quickSuggestionsDelay": 200,
 }
