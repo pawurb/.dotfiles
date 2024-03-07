@@ -45,7 +45,7 @@
         "command": "workbench.panel.chat.view.copilot.focus"
     },
     {
-        "key": "cmd+;",
+        "key": "cmd+'",
         "command": "workbench.action.togglePanel"
     },
     {
@@ -53,7 +53,7 @@
         "command": "-workbench.action.togglePanel"
     },
     {
-        "key": "cmd+'",
+        "key": "cmd+;",
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
@@ -67,5 +67,29 @@
     {
         "key": "cmd+,",
         "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "cmd+y",
+        "command": "redo"
+    },
+    {
+        "key": "shift+cmd+z",
+        "command": "-redo"
+    },
+    {
+        // run all tests in current test file
+        "key": "shift+cmd+r",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "spring rspec ${relativeFile}\u000D"
+        }
+    },
+    {
+        // Run test at current line
+        "key": "shift+cmd+i",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "spring rspec ${relativeFile}:${lineNumber}\u000D"
+        }
     }
 ]
