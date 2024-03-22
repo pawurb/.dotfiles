@@ -75,6 +75,7 @@ brew install --cask vlc
 brew install --cask sublime-text
 brew install --cask disk-inventory-x
 brew install --cask docker
+brew install difftastic
 ```
 
 In vim:
