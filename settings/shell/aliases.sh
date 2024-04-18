@@ -53,7 +53,7 @@ alias gstd='git stash drop'
 alias gsp='git stash pop'
 alias ga='git add'
 alias gaa='git add . -A'
-alias gd='git diff --word-diff'
+alias gd='GIT_EXTERNAL_DIFF=difft git diff --ext-diff'
 alias gds='GIT_EXTERNAL_DIFF=difft git diff --staged --ext-diff'
 alias gdl='GIT_EXTERNAL_DIFF=difft git diff HEAD~1 --ext-diff'
 alias gpr='git remote update --prune' # Git Prune: update list of remote branches
