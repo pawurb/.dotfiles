@@ -128,6 +128,7 @@ alias c='clear'
 alias re='source ~/.zshrc'
 alias v='nvim'
 alias vim='nvim'
+alias vi='nvim'
 alias o='open'
 alias pin='pod install'
 
@@ -139,7 +140,6 @@ alias mkdir='mkdir -pv'
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
 
-alias 'vi'='vim'
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
