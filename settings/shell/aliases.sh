@@ -21,7 +21,6 @@ alias tdbd='RAILS_ENV=test bundle exec rake db:drop'
 alias tdbc='RAILS_ENV=test bundle exec rake db:create'
 alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db:seed' # Database from scratch
 alias rs='bundle exec rspec'
-alias ss='bundle exec spring stop && bundle exec spring server'
 alias rec='bundle exec spring stop && rails c'
 alias rss='bundle exec rspec'
 alias rds='redis-server'
@@ -33,6 +32,7 @@ alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias ees='elasticsearch' # Execute Elastic Search
 alias gr='grep --color'
 alias s='code .' #VS Code Open
+alias ss='subl .' #Sublime Text open
 alias cc='code'
 alias frs='foreman start'
 alias frd='foreman start --procfile=Procfile-dev'

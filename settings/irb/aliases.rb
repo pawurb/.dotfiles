@@ -27,3 +27,7 @@ def measure_time(&block)
   puts elapsed
   elapsed
 end
+
+def sql(query)
+  ApplicationRecord.connection.execute(query)
+end
