@@ -14,6 +14,7 @@ export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:~/.huff/bin
 
 DISABLE_CORRECTION="true"
+source "$HOME/.cargo/env"
 
 # zsh-vi-mode
 ZVM_VI_INSERT_ESCAPE_BINDKEY=kj
