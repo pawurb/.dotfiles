@@ -113,4 +113,122 @@
         "typeHierarchy": true
     },
     "workbench.statusBar.visible": false,
+    {
+        "workbench.colorTheme": "RailsCasts Theme",
+        "vim.normalModeKeyBindingsNonRecursive": [],
+        "editor.minimap.enabled": false,
+        "editor.minimap.autohide": true,
+        "editor.tabSize": 2,
+        "editor.detectIndentation": true,
+        "extensions.autoUpdate": false,
+        "extensions.autoCheckUpdates": false,
+        "vim.insertModeKeyBindings": [
+            {
+                "before": [
+                    "k",
+                    "j"
+                ],
+                "after": [
+                    "<esc>"
+                ]
+            }
+        ],
+        "editor.fontSize": 13,
+        "files.autoSave": "off",
+        "files.autoSaveDelay": 5000,
+        "git.enabled": true,
+        "editor.wordWrap": "on",
+        "typescript.validate.enable": false,
+        "json.validate.enable": false,
+        "javascript.validate.enable": false,
+        "search.useIgnoreFiles": false,
+        "vim.ignorecase": true,
+        "vim.useSystemClipboard": false,
+        "editor.fontFamily": "Hack Regular, Menlo, Monaco, 'Courier New', monospace",
+        "extensions.ignoreRecommendations": true,
+        "editor.occurrencesHighlight": "off",
+        "editor.formatOnSave": true,
+        "rust-analyzer.rustfmt.extraArgs": [
+            "+nightly"
+        ],
+        "editor.inlayHints.enabled": "offUnlessPressed",
+        "rust-analyzer.check.overrideCommand": [
+            "cargo",
+            "clippy",
+            "--all",
+            "--examples",
+            "--tests",
+            "--benches",
+            "--all-features",
+            "--message-format=json"
+        ],
+        "[rust]": {
+            "editor.defaultFormatter": "rust-lang.rust-analyzer"
+        },
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/*.code-search": true,
+            "**/target": true,
+            "/tmp/**": true,
+            "/tmp/git-blob**": true,
+        },
+        "workbench.colorCustomizations": {
+            "tab.activeBorder": "#eee"
+        },
+        "editor.wordBasedSuggestions": "off",
+        "editor.quickSuggestionsDelay": 500,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "files.associations": {
+            ".env-remote": "shellscript",
+            "*.toml": "toml",
+            ".env-remote-reth": "ignore"
+        },
+        "workbench.startupEditor": "none",
+        "editor.quickSuggestions": {
+            "other": "off",
+            "comments": "off",
+            "strings": "off"
+        },
+        "editor.hover.enabled": true,
+        "rust-analyzer.completion.limit": 0,
+        "rust-analyzer.lens.implementations.enable": false,
+        "rust-analyzer.lens.debug.enable": false,
+        "rust-analyzer.lens.run.enable": false,
+        "github.copilot.editor.enableAutoCompletions": true,
+        "editor.codeLens": false,
+        "rufo.exe": "/Users/pablo/.asdf/shims/rufo",
+        "[html]": {
+            "editor.formatOnSave": false,
+            "editor.suggest.insertMode": "replace"
+        },
+        "workbench.activityBar.location": "hidden",
+        "workbench.colorCustomizations": {
+            "editorGutter.addedBackground": "#303030",
+            "editorGutter.deletedBackground": "#303030",
+            "editorGutter.modifiedBackground": "#303030",
+        },
+        "rubyLsp.enabledFeatures": {
+            "codeActions": true,
+            "diagnostics": false,
+            "documentHighlights": true,
+            "documentLink": true,
+            "documentSymbols": true,
+            "foldingRanges": true,
+            "formatting": true,
+            "hover": true,
+            "inlayHint": true,
+            "onTypeFormatting": true,
+            "selectionRanges": true,
+            "semanticHighlighting": true,
+            "completion": true,
+            "codeLens": false,
+            "definition": true,
+            "workspaceSymbol": true,
+            "signatureHelp": true,
+            "typeHierarchy": true
+        },
+        "workbench.statusBar.visible": false,
+    }
 }
