@@ -32,6 +32,7 @@ alias pss='python -m SimpleHTTPServer' #Python Server Start
 alias ees='elasticsearch' # Execute Elastic Search
 alias gr='grep --color'
 alias s='code .' #VS Code Open
+# alias s="open -a \"/Applications/Cursor.app\""
 alias ss='subl .' #Sublime Text open
 alias cc='code'
 alias frs='foreman start'
@@ -160,7 +161,6 @@ alias brr='bin/r_server'
 alias bw='bin/webpack-dev-server'
 
 alias drc='dokku run rails c'
-alias gh='git checkout'
 
 # tmux stuff
 

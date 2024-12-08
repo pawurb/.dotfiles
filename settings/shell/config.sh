@@ -8,7 +8,7 @@ plugins=(z zsh-vi-mode)
 
 eval "$(pyenv init --path)"
 
-export PATH=$PATH:~/bin
+export PATH=~/bin/:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:~/.huff/bin
