@@ -57,12 +57,6 @@ def all_allocations
   end.sort_by { |k, v| v }
 end
 
-def dbg msg
-  p '!!!!!!!!!!!!!!!!!!'
-  p msg
-  p '!!!!!!!!!!!!!!!!!!'
-end
-
 def dbg_to_file(text, filename = "tmp/dbg.txt")
   File.open(filename, "w") { |f| f.write text }
 end

@@ -168,6 +168,7 @@ alias tm='tmux attach-session -t root || tmux new-session -s root'
 
 alias dd='docker'
 alias ddc='docker-compose'
+alias rt='retest "bundle exec rspec <changed>"'
 
 alias pa='z pawel'
 alias ao='z abot'
@@ -223,6 +224,7 @@ alias tre='tenderly export'
 # rust
 
 alias cr='cargo run'
+alias cre='cargo run --example'
 alias cb='cargo build'
 alias ct='cargo test -- --nocapture'
 alias rr='rust-script'
