@@ -1,9 +1,9 @@
 #RoR
 
 alias bu='bundle'
-alias es='rails s' #Execute Server
+alias es='bin/rails server' #Execute Server
 alias ei='irb' #Execute IRB
-alias ec='rails c' #Execute Console
+alias ec='bin/rails console' #Execute Console
 
 # Elixir
 alias mt='mix test'
@@ -168,7 +168,7 @@ alias tm='tmux attach-session -t root || tmux new-session -s root'
 
 alias dd='docker'
 alias ddc='docker-compose'
-alias rt='retest "bundle exec rspec <changed>"'
+alias rt='retest "bundle exec rspec <test>"'
 
 alias pa='z pawel'
 alias ao='z abot'
