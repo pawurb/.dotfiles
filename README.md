@@ -27,6 +27,8 @@ asdf plugin-add yarn
 asdf plugin-add solidity
 asdf plugin-add elixir
 asdf plugin-add erlang
+asdf plugin-add postgresql
+asdf plugin-add mysql
 ```
 
 ```bash
@@ -37,15 +39,16 @@ ln -s "~/.dotfiles/settings/sublime/config"
 "~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 ```
 
-
 ```bash
 mkdir ~/bin
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
 
-
 ```bash
 defaults write -g ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write -g InitialKeyRepeat -int 10
+defaults write -g KeyRepeat -int 4
 ```
 
 ```bash

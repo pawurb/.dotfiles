@@ -7,17 +7,11 @@
     "editor.detectIndentation": true,
     "extensions.autoUpdate": false,
     "extensions.autoCheckUpdates": false,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "k",
-                "j"
-            ],
-            "after": [
-                "<esc>"
-            ]
-        }
-    ],
+    "vscode-neovim.compositeKeys": {
+        "kj": {
+            "command": "vscode-neovim.escape",
+        },
+    },
     "editor.fontSize": 13,
     "files.autoSave": "off",
     "files.autoSaveDelay": 5000,
@@ -27,8 +21,6 @@
     "json.validate.enable": false,
     "javascript.validate.enable": false,
     "search.useIgnoreFiles": false,
-    "vim.ignorecase": true,
-    "vim.useSystemClipboard": false,
     "editor.fontFamily": "Hack Regular, Menlo, Monaco, 'Courier New', monospace",
     "extensions.ignoreRecommendations": true,
     "editor.occurrencesHighlight": "off",
@@ -57,9 +49,9 @@
         "**/target": true,
         "/tmp/**": true,
         "/tmp/git-blob**": true,
-    },
-    "workbench.colorCustomizations": {
-        "tab.activeBorder": "#eee"
+        ".jekyll-cache": true,
+        "_blog_production": true,
+        "_blog_development": true,
     },
     "editor.wordBasedSuggestions": "off",
     "editor.quickSuggestionsDelay": 500,
@@ -88,11 +80,12 @@
         "editor.formatOnSave": false,
         "editor.suggest.insertMode": "replace"
     },
-    "workbench.activityBar.location": "hidden",
     "workbench.colorCustomizations": {
         "editorGutter.addedBackground": "#303030",
         "editorGutter.deletedBackground": "#303030",
         "editorGutter.modifiedBackground": "#303030",
+        "tab.activeBorder": "#eee",
+        "terminal.ansiYellow": "#796117",
     },
     "solargraph.completion": false,
     "rubyLsp.enabledFeatures": {
@@ -105,7 +98,7 @@
         "formatting": true,
         "hover": true,
         "inlayHint": true,
-        "onTypeFormatting": true,
+        "onTypeFormatting": false,
         "selectionRanges": true,
         "semanticHighlighting": true,
         "completion": true,
@@ -115,4 +108,11 @@
         "signatureHelp": true,
         "typeHierarchy": true
     },
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.activityBar.location": "hidden",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.statusBar.visible": false,
+    "vscode-neovim.neovimExecutablePaths.linux": "/opt/homebrew/bin/nvim",
 }
