@@ -9,11 +9,11 @@
         "command": "workbench.action.editorLayoutSingle"
     },
     {
-        "key": "cmd+[",
+        "key": "alt+[",
         "command": "workbench.action.activityBarLocation.hide"
     },
     {
-        "key": "cmd+]",
+        "key": "alt+]",
         "command": "workbench.action.focusActivityBar"
     },
     {

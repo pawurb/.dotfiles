@@ -161,6 +161,8 @@ alias brr='bin/r_server'
 alias bw='bin/webpack-dev-server'
 
 alias drc='dokku run rails c'
+alias kc='kamal console'
+alias kcs='kamal console -d stg'
 
 # tmux stuff
 
