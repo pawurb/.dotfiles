@@ -48,7 +48,7 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/sub
 defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 defaults write -g InitialKeyRepeat -int 10
-defaults write -g KeyRepeat -int 4
+defaults write -g KeyRepeat -int 5
 ```
 
 ```bash
