@@ -28,6 +28,17 @@
     "rust-analyzer.rustfmt.extraArgs": [
         "+nightly"
     ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        }
+    ],
     "editor.inlayHints.enabled": "offUnlessPressed",
     "rust-analyzer.check.overrideCommand": [
         "cargo",

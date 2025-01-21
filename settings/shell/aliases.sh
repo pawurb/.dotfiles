@@ -9,34 +9,20 @@ alias ec='bin/rails console' #Execute Console
 alias mt='mix test'
 alias el='z elixir'
 
-alias ects='RAILS_ENV=test rails console -s' ##Execute Console Test Sandbox
 alias be='bundle exec'
 alias brc='bundle exec rails console'
 alias brs='bundle exec rails server'
 alias dbm='bundle exec rake db:migrate'
 alias dbd='bundle exec rake db:drop'
 alias dbc='bundle exec rake db:create'
-alias tdbm='RAILS_ENV=test bundle exec rake db:migrate'
-alias tdbd='RAILS_ENV=test bundle exec rake db:drop'
-alias tdbc='RAILS_ENV=test bundle exec rake db:create'
-alias dbreload='dbd && dbc && dbm && tdbd && tdbc && tdbm && bundle exec rake db:seed' # Database from scratch
-alias rs='bundle exec rspec'
-alias rec='bundle exec spring stop && rails c'
+alias rs='bundle exec spring rspec'
 alias rss='bundle exec rspec'
-alias rds='redis-server'
-alias sq='sidekiq'
-alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log' # Postgres
-alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start' # Postgres Start
-alias pgst='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop' # Postgres Stop
-alias pss='python -m SimpleHTTPServer' #Python Server Start
-alias ees='elasticsearch' # Execute Elastic Search
 alias gr='grep --color'
 alias s='code .' #VS Code Open
 # alias s="open -a \"/Applications/Cursor.app\""
-alias ss='subl .' #Sublime Text open
+alias ss='spring stop'
+alias sss='subl .' #Sublime Text open
 alias cc='code'
-alias frs='foreman start'
-alias frd='foreman start --procfile=Procfile-dev'
 alias rormem='bundle exec derailed bundle:mem'
 
 #Git
@@ -131,7 +117,6 @@ alias v='nvim'
 alias vim='nvim'
 alias vi='nvim'
 alias o='open'
-alias pin='pod install'
 
 alias pw='cd ~/Programming' #programming work
 #overrides
@@ -140,14 +125,11 @@ alias mkdir='mkdir -pv'
 
 alias 'aliases'='cat ~/.dotfiles/settings/shell/aliases.sh' #display aliases
 alias 'cleanX'='cd ~/Library/Developer/Xcode/DerivedData' # clean xcode logs when crashing too much
-
 alias 'vconf'='vi ~/.dotfiles/settings/vim/.vimrc'
 
 # Heroku stuff
 alias he='heroku'
 alias hrc='heroku run rails c'
-
-alias 'jekyll-sync'='browser-sync start --proxy "localhost:4000" --files "_site/**/*"'
 
 alias 'dokku'='bash $HOME/.dokku/contrib/dokku_client.sh'
 alias 'gpdk'='git push dokku master'
@@ -166,18 +148,13 @@ alias kcs='kamal console -d stg'
 
 # tmux stuff
 
-alias tm='tmux attach-session -t root || tmux new-session -s root'
-
 alias dd='docker'
 alias ddc='docker-compose'
 alias rt='retest "bundle exec rspec <test>"'
 
 alias pa='z pawel'
 alias ao='z abot'
-alias ma='z mabot'
 alias arb='z new-simple-arbi'
-alias fla='z flashloan'
-alias pla='z playground'
 alias ddu='docker compose up -d'
 alias dduf='docker compose up' # docker compose up foreground
 alias dds='docker compose stop'
@@ -201,16 +178,7 @@ function kill_pg() {
 # docker volume ls -q -f 'dangling=true' | xargs docker volume rm
 # docker rmi -f $(docker images -q -f dangling=true)
 
-alias ph='z phong'
-
 # ETH
-
-alias hh='npx hardhat'
-alias hhc='npx hardhat compile'
-alias hhcc='npx hardhat clean'
-alias hht='npx hardhat test'
-alias hhtg='REPORT_GAS=true npx hardhat test'
-alias hhn='npx hardhat node'
 
 alias fb='forge build'
 alias ft="forge test -vvv --no-match-path 'test_forge/sims/*'"
@@ -221,7 +189,6 @@ alias ftav="forge test -vvv"
 alias sl='screen -list'
 alias sr='screen -r'
 alias nrt='npm run test'
-alias tre='tenderly export'
 
 # rust
 
