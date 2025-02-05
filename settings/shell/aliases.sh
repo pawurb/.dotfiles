@@ -16,6 +16,7 @@ alias dbm='bundle exec rake db:migrate'
 alias dbd='bundle exec rake db:drop'
 alias dbc='bundle exec rake db:create'
 alias rs='bundle exec spring rspec'
+alias rrs='bundle exec rspec'
 alias rss='bundle exec rspec'
 alias gr='grep --color'
 alias s='code .' #VS Code Open
