@@ -105,3 +105,7 @@ https://github.com/NickHatBoecker/CopyFilepathWithLineNumbers
 * https://www.howtoforge.com/tutorial/how-to-setup-automatic-security-updates-on-ubuntu-1604/
 * https://superuser.com/questions/349439/how-to-bind-command-key-in-zsh
 * https://www.icheft.tech/2020/08/12/Delete-a-word-and-a-line-in-iTerm2/
+
+### Ghostty
+
+`infocmp -x | ssh host.ssh -- tic -x -`

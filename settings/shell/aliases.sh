@@ -23,6 +23,7 @@ alias s='code .' #VS Code Open
 # alias s="open -a \"/Applications/Cursor.app\""
 alias ss='spring stop'
 alias sss='subl .' #Sublime Text open
+alias ssss='/Applications/Zed.app/Contents/MacOS/cli' #Zed open
 alias cc='code'
 alias rormem='bundle exec derailed bundle:mem'
 
