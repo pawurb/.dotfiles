@@ -19,9 +19,10 @@ alias rs='bundle exec spring rspec'
 alias rrs='bundle exec rspec'
 alias rss='bundle exec rspec'
 alias gr='grep --color'
-alias s='code .' #VS Code Open
+alias ss='code .' #VS Code Open
 # alias s="open -a \"/Applications/Cursor.app\""
-alias ss='spring stop'
+# alias ss='spring stop'
+alias s='cursor'
 alias sss='subl .' #Sublime Text open
 alias ssss='/Applications/Zed.app/Contents/MacOS/cli' #Zed open
 alias cc='code'
@@ -152,7 +153,8 @@ alias kcs='kamal console -d stg'
 
 alias dd='docker'
 alias ddc='docker-compose'
-alias rt='retest "bundle exec rspec <test>"'
+alias rt='rails test'
+alias ru='rubocop'
 
 alias pa='z pawel'
 alias ao='z abot'
