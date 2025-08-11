@@ -20,15 +20,6 @@ echo "[include]\n path = ~/.dotfiles/settings/git/config" > .gitconfig
 git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH/custom/plugins/zsh-vi-mode
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.1
-asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
-asdf plugin-add nodejs
-asdf plugin-add yarn
-asdf plugin-add solidity
-asdf plugin-add elixir
-asdf plugin-add erlang
-asdf plugin-add postgresql
-asdf plugin-add mysql
 ```
 
 ```bash
@@ -105,6 +96,8 @@ https://github.com/NickHatBoecker/CopyFilepathWithLineNumbers
 * https://www.howtoforge.com/tutorial/how-to-setup-automatic-security-updates-on-ubuntu-1604/
 * https://superuser.com/questions/349439/how-to-bind-command-key-in-zsh
 * https://www.icheft.tech/2020/08/12/Delete-a-word-and-a-line-in-iTerm2/
+* https://github.com/jsrn/rails_test_assistant
+* https://marketplace.visualstudio.com/items?itemName=CarloCardella.vscode-filesystemtoolbox
 
 ### Ghostty
 

@@ -4,8 +4,6 @@ ZSH=$HOME/.oh-my-zsh
 # Plugins
 plugins=(z zsh-vi-mode)
 
-. $HOME/.asdf/asdf.sh
-
 eval "$(pyenv init --path)"
 
 export PATH=~/bin/:$PATH

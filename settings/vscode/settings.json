@@ -7,27 +7,7 @@
     "editor.detectIndentation": true,
     "extensions.autoUpdate": false,
     "extensions.autoCheckUpdates": false,
-    "vscode-neovim.compositeKeys": {
-        "kj": {
-            "command": "vscode-neovim.escape",
-        },
-    },
-    "editor.fontSize": 13,
-    "files.autoSave": "off",
-    "files.autoSaveDelay": 5000,
-    "git.enabled": true,
-    "editor.wordWrap": "on",
-    "typescript.validate.enable": false,
-    "json.validate.enable": false,
-    "javascript.validate.enable": false,
-    "search.useIgnoreFiles": false,
-    "editor.fontFamily": "Hack Regular, Menlo, Monaco, 'Courier New', monospace",
-    "extensions.ignoreRecommendations": true,
-    "editor.occurrencesHighlight": "off",
     "editor.formatOnSave": true,
-    "rust-analyzer.rustfmt.extraArgs": [
-        "+nightly"
-    ],
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -39,17 +19,24 @@
             ]
         }
     ],
-    "editor.inlayHints.enabled": "offUnlessPressed",
-    "rust-analyzer.check.overrideCommand": [
-        "cargo",
-        "clippy",
-        "--all",
-        "--examples",
-        "--tests",
-        "--benches",
-        "--all-features",
-        "--message-format=json"
+    "editor.fontSize": 13,
+    "files.autoSave": "off",
+    "files.autoSaveDelay": 5000,
+    "git.enabled": false,
+    "editor.wordWrap": "on",
+    "typescript.validate.enable": false,
+    "json.validate.enable": false,
+    "javascript.validate.enable": false,
+    "search.useIgnoreFiles": false,
+    "vim.ignorecase": true,
+    "vim.useSystemClipboard": false,
+    "editor.fontFamily": "Hack Regular, Menlo, Monaco, 'Courier New', monospace",
+    "extensions.ignoreRecommendations": true,
+    "editor.occurrencesHighlight": "off",
+    "rust-analyzer.rustfmt.extraArgs": [
+        "+nightly"
     ],
+    "editor.inlayHints.enabled": "offUnlessPressed",
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
@@ -64,9 +51,11 @@
         "_blog_production": true,
         "_blog_development": true,
     },
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#eee"
+    },
     "editor.wordBasedSuggestions": "off",
     "editor.quickSuggestionsDelay": 500,
-    "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "files.associations": {
         ".env-remote": "shellscript",
@@ -80,50 +69,38 @@
         "strings": "off"
     },
     "editor.hover.enabled": true,
-    "rust-analyzer.completion.limit": 0,
+    "rust-analyzer.completion.limit": 100,
     "rust-analyzer.lens.implementations.enable": false,
     "rust-analyzer.lens.debug.enable": false,
     "rust-analyzer.lens.run.enable": false,
-    "github.copilot.editor.enableAutoCompletions": true,
     "editor.codeLens": false,
-    "rufo.exe": "/Users/pablo/.asdf/shims/rufo",
     "[html]": {
         "editor.formatOnSave": false,
         "editor.suggest.insertMode": "replace"
     },
-    "workbench.colorCustomizations": {
-        "editorGutter.addedBackground": "#303030",
-        "editorGutter.deletedBackground": "#303030",
-        "editorGutter.modifiedBackground": "#303030",
-        "tab.activeBorder": "#eee",
-        "terminal.ansiYellow": "#796117",
-    },
-    "solargraph.completion": false,
-    "rubyLsp.enabledFeatures": {
-        "codeActions": true,
-        "diagnostics": true,
-        "documentHighlights": true,
-        "documentLink": true,
-        "documentSymbols": true,
-        "foldingRanges": true,
-        "formatting": true,
-        "hover": true,
-        "inlayHint": true,
-        "onTypeFormatting": false,
-        "selectionRanges": true,
-        "semanticHighlighting": true,
-        "completion": true,
-        "codeLens": true,
-        "definition": true,
-        "workspaceSymbol": true,
-        "signatureHelp": true,
-        "typeHierarchy": true
-    },
-    "git.openRepositoryInParentFolders": "never",
     "workbench.activityBar.location": "hidden",
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "markdown",
+        "scminput"
+    ],
+    "cursor.cmdk.autoSelect": false,
+    "[toml]": {
+        "editor.formatOnSave": false
     },
+    "[proto3]": {
+        "editor.formatOnSave": false
+    },
+    "rust-analyzer.check.overrideCommand": [
+        "/Users/pablo/.cargo/bin/cargo",
+        // "+nightly",
+        "clippy",
+        "--all",
+        "--examples",
+        "--tests",
+        "--benches",
+        // "--all-features",
+        "--message-format=json"
+    ],
     "workbench.statusBar.visible": false,
-    "vscode-neovim.neovimExecutablePaths.linux": "/opt/homebrew/bin/nvim",
 }
