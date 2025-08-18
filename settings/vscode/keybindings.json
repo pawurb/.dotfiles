@@ -9,16 +9,20 @@
         "command": "workbench.action.editorLayoutSingle"
     },
     {
-        "key": "alt+[",
+        "key": "cmd+[",
         "command": "workbench.action.activityBarLocation.hide"
     },
     {
-        "key": "alt+]",
+        "key": "cmd+]",
         "command": "workbench.action.focusActivityBar"
     },
     {
         "key": "cmd+l",
         "command": "vscode-FileSystemToolbox.CopyFilePathWithLineNumber"
+    },
+    {
+        "key": "cmd+alt+b",
+        "command": "-aichat.newchataction"
     },
     {
         "key": "cmd+.",
@@ -91,5 +95,41 @@
         "args": {
             "text": "spring rspec ${relativeFile}:${lineNumber}\u000D"
         }
-    }
+    },
+    {
+        "key": "tab",
+        "command": "editor.action.inlineSuggest.acceptNextLine"
+    },
+    {
+        "key": "tab",
+        "command": "editor.action.acceptCursorTabSuggestion",
+        "when": "cpp.shouldAcceptTab"
+    },
+    {
+        "key": "tab",
+        "command": "-editor.action.acceptCursorTabSuggestion",
+        "when": "cpp.shouldAcceptTab"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "rails-test-assistant.goToRailsTest",
+    },
+    {
+        "key": "tab",
+        "command": "editor.action.inlineSuggest.commit",
+        "when": "inlineEditIsVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+    },
+    {
+        "key": "tab",
+        "command": "-editor.action.inlineSuggest.commit",
+        "when": "inlineEditIsVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+    },
+    {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\\\r\n"
+        },
+        "when": "terminalFocus"
+    },
 ]
