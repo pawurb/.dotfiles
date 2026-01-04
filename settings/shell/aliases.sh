@@ -209,11 +209,44 @@ gw() {
     return 1
   fi
 
-  git show-ref --verify --quiet "refs/heads/$1" && {
+  # branch already exists
+  if git show-ref --verify --quiet "refs/heads/$1"; then
     echo "branch '$1' already exists"
+    return 1
+  fi
+
+  # target directory already exists
+  if [ -e "../$1" ]; then
+    echo "directory '../$1' already exists"
+    return 1
+  fi
+
+  git worktree add ../"$1" -b "$1" && cd ../"$1"
+}
+
+gwl() {
+  git worktree list
+}
+
+gwr() {
+  if [ -z "$1" ]; then
+    echo "usage: gwr <path>"
+    return 1
+  fi
+
+  git worktree remove "$1"
+}
+
+gwr() {
+  if [ -z "$1" ]; then
+    echo "usage: gwr <path>"
+    return 1
+  fi
+
+  git worktree list --porcelain | grep -q "worktree $1" || {
+    echo "not a registered worktree: $1"
     return 1
   }
 
-  git worktree add ../"$1" -b "$1"
+  git worktree remove "$1"
 }
-
