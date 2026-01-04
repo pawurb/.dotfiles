@@ -22,9 +22,7 @@ alias gr='grep --color'
 alias ss='code .' #VS Code Open
 # alias s="open -a \"/Applications/Cursor.app\""
 # alias ss='spring stop'
-alias s='cursor'
 alias sss='subl .' #Sublime Text open
-alias ssss='/Applications/Zed.app/Contents/MacOS/cli' #Zed open
 alias cc='code'
 alias rormem='bundle exec derailed bundle:mem'
 
@@ -201,6 +199,21 @@ alias cr='cargo run'
 alias cre='cargo run --example'
 alias cb='cargo build'
 alias ct='cargo test -- --nocapture'
-alias rr='rust-script'
-
 alias cl='claude'
+alias s='cursor'
+alias ss='/Applications/Zed.app/Contents/MacOS/cli'
+
+gw() {
+  if [ -z "$1" ]; then
+    echo "usage: gw <name>"
+    return 1
+  fi
+
+  git show-ref --verify --quiet "refs/heads/$1" && {
+    echo "branch '$1' already exists"
+    return 1
+  }
+
+  git worktree add ../"$1" -b "$1"
+}
+
