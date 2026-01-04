@@ -221,8 +221,20 @@ gw() {
     return 1
   fi
 
-  git worktree add ../"$1" -b "$1" && cd ../"$1"
+  git worktree add ../"$1" -b "$1" || return 1
+
+  # copy local-only files (gitignored)
+  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md .envrc; do
+    if [ -f "$f" ]; then
+      dest="../$1/$f"
+      mkdir -p "$(dirname "$dest")"
+      cp "$f" "$dest"
+    fi
+  done
+
+  cd "../$1" || return 1
 }
+
 
 gwl() {
   git worktree list
@@ -233,20 +245,6 @@ gwr() {
     echo "usage: gwr <path>"
     return 1
   fi
-
-  git worktree remove "$1"
-}
-
-gwr() {
-  if [ -z "$1" ]; then
-    echo "usage: gwr <path>"
-    return 1
-  fi
-
-  git worktree list --porcelain | grep -q "worktree $1" || {
-    echo "not a registered worktree: $1"
-    return 1
-  }
 
   git worktree remove "$1"
 }
