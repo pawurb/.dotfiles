@@ -158,7 +158,7 @@ alias gcauto='git commit -m "$(claude -p "Look at the staged git changes and cre
 alias pa='z pawel'
 alias ao='z abot'
 alias arb='z new-simple-arbi'
-alias ddu='docker compose up -d'
+alias ddu='docker compose up -d --wait'
 alias dduf='docker compose up' # docker compose up foreground
 alias dds='docker compose stop'
 alias ap='ansible-playbook'
@@ -200,6 +200,7 @@ alias cre='cargo run --example'
 alias cb='cargo build'
 alias ct='cargo test -- --nocapture'
 alias cl='claude'
+alias op='opencode'
 alias s='cursor'
 alias ss='/Applications/Zed.app/Contents/MacOS/cli'
 

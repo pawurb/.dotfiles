@@ -24,7 +24,6 @@ config/initializers/dbg_rb.rb
 .minitest_failed_tests.txt
 .cursor
 bun.lock
-app/consumers/test_consumer.rb
 CLAUDE.md
 .claude/
 rust-project.json
