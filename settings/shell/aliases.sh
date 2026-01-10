@@ -224,12 +224,14 @@ gw() {
 
   git worktree add ../"$1" -b "$1" || return 1
 
-  # copy local-only files (gitignored)
-  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md .envrc; do
+  # copy local-only files/directories (gitignored)
+  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md .envrc target; do
     if [ -f "$f" ]; then
       dest="../$1/$f"
       mkdir -p "$(dirname "$dest")"
       cp "$f" "$dest"
+    elif [ -d "$f" ]; then
+      cp -r "$f" "../$1/$f"
     fi
   done
 
