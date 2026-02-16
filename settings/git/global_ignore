@@ -25,6 +25,15 @@ config/initializers/dbg_rb.rb
 .cursor
 bun.lock
 CLAUDE.md
+AGENTS.md
 .claude/
 rust-project.json
 dlq.md
+websocket_errors.md
+new_tests.md
+metrics.md
+dataflow.md
+plans/
+*.csv
+docker-compose.yml
+
