@@ -229,7 +229,7 @@ gw() {
   git worktree add ../"$1" -b "$1" || return 1
 
   # copy local-only files/directories (gitignored)
-  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md AGENTS.md .envrc; do
+  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md AGENTS.md .envrc, .claude/skills; do
     if [ -f "$f" ]; then
       dest="../$1/$f"
       mkdir -p "$(dirname "$dest")"
@@ -239,7 +239,7 @@ gw() {
     fi
   done
 
-  cd "../$1" || return 1
+  cd "../$1" && direnv allow || return 1
 }
 
 
