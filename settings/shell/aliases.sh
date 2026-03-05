@@ -41,12 +41,12 @@ alias gstd='git stash drop'
 alias gsp='git stash pop'
 alias ga='git add'
 alias gaa='git add . -A'
-# alias gd='GIT_EXTERNAL_DIFF=difft git diff --ext-diff'
-# alias gds='GIT_EXTERNAL_DIFF=difft git diff --staged --ext-diff'
-# alias gdl='GIT_EXTERNAL_DIFF=difft git diff HEAD~1 --ext-diff'
-alias gd='git diff'
-alias gds='git diff --staged'
-alias gdl='git diff HEAD~1'
+alias gd='GIT_EXTERNAL_DIFF=difft git diff --ext-diff'
+alias gds='GIT_EXTERNAL_DIFF=difft git diff --staged --ext-diff'
+alias gdl='GIT_EXTERNAL_DIFF=difft git diff HEAD~1 --ext-diff'
+# alias gd='git diff'
+# alias gds='git diff --staged'
+# alias gdl='git diff HEAD~1'
 alias gpr='git remote update --prune' # Git Prune: update list of remote branches
 alias gbr='git branch -a'
 alias gfo='git fetch origin'
@@ -229,7 +229,7 @@ gw() {
   git worktree add ../"$1" -b "$1" || return 1
 
   # copy local-only files/directories (gitignored)
-  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md AGENTS.md .envrc, .claude/skills; do
+  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md AGENTS.md .envrc .claude/skills; do
     if [ -f "$f" ]; then
       dest="../$1/$f"
       mkdir -p "$(dirname "$dest")"
