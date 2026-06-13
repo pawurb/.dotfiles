@@ -36,4 +36,5 @@ dataflow.md
 plans/
 *.csv
 docker-compose.yml
-
+profile.json.gz
+CLAUDE.local.md
