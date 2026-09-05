@@ -204,6 +204,7 @@ alias cre='cargo run --example'
 alias cb='cargo build'
 alias ct='cargo test -- --nocapture'
 alias cl='claude --enable-auto-mode'
+alias clr='claude --resume'
 alias op='opencode'
 alias s='cursor --classic'
 alias ss='/Applications/Zed.app/Contents/MacOS/cli'
@@ -231,7 +232,7 @@ gw() {
   git worktree add ../"$1" -b "$1" || return 1
 
   # copy local-only files/directories (gitignored)
-  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md AGENTS.md .envrc .env-remote .claude/skills; do
+  for f in .cursor/rust-project.json .claude/settings.local.json CLAUDE.md AGENTS.md .envrc .env-remote .claude/skills docker-compose.yml; do
     if [ -f "$f" ]; then
       dest="../$1/$f"
       mkdir -p "$(dirname "$dest")"
